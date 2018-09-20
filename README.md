@@ -1,4 +1,4 @@
-# Polarsys B612 font family
+# PolarSys B612 font family
 
 B612 is an highly legible open source font family designed and tested to be used on aircraft cockpit screens.
 
@@ -7,15 +7,11 @@ Main characteristics are:
 - Respect the primitives of the different letters
 - Harmonize the forms and their spacing
 
-## The genesis of Polarsys B612
+## The genesis of PolarSys B612
 
 In 2010, Airbus initiated a research collaboration with ENAC and Université de Toulouse III on a prospective study to define and validate an “Aeronautical Font”: the challenge was to improve the display of information on the cockpit screens, in particular in terms of legibility and comfort of reading, and to optimize the overall homogeneity of the cockpit.
 
 2 years later, Airbus came to find Intactile DESIGN to work on the design of the eight typographic variants of the font. This one, baptized B612 in reference to the imaginary asteroid of the aviator Saint‑Exupéry, benefited from a complete hinting on all the characters.
-
-## Contributors
-- AIRBUS (Laurent Spaggiari)
-- intactile DESIGN (Nicolas Chauveau, Thomas Paillot)
 
 ## Copyright
 
