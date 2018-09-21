@@ -9,13 +9,13 @@ Main characteristics are:
 
 ## The genesis of PolarSys B612
 
-In 2010, Airbus initiated a research collaboration with ENAC and Université de Toulouse III on a prospective study to define and validate an “Aeronautical Font”: the challenge was to improve the display of information on the cockpit screens, in particular in terms of legibility and comfort of reading, and to optimize the overall homogeneity of the cockpit.
+In 2010, Airbus initiated a research collaboration with [ENAC](http://www.enac.fr) and [Université de Toulouse III](http://www.univ-tlse3.fr/) on a prospective study to define and validate an “Aeronautical Font”: the challenge was to improve the display of information on the cockpit screens, in particular in terms of legibility and comfort of reading, and to optimize the overall homogeneity of the cockpit.
 
-2 years later, Airbus came to find Intactile DESIGN to work on the design of the eight typographic variants of the font. This one, baptized B612 in reference to the imaginary asteroid of the aviator Saint‑Exupéry, benefited from a complete hinting on all the characters.
+2 years later, [Airbus](http://www.airbus.com) came to find [Intactile DESIGN](http://intactile.com) to work on the design of the eight typographic variants of the font. This one, baptized B612 in reference to the imaginary asteroid of the aviator Saint‑Exupéry, benefited from a complete hinting on all the characters.
 
 ## Copyright
 
-Copyright (c) AIRBUS. All rights reserved.
+Copyright (c) 2012, AIRBUS (airbus-group.com). All rights reserved.
 
 ## License
 
