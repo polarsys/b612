@@ -9,8 +9,4 @@
 # Names should be added to this file as:
 # Name <email address>
 
-Nicolas Chauveau <chauveau.n@intactile.com>
-Thomas Paillot <paillot.t@intactile.com>
-Jean-Luc Vinot <jean-luc.vinot@enac.fr>
-Jonathan Favre-Lamarine <jfavlam@gmail.com>
 Laurent Spaggiari <laurent.spaggiari@airbus.com>
