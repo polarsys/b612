@@ -9,3 +9,5 @@ Thumbs.db
 # font editor temporary files
 *(Autosaved).glyphs
 *.vfbak
+
+build
