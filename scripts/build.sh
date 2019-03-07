@@ -62,7 +62,7 @@ fixNonHinting() {
 # -----------------------------------------------------------------------------
 main() {
   fixDSIG
-  fixNonHinting
+  # fixNonHinting
  
   info "FONT build"
   exit 0;
