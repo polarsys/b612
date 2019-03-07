@@ -16,11 +16,12 @@ In 2010, Airbus initiated a research collaboration with [ENAC](http://www.enac.f
 
 ## Releasing a new version of the font
 
+- Update the version number in the font info of the source files
 - Make a copy of the source files
 - Open the copies in Fontlab
 - Run the merge intersection command on each file
-- Update the version number in the font info and generate the ttf files
-- Run the build script from the scripts folder to fix digital signature and GASP / prep table issues
+- Generate the ttf files
+- Run the build script from the scripts folder to fix digital signature
 
 ## Copyright
 
