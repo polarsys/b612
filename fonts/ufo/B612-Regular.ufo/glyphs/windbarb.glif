@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="windbarb" format="1">
+  <advance width="1800"/>
+  <unicode hex="E029"/>
+  <outline>
+    <contour>
+      <point x="1210" y="100" type="line"/>
+      <point x="970" y="500" type="line"/>
+      <point x="870" y="500" type="line"/>
+      <point x="1110" y="100" type="line"/>
+      <point x="920" y="100" type="line"/>
+      <point x="600" y="600" type="line"/>
+      <point x="500" y="600" type="line"/>
+      <point x="820" y="100" type="line"/>
+      <point x="600" y="100" type="line"/>
+      <point x="100" y="900" type="line"/>
+      <point x="200" y="100" type="line"/>
+      <point x="200" y="0" type="line"/>
+      <point x="1720" y="0" type="line"/>
+      <point x="1700" y="100" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglleft" format="1">
+  <advance width="1300"/>
+  <unicode hex="2039"/>
+  <outline>
+    <contour>
+      <point x="960" y="1106" type="line" name="at01"/>
+      <point x="1009" y="880" type="line"/>
+      <point x="626" y="583" type="line"/>
+      <point x="544" y="550" type="line" name="iv01"/>
+      <point x="613" y="517" type="line"/>
+      <point x="896" y="224" type="line"/>
+      <point x="760" y="-13" type="line" name="ab01"/>
+      <point x="291" y="476" type="line"/>
+      <point x="316" y="620" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: x"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="interpolatev" point="iv01" point1="at01" point2="ab01"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

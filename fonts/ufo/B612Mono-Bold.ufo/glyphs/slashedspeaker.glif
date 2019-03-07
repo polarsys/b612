@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slashedspeaker" format="1">
+  <advance width="1300"/>
+  <unicode hex="E080"/>
+  <outline>
+    <contour>
+      <point x="1050" y="-20" type="line"/>
+      <point x="331" y="800" type="line"/>
+      <point x="300" y="800" type="line"/>
+      <point x="300" y="380" type="line"/>
+      <point x="567" y="380" type="line"/>
+      <point x="900" y="0" type="line"/>
+      <point x="800" y="-20" type="line"/>
+      <point x="549" y="200" type="line"/>
+      <point x="200" y="200" type="line"/>
+      <point x="200" y="900" type="line"/>
+      <point x="243" y="900" type="line"/>
+      <point x="50" y="1121" type="line"/>
+      <point x="250" y="1121" type="line"/>
+      <point x="800" y="493" type="line"/>
+      <point x="800" y="961" type="line"/>
+      <point x="634" y="800" type="line"/>
+      <point x="546" y="900" type="line"/>
+      <point x="800" y="1121" type="line"/>
+      <point x="900" y="1100" type="line"/>
+      <point x="900" y="379" type="line"/>
+      <point x="1250" y="-20" type="line"/>
+    </contour>
+  </outline>
+</glyph>

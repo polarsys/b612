@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="boxwithacheck" format="1">
+  <advance width="1100"/>
+  <unicode hex="2611"/>
+  <outline>
+    <contour>
+      <point x="580" y="400" type="line"/>
+      <point x="590" y="600" type="line"/>
+      <point x="710" y="941"/>
+      <point x="952" y="1231"/>
+      <point x="1057" y="1317" type="curve"/>
+      <point x="1188" y="1300" type="line"/>
+      <point x="1008" y="1100"/>
+      <point x="719" y="631"/>
+      <point x="687" y="263" type="curve"/>
+      <point x="465" y="280" type="line"/>
+      <point x="260" y="800" type="line"/>
+      <point x="428" y="820" type="line"/>
+    </contour>
+    <contour>
+      <point x="165" y="165" type="line"/>
+      <point x="935" y="165" type="line"/>
+      <point x="935" y="554" type="line"/>
+      <point x="968" y="685"/>
+      <point x="1023" y="824"/>
+      <point x="1100" y="950" type="curve"/>
+      <point x="1100" y="0" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="0" y="1100" type="line"/>
+      <point x="703" y="1100" type="line"/>
+      <point x="664" y="1061"/>
+      <point x="608" y="993"/>
+      <point x="580" y="935" type="curve"/>
+      <point x="165" y="935" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="minusplus" format="1">
+  <advance width="1300"/>
+  <unicode hex="2213"/>
+  <outline>
+    <contour>
+      <point x="145" y="612" type="line" name="av02"/>
+      <point x="505" y="612" type="line"/>
+      <point x="578" y="946" type="line" name="av03"/>
+      <point x="798" y="946" type="line" name="sv01"/>
+      <point x="725" y="612" type="line"/>
+      <point x="1085" y="612" type="line" name="sv02"/>
+      <point x="1049" y="452" type="line"/>
+      <point x="689" y="452" type="line"/>
+      <point x="619" y="132" type="line" name="sv03"/>
+      <point x="399" y="132" type="line" name="av04"/>
+      <point x="469" y="452" type="line"/>
+      <point x="109" y="452" type="line"/>
+    </contour>
+    <contour>
+      <point x="279" y="1200" type="line" name="av01"/>
+      <point x="1179" y="1200" type="line" name="sv04"/>
+      <point x="1140" y="998" type="line"/>
+      <point x="240" y="998" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="av01">
+            <hstem pos="649" width="-19"/>
+            <hstem pos="966" width="139"/>
+            <hstem pos="1441" width="-18"/>
+            <vstem pos="532" width="155"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc align="round" code="alignv" point="av03"/>
+          <ttc align="round" code="alignv" point="av04"/>
+          <ttc code="singlev" point1="av03" point2="sv01"/>
+          <ttc code="singlev" point1="av02" point2="sv02"/>
+          <ttc code="singlev" point1="av04" point2="sv03"/>
+          <ttc code="singlev" point1="av01" point2="sv04"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

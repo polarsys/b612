@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowdblright" format="1">
+  <advance width="1300"/>
+  <unicode hex="21D2"/>
+  <outline>
+    <contour>
+      <point x="1400" y="600" type="line"/>
+      <point x="1293" y="509" type="line"/>
+      <point x="927" y="143" type="line"/>
+      <point x="757" y="143" type="line"/>
+      <point x="1002" y="388" type="line"/>
+      <point x="902" y="400" type="line"/>
+      <point x="0" y="400" type="line"/>
+      <point x="0" y="516" type="line"/>
+      <point x="752" y="516" type="line"/>
+      <point x="1102" y="488" type="line"/>
+      <point x="1233" y="600" type="line"/>
+      <point x="1102" y="712" type="line"/>
+      <point x="752" y="684" type="line"/>
+      <point x="0" y="684" type="line"/>
+      <point x="0" y="800" type="line"/>
+      <point x="902" y="800" type="line"/>
+      <point x="1002" y="813" type="line"/>
+      <point x="757" y="1057" type="line"/>
+      <point x="927" y="1057" type="line"/>
+      <point x="1293" y="691" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="elevenroman" format="1">
+  <advance width="1600"/>
+  <unicode hex="217A"/>
+  <outline>
+    <component base="x"/>
+    <component base="oneroman" xOffset="1000"/>
+  </outline>
+</glyph>

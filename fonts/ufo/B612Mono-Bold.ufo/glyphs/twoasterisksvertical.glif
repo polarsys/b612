@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="twoasterisksvertical" format="1">
+  <advance width="1300"/>
+  <unicode hex="2051"/>
+  <outline>
+    <contour>
+      <point x="672" y="1118" type="line"/>
+      <point x="783" y="1118" type="line"/>
+      <point x="852" y="1141" type="line"/>
+      <point x="805" y="1247" type="line"/>
+      <point x="733" y="1223" type="line"/>
+      <point x="660" y="1158" type="line"/>
+      <point x="698" y="1254" type="line"/>
+      <point x="698" y="1335" type="line"/>
+      <point x="584" y="1323" type="line"/>
+      <point x="584" y="1257" type="line"/>
+      <point x="617" y="1160" type="line"/>
+      <point x="538" y="1229" type="line"/>
+      <point x="445" y="1254" type="line"/>
+      <point x="423" y="1145" type="line"/>
+      <point x="499" y="1120" type="line"/>
+      <point x="604" y="1120" type="line"/>
+      <point x="523" y="1075" type="line"/>
+      <point x="462" y="990" type="line"/>
+      <point x="562" y="928" type="line"/>
+      <point x="612" y="1000" type="line"/>
+      <point x="637" y="1095" type="line"/>
+      <point x="665" y="1000" type="line"/>
+      <point x="721" y="927" type="line"/>
+      <point x="805" y="1002" type="line"/>
+      <point x="759" y="1063" type="line"/>
+    </contour>
+    <contour>
+      <point x="672" y="518" type="line" name="hr01"/>
+      <point x="783" y="518" type="line"/>
+      <point x="852" y="541" type="line"/>
+      <point x="805" y="647" type="line"/>
+      <point x="733" y="623" type="line"/>
+      <point x="660" y="558" type="line"/>
+      <point x="698" y="654" type="line"/>
+      <point x="698" y="735" type="line"/>
+      <point x="584" y="723" type="line"/>
+      <point x="584" y="657" type="line"/>
+      <point x="617" y="560" type="line"/>
+      <point x="538" y="629" type="line"/>
+      <point x="445" y="654" type="line"/>
+      <point x="423" y="545" type="line"/>
+      <point x="499" y="520" type="line"/>
+      <point x="604" y="520" type="line"/>
+      <point x="523" y="475" type="line"/>
+      <point x="462" y="390" type="line"/>
+      <point x="562" y="328" type="line"/>
+      <point x="612" y="400" type="line"/>
+      <point x="637" y="495" type="line"/>
+      <point x="665" y="400" type="line"/>
+      <point x="721" y="327" type="line"/>
+      <point x="805" y="402" type="line"/>
+      <point x="759" y="463" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="337" width="-10"/>
+            <hstem pos="735" width="-10"/>
+            <vstem pos="584" width="114"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

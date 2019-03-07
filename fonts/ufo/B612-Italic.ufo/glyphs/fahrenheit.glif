@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fahrenheit" format="1">
+  <advance width="1700"/>
+  <unicode hex="2109"/>
+  <outline>
+    <component base="F" xOffset="600"/>
+    <component base="degree"/>
+  </outline>
+</glyph>

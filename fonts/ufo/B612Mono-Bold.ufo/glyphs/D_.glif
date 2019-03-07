@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="D" format="1">
+  <advance width="1300"/>
+  <unicode hex="0044"/>
+  <outline>
+    <contour>
+      <point x="66" y="1500" type="line" name="at02"/>
+      <point x="115" y="1505"/>
+      <point x="225" y="1511"/>
+      <point x="332" y="1515"/>
+      <point x="427" y="1517"/>
+      <point x="460" y="1517" type="qcurve" name="at01"/>
+      <point x="628" y="1517"/>
+      <point x="913" y="1436"/>
+      <point x="1121" y="1264"/>
+      <point x="1239" y="995"/>
+      <point x="1239" y="807" type="qcurve" name="sh01"/>
+      <point x="1239" y="662"/>
+      <point x="1181" y="429"/>
+      <point x="1076" y="250"/>
+      <point x="930" y="121"/>
+      <point x="755" y="39"/>
+      <point x="557" y="0"/>
+      <point x="452" y="0" type="qcurve" name="ab01"/>
+      <point x="100" y="0" type="line" name="sh02"/>
+      <point x="100" y="1262" type="line"/>
+    </contour>
+    <contour>
+      <point x="451" y="1121" type="line"/>
+      <point x="451" y="250" type="line" name="sh03"/>
+      <point x="556" y="250"/>
+      <point x="702" y="301"/>
+      <point x="800" y="386"/>
+      <point x="854" y="496"/>
+      <point x="882" y="613"/>
+      <point x="888" y="729"/>
+      <point x="888" y="778" type="qcurve" name="ah01"/>
+      <point x="888" y="890"/>
+      <point x="853" y="1076"/>
+      <point x="757" y="1210"/>
+      <point x="587" y="1283"/>
+      <point x="452" y="1283" type="qcurve" name="sh04"/>
+      <point x="449" y="1283"/>
+      <point x="442" y="1282"/>
+      <point x="438" y="1282" type="qcurve" name="sv01"/>
+      <point x="430" y="1282" type="line" name="sv02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="at02">
+            <hstem pos="0" width="250"/>
+            <hstem pos="1283" width="234"/>
+            <vstem pos="100" width="351"/>
+            <vstem pos="888" width="351"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="lsb"/>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc code="singleh" point1="ah01" point2="sh01" stem="eq X: 208"/>
+          <ttc code="singleh" point1="lsb" point2="sh02" round="true"/>
+          <ttc code="singleh" point1="sh02" point2="sh03" stem="eq X: 208"/>
+          <ttc code="singleh" point1="sh03" point2="sh04"/>
+          <ttc code="singleh" point1="sh01" point2="rsb" round="true"/>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignt" point="at02" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="ab01" point2="sh03" stem="eq Y: 162"/>
+          <ttc code="singlev" point1="at01" point2="sh04" stem="eq Y: 153"/>
+          <ttc code="singlev" point1="sh04" point2="sv01"/>
+          <ttc code="singlev" point1="sv01" point2="sv02"/>
+        </ttProgram>
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>1450</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>210</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>278</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

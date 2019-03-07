@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater" format="1">
+  <advance width="1300"/>
+  <unicode hex="003E"/>
+  <outline>
+    <contour>
+      <point x="1217" y="770" type="line"/>
+      <point x="1177" y="545" type="line"/>
+      <point x="80" y="34" type="line" name="av02"/>
+      <point x="127" y="302" type="line" name="sv01"/>
+      <point x="856" y="654" type="line" name="iv01"/>
+      <point x="252" y="1009" type="line" name="sv02"/>
+      <point x="299" y="1278" type="line" name="av01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="singlev" point1="av02" point2="sv01" stem="Y: 171"/>
+          <ttc code="interpolatev" point="iv01" point1="av01" point2="av02"/>
+          <ttc code="singlev" point1="av01" point2="sv02" stem="Y: 171"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parallelto" format="1">
+  <advance width="1000"/>
+  <unicode hex="2225"/>
+  <outline>
+    <contour>
+      <point x="355" y="1500" type="line"/>
+      <point x="355" y="0" type="line"/>
+      <point x="200" y="0" type="line"/>
+      <point x="200" y="1500" type="line"/>
+    </contour>
+    <contour>
+      <point x="755" y="1500" type="line"/>
+      <point x="755" y="0" type="line"/>
+      <point x="600" y="0" type="line"/>
+      <point x="600" y="1500" type="line"/>
+    </contour>
+  </outline>
+</glyph>

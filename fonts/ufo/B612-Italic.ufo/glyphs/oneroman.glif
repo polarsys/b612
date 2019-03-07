@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oneroman" format="1">
+  <advance width="600"/>
+  <unicode hex="2170"/>
+  <outline>
+    <contour>
+      <point x="390" y="0" type="line"/>
+      <point x="200" y="0" type="line"/>
+      <point x="393" y="1100" type="line"/>
+      <point x="587" y="1120" type="line"/>
+    </contour>
+  </outline>
+</glyph>

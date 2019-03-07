@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute" format="1">
+  <advance width="1300"/>
+  <unicode hex="00B4"/>
+  <outline>
+    <contour>
+      <point x="600" y="1500" type="line" name="ah01"/>
+      <point x="830" y="1520" type="line" name="sh01"/>
+      <point x="590" y="1200" type="line" name="av01"/>
+      <point x="440" y="1200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="ah01">
+            <hstem pos="1221" width="-21"/>
+            <hstem pos="1520" width="-20"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc code="singleh" point1="ah01" point2="sh01" stem="X: 208"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignt" point="sh01" zone="t: 1"/>
+          <ttc code="alignt" point="ah01" zone="t: 1"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

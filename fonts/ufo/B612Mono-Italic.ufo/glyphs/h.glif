@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="h" format="1">
+  <advance width="1300"/>
+  <unicode hex="0068"/>
+  <outline>
+    <contour>
+      <point x="298" y="0" type="line"/>
+      <point x="108" y="0" type="line" name="ab01"/>
+      <point x="355" y="1400" type="line"/>
+      <point x="370" y="1600" type="line"/>
+      <point x="583" y="1620" type="line" name="av01"/>
+      <point x="465" y="950" type="line"/>
+      <point x="574" y="1065" type="line"/>
+      <point x="618" y="1087"/>
+      <point x="769" y="1117"/>
+      <point x="884" y="1117" type="qcurve" name="av02"/>
+      <point x="1009" y="1117"/>
+      <point x="1136" y="980"/>
+      <point x="1136" y="849" type="qcurve"/>
+      <point x="1136" y="822"/>
+      <point x="1131" y="762"/>
+      <point x="1125" y="730" type="qcurve"/>
+      <point x="997" y="0" type="line" name="sv01"/>
+      <point x="807" y="0" type="line"/>
+      <point x="932" y="709" type="line"/>
+      <point x="941" y="761"/>
+      <point x="941" y="803" type="qcurve"/>
+      <point x="941" y="886"/>
+      <point x="872" y="957"/>
+      <point x="809" y="957" type="qcurve"/>
+      <point x="749" y="957"/>
+      <point x="636" y="933"/>
+      <point x="539" y="896"/>
+      <point x="465" y="852"/>
+      <point x="445" y="833" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="ab01" point2="sv01"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

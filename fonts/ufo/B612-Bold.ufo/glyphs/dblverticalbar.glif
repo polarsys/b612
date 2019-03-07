@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dblverticalbar" format="1">
+  <advance width="800"/>
+  <unicode hex="2016"/>
+  <outline>
+    <contour>
+      <point x="419" y="1500" type="line"/>
+      <point x="419" y="0" type="line"/>
+      <point x="200" y="0" type="line"/>
+      <point x="200" y="1500" type="line"/>
+    </contour>
+    <contour>
+      <point x="719" y="1500" type="line"/>
+      <point x="719" y="0" type="line"/>
+      <point x="500" y="0" type="line"/>
+      <point x="500" y="1500" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowdblnortheast" format="1">
+  <advance width="1300"/>
+  <unicode hex="21D7"/>
+  <outline>
+    <contour>
+      <point x="1211" y="1111" type="line"/>
+      <point x="1200" y="971" type="line"/>
+      <point x="1200" y="453" type="line"/>
+      <point x="1079" y="333" type="line"/>
+      <point x="1079" y="680" type="line"/>
+      <point x="1000" y="617" type="line"/>
+      <point x="362" y="-20" type="line"/>
+      <point x="280" y="62" type="line"/>
+      <point x="812" y="593" type="line"/>
+      <point x="1079" y="821" type="line"/>
+      <point x="1093" y="993" type="line"/>
+      <point x="921" y="979" type="line"/>
+      <point x="693" y="712" type="line"/>
+      <point x="162" y="180" type="line"/>
+      <point x="80" y="262" type="line"/>
+      <point x="717" y="900" type="line"/>
+      <point x="779" y="979" type="line"/>
+      <point x="433" y="979" type="line"/>
+      <point x="553" y="1100" type="line"/>
+      <point x="1071" y="1100" type="line"/>
+    </contour>
+  </outline>
+</glyph>

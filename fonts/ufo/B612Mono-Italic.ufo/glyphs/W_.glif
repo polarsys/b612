@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="W" format="1">
+  <advance width="1300"/>
+  <unicode hex="0057"/>
+  <outline>
+    <contour>
+      <point x="344" y="700" type="line"/>
+      <point x="510" y="1100" type="line" name="av01"/>
+      <point x="650" y="1100" type="line" name="sv01"/>
+      <point x="666" y="700" type="line" name="mh01"/>
+      <point x="666" y="200" type="line"/>
+      <point x="670" y="200" type="line"/>
+      <point x="783" y="660" type="line"/>
+      <point x="1084" y="1500" type="line"/>
+      <point x="1261" y="1500" type="line" name="sv02"/>
+      <point x="724" y="0" type="line" name="sv03"/>
+      <point x="543" y="0" type="line"/>
+      <point x="527" y="450" type="line"/>
+      <point x="556" y="950" type="line"/>
+      <point x="552" y="950" type="line"/>
+      <point x="406" y="450" type="line"/>
+      <point x="228" y="0" type="line"/>
+      <point x="68" y="0" type="line" name="ab01"/>
+      <point x="70" y="1500" type="line" name="at01"/>
+      <point x="234" y="1520" type="line" name="at02"/>
+      <point x="233" y="660" type="line" name="mh02"/>
+      <point x="183" y="200" type="line"/>
+      <point x="187" y="200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="mdeltah" delta="1" point="mh01" ppm1="14" ppm2="14"/>
+          <ttc code="mdeltah" delta="-2" point="mh02" ppm1="14" ppm2="14"/>
+          <ttc code="mdeltah" delta="-3" point="mh02" ppm1="13" ppm2="13"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignt" point="at02" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="av01" point2="sv01"/>
+          <ttc code="singlev" point1="at01" point2="sv02"/>
+          <ttc code="singlev" point1="ab01" point2="sv03"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

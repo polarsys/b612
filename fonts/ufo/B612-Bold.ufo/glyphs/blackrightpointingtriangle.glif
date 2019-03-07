@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="blackrightpointingtriangle" format="1">
+  <advance width="1000"/>
+  <unicode hex="25B6"/>
+  <outline>
+    <contour>
+      <point x="150" y="1135" type="line"/>
+      <point x="899" y="700" type="line"/>
+      <point x="150" y="266" type="line"/>
+      <point x="175" y="700" type="line"/>
+    </contour>
+  </outline>
+</glyph>

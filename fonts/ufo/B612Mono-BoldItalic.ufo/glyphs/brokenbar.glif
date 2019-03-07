@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brokenbar" format="1">
+  <advance width="1300"/>
+  <unicode hex="00A6"/>
+  <outline>
+    <contour>
+      <point x="1010" y="1520" type="line" name="at01"/>
+      <point x="865" y="700" type="line" name="sv01"/>
+      <point x="523" y="700" type="line" name="av01"/>
+      <point x="664" y="1500" type="line"/>
+    </contour>
+    <contour>
+      <point x="806" y="362" type="line" name="sv02"/>
+      <point x="671" y="-400" type="line" name="sv03"/>
+      <point x="329" y="-400" type="line" name="av03"/>
+      <point x="464" y="362" type="line" name="av02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc align="round" code="alignv" point="av03"/>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="singlev" point1="av01" point2="sv01"/>
+          <ttc code="singlev" point1="av02" point2="sv02"/>
+          <ttc code="singlev" point1="av03" point2="sv03"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

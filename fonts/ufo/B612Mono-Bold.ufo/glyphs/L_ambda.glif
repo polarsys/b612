@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lambda" format="1">
+  <advance width="1300"/>
+  <unicode hex="039B"/>
+  <outline>
+    <contour>
+      <point x="342" y="1" type="line"/>
+      <point x="560" y="801" type="line"/>
+      <point x="629" y="1241" type="line"/>
+      <point x="723" y="801" type="line"/>
+      <point x="938" y="0" type="line" name="hr01"/>
+      <point x="1267" y="0" type="line"/>
+      <point x="811" y="1520" type="line"/>
+      <point x="431" y="1500" type="line"/>
+      <point x="392" y="1267" type="line"/>
+      <point x="32" y="1" type="line" name="hr02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="1520" width="-20"/>
+          </hintset>
+          <hintset pointTag="hr02">
+            <hstem pos="22" width="-21"/>
+            <hstem pos="1520" width="-20"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

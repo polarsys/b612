@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="umbrella" format="1">
+  <advance width="1300"/>
+  <unicode hex="2602"/>
+  <outline>
+    <contour>
+      <point x="785" y="90" type="curve" smooth="yes"/>
+      <point x="743" y="90"/>
+      <point x="700" y="113"/>
+      <point x="700" y="174" type="curve" smooth="yes"/>
+      <point x="700" y="800" type="line"/>
+      <point x="1100" y="800"/>
+      <point x="1200" y="764"/>
+      <point x="1200" y="764" type="curve"/>
+      <point x="1200" y="1000"/>
+      <point x="900" y="1200"/>
+      <point x="650" y="1200" type="curve" smooth="yes"/>
+      <point x="400" y="1200"/>
+      <point x="100" y="1000"/>
+      <point x="100" y="764" type="curve"/>
+      <point x="100" y="764"/>
+      <point x="200" y="800"/>
+      <point x="600" y="800" type="curve"/>
+      <point x="600" y="164" type="line" smooth="yes"/>
+      <point x="600" y="58"/>
+      <point x="675" y="-17"/>
+      <point x="785" y="-17" type="curve" smooth="yes"/>
+      <point x="887" y="-17"/>
+      <point x="967" y="59"/>
+      <point x="967" y="136" type="curve"/>
+      <point x="859" y="164" type="line"/>
+      <point x="859" y="123"/>
+      <point x="826" y="90"/>
+    </contour>
+  </outline>
+</glyph>

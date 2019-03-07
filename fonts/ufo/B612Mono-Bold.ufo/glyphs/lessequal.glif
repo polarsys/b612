@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lessequal" format="1">
+  <advance width="1300"/>
+  <unicode hex="2264"/>
+  <outline>
+    <contour>
+      <point x="130" y="200" type="line"/>
+      <point x="1137" y="200" type="line"/>
+      <point x="1112" y="0" type="line"/>
+      <point x="130" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1137" y="1296" type="line" name="hr01"/>
+      <point x="1137" y="1081" type="line"/>
+      <point x="470" y="797" type="line"/>
+      <point x="1137" y="516" type="line"/>
+      <point x="1137" y="301" type="line" name="mv01"/>
+      <point x="130" y="710" type="line"/>
+      <point x="130" y="890" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="318" width="-17"/>
+            <hstem pos="1296" width="-16"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="mdeltav" delta="4" point="mv01" ppm1="15" ppm2="15"/>
+          <ttc code="mdeltav" delta="3" point="mv01" ppm1="16" ppm2="16"/>
+          <ttc code="mdeltav" delta="1" point="mv01" ppm1="23" ppm2="23"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omegagreek" format="1">
+  <advance width="1300"/>
+  <unicode hex="03A9"/>
+  <outline>
+    <contour>
+      <point x="35" y="228" type="line" name="ih03"/>
+      <point x="216" y="228" type="line" name="sh01"/>
+      <point x="206" y="237" type="line"/>
+      <point x="172" y="270"/>
+      <point x="117" y="379"/>
+      <point x="78" y="520"/>
+      <point x="56" y="686"/>
+      <point x="56" y="774" type="qcurve" name="ah03"/>
+      <point x="56" y="939"/>
+      <point x="104" y="1212"/>
+      <point x="232" y="1409"/>
+      <point x="456" y="1517"/>
+      <point x="632" y="1517" type="qcurve" name="ih01"/>
+      <point x="804" y="1517"/>
+      <point x="1027" y="1409"/>
+      <point x="1156" y="1212"/>
+      <point x="1207" y="939"/>
+      <point x="1207" y="774" type="qcurve" name="ah04"/>
+      <point x="1207" y="687"/>
+      <point x="1185" y="523"/>
+      <point x="1146" y="383"/>
+      <point x="1094" y="273"/>
+      <point x="1064" y="241" type="qcurve"/>
+      <point x="1049" y="228" type="line" name="sh02"/>
+      <point x="1227" y="228" type="line" name="ih04"/>
+      <point x="1227" y="0" type="line" name="ab02"/>
+      <point x="690" y="0" type="line" name="dh02"/>
+      <point x="690" y="236" type="line" name="ah02"/>
+      <point x="757" y="283"/>
+      <point x="826" y="386"/>
+      <point x="856" y="508"/>
+      <point x="858" y="654"/>
+      <point x="858" y="744" type="qcurve" name="sh03"/>
+      <point x="858" y="850"/>
+      <point x="839" y="1044"/>
+      <point x="787" y="1191"/>
+      <point x="697" y="1279"/>
+      <point x="626" y="1279" type="qcurve" name="ih02"/>
+      <point x="560" y="1279"/>
+      <point x="475" y="1202"/>
+      <point x="426" y="1072"/>
+      <point x="406" y="901"/>
+      <point x="406" y="807" type="qcurve" name="sh04"/>
+      <point x="406" y="703"/>
+      <point x="407" y="536"/>
+      <point x="435" y="398"/>
+      <point x="505" y="285"/>
+      <point x="573" y="235" type="qcurve" name="ah01"/>
+      <point x="573" y="0" type="line" name="dh01"/>
+      <point x="35" y="0" type="line" name="ab01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="ih03">
+            <hstem pos="0" width="228"/>
+            <hstem pos="1279" width="238"/>
+            <vstem pos="56" width="350"/>
+            <vstem pos="858" width="349"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc align="round" code="alignh" point="ah02"/>
+          <ttc align="round" code="alignh" point="ah03"/>
+          <ttc align="round" code="alignh" point="ah04"/>
+          <ttc code="doubleh" point1="dh01" point2="dh02" stem="eq X: dia Lite"/>
+          <ttc code="singleh" point1="ah01" point2="sh01" stem="eq X: 208"/>
+          <ttc code="interpolateh" point="ih01" point1="ah01" point2="ah02"/>
+          <ttc code="singleh" point1="ah02" point2="sh02" stem="eq X: 208"/>
+          <ttc code="singleh" point1="ah04" point2="sh03" stem="eq X: 208"/>
+          <ttc code="interpolateh" point="ih02" point1="ih03" point2="ih04"/>
+          <ttc code="singleh" point1="ah03" point2="sh04" stem="eq X: 208"/>
+          <ttc code="alignt" point="ih01" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="alignb" point="ab02" zone="b: 0"/>
+          <ttc code="singlev" point1="ab01" point2="ih03" stem="eq Y: 171"/>
+          <ttc code="singlev" point1="ab02" point2="ih04" stem="eq Y: 171"/>
+          <ttc code="singlev" point1="ab02" point2="dh02"/>
+          <ttc code="singlev" point1="dh02" point2="ah02" stem="eq Y: 171"/>
+          <ttc code="singlev" point1="ih01" point2="ih02" stem="eq Y: 171"/>
+          <ttc code="singlev" point1="ab01" point2="dh01"/>
+          <ttc code="singlev" point1="dh01" point2="ah01" stem="eq Y: 171"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

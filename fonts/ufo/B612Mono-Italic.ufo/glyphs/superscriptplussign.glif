@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="superscriptplussign" format="1">
+  <advance width="1300"/>
+  <unicode hex="207A"/>
+  <outline>
+    <contour>
+      <point x="211" y="1070" type="line"/>
+      <point x="398" y="1070" type="line"/>
+      <point x="435" y="1281" type="line"/>
+      <point x="513" y="1281" type="line"/>
+      <point x="475" y="1070" type="line"/>
+      <point x="661" y="1070" type="line"/>
+      <point x="648" y="992" type="line"/>
+      <point x="462" y="992" type="line"/>
+      <point x="424" y="781" type="line"/>
+      <point x="347" y="781" type="line"/>
+      <point x="384" y="992" type="line"/>
+      <point x="198" y="992" type="line"/>
+    </contour>
+  </outline>
+</glyph>

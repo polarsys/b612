@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="V" format="1">
+  <advance width="1300"/>
+  <unicode hex="0056"/>
+  <outline>
+    <contour>
+      <point x="1281" y="1500" type="line" name="sh01"/>
+      <point x="868" y="200" type="line"/>
+      <point x="840" y="-17" type="line" name="ab01"/>
+      <point x="488" y="0" type="line"/>
+      <point x="15" y="1500" type="line" name="ah01"/>
+      <point x="337" y="1520" type="line" name="sh02"/>
+      <point x="590" y="700" type="line" name="mh01"/>
+      <point x="643" y="260" type="line" name="ih01"/>
+      <point x="713" y="700" type="line"/>
+      <point x="961" y="1500" type="line" name="ah02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="sh01">
+            <hstem pos="4" width="-21"/>
+            <hstem pos="1520" width="-20"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc align="round" code="alignh" point="ah02"/>
+          <ttc code="singleh" point1="ah02" point2="sh01" stem="eq X: dia Lite"/>
+          <ttc code="singleh" point1="ah01" point2="sh02" stem="eq X: dia Fat"/>
+          <ttc code="mdeltah" delta="-5" point="mh01" ppm1="17" ppm2="17"/>
+          <ttc code="interpolateh" point="ih01" point1="ah01" point2="sh01"/>
+          <ttc code="alignt" point="sh02" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="mdeltav" delta="-1" point="mh01" ppm1="17" ppm2="17"/>
+          <ttc code="interpolatev" point="ih01" point1="sh02" point2="ab01"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

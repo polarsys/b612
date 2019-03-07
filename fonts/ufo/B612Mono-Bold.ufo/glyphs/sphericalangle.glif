@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sphericalangle" format="1">
+  <advance width="1300"/>
+  <unicode hex="2222"/>
+  <outline>
+    <contour>
+      <point x="100" y="483" type="line"/>
+      <point x="1100" y="-81" type="line"/>
+      <point x="1208" y="5" type="line"/>
+      <point x="966" y="145" type="line"/>
+      <point x="1023" y="242"/>
+      <point x="1077" y="443"/>
+      <point x="1077" y="544" type="qcurve"/>
+      <point x="1077" y="647"/>
+      <point x="1021" y="846"/>
+      <point x="965" y="939" type="qcurve"/>
+      <point x="1237" y="1096" type="line"/>
+      <point x="1115" y="1187" type="line"/>
+      <point x="100" y="600" type="line"/>
+    </contour>
+    <contour>
+      <point x="862" y="205" type="qcurve"/>
+      <point x="268" y="542" type="line"/>
+      <point x="861" y="879" type="line"/>
+      <point x="906" y="801"/>
+      <point x="952" y="630"/>
+      <point x="952" y="540" type="qcurve"/>
+      <point x="952" y="454"/>
+      <point x="908" y="284"/>
+    </contour>
+  </outline>
+</glyph>

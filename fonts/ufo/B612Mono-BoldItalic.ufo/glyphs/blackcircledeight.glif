@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="blackcircledeight" format="1">
+  <advance width="1300"/>
+  <unicode hex="2791"/>
+  <outline>
+    <contour>
+      <point x="50" y="750" type="qcurve"/>
+      <point x="66" y="840"/>
+      <point x="135" y="1014"/>
+      <point x="236" y="1170"/>
+      <point x="364" y="1302"/>
+      <point x="515" y="1398"/>
+      <point x="683" y="1452"/>
+      <point x="773" y="1452" type="qcurve" name="av01"/>
+      <point x="863" y="1452"/>
+      <point x="1012" y="1398"/>
+      <point x="1129" y="1302"/>
+      <point x="1211" y="1170"/>
+      <point x="1257" y="1014"/>
+      <point x="1266" y="840"/>
+      <point x="1250" y="750" type="qcurve"/>
+      <point x="1234" y="660"/>
+      <point x="1164" y="486"/>
+      <point x="1063" y="330"/>
+      <point x="935" y="198"/>
+      <point x="784" y="102"/>
+      <point x="616" y="48"/>
+      <point x="526" y="48" type="qcurve" name="av02"/>
+      <point x="391" y="48"/>
+      <point x="191" y="166"/>
+      <point x="68" y="362"/>
+      <point x="26" y="615"/>
+    </contour>
+    <contour>
+      <point x="716" y="1210" type="qcurve"/>
+      <point x="686" y="1210"/>
+      <point x="619" y="1198"/>
+      <point x="553" y="1173"/>
+      <point x="492" y="1135"/>
+      <point x="441" y="1082"/>
+      <point x="405" y="1015"/>
+      <point x="397" y="974" type="qcurve"/>
+      <point x="393" y="948"/>
+      <point x="405" y="902"/>
+      <point x="432" y="862"/>
+      <point x="473" y="825"/>
+      <point x="498" y="809" type="qcurve"/>
+      <point x="457" y="791"/>
+      <point x="385" y="742"/>
+      <point x="328" y="681"/>
+      <point x="289" y="607"/>
+      <point x="282" y="565" type="qcurve"/>
+      <point x="270" y="497"/>
+      <point x="306" y="395"/>
+      <point x="384" y="325"/>
+      <point x="495" y="290"/>
+      <point x="557" y="290" type="qcurve"/>
+      <point x="621" y="290"/>
+      <point x="748" y="321"/>
+      <point x="855" y="386"/>
+      <point x="931" y="487"/>
+      <point x="943" y="556" type="qcurve"/>
+      <point x="951" y="599"/>
+      <point x="934" y="673"/>
+      <point x="894" y="736"/>
+      <point x="834" y="787"/>
+      <point x="797" y="806" type="qcurve"/>
+      <point x="824" y="820"/>
+      <point x="878" y="855"/>
+      <point x="924" y="898"/>
+      <point x="957" y="950"/>
+      <point x="962" y="980" type="qcurve"/>
+      <point x="972" y="1034"/>
+      <point x="943" y="1119"/>
+      <point x="877" y="1178"/>
+      <point x="778" y="1210"/>
+    </contour>
+    <contour>
+      <point x="748" y="553" type="qcurve"/>
+      <point x="742" y="521"/>
+      <point x="709" y="472"/>
+      <point x="663" y="438"/>
+      <point x="608" y="420"/>
+      <point x="581" y="420" type="qcurve"/>
+      <point x="558" y="420"/>
+      <point x="514" y="440"/>
+      <point x="483" y="475"/>
+      <point x="469" y="524"/>
+      <point x="474" y="553" type="qcurve"/>
+      <point x="480" y="585"/>
+      <point x="507" y="638"/>
+      <point x="547" y="681"/>
+      <point x="597" y="714"/>
+      <point x="625" y="727" type="qcurve"/>
+      <point x="650" y="714"/>
+      <point x="699" y="681"/>
+      <point x="735" y="638"/>
+      <point x="753" y="586"/>
+    </contour>
+    <contour>
+      <point x="593" y="994" type="qcurve"/>
+      <point x="596" y="1012"/>
+      <point x="619" y="1043"/>
+      <point x="650" y="1067"/>
+      <point x="687" y="1080"/>
+      <point x="703" y="1080" type="qcurve"/>
+      <point x="715" y="1080"/>
+      <point x="743" y="1069"/>
+      <point x="765" y="1048"/>
+      <point x="776" y="1014"/>
+      <point x="772" y="991" type="qcurve"/>
+      <point x="765" y="953"/>
+      <point x="709" y="896"/>
+      <point x="673" y="878" type="qcurve"/>
+      <point x="655" y="887"/>
+      <point x="624" y="910"/>
+      <point x="600" y="939"/>
+      <point x="589" y="973"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList/>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

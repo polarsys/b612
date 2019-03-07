@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="multiply" format="1">
+  <advance width="1300"/>
+  <unicode hex="00D7"/>
+  <outline>
+    <contour>
+      <point x="750" y="627" type="line" name="iv01"/>
+      <point x="1175" y="203" type="line" name="ih02"/>
+      <point x="1051" y="102" type="line" name="av02"/>
+      <point x="676" y="477" type="line"/>
+      <point x="618" y="576" type="line" name="ih01"/>
+      <point x="600" y="477" type="line"/>
+      <point x="225" y="102" type="line" name="sh01"/>
+      <point x="100" y="203" type="line" name="ah01"/>
+      <point x="526" y="627" type="line" name="iv02"/>
+      <point x="100" y="1052" type="line" name="ih04"/>
+      <point x="225" y="1153" type="line" name="av01"/>
+      <point x="600" y="777" type="line"/>
+      <point x="658" y="679" type="line" name="ih03"/>
+      <point x="676" y="777" type="line"/>
+      <point x="1051" y="1153" type="line" name="sh02"/>
+      <point x="1175" y="1052" type="line" name="ah02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc align="round" code="alignh" point="ah02"/>
+          <ttc code="interpolateh" point="ih01" point1="ah01" point2="ih02"/>
+          <ttc code="singleh" point1="ah01" point2="sh01" stem="X: dia Lite"/>
+          <ttc code="interpolateh" point="ih03" point1="ih04" point2="ah02"/>
+          <ttc code="singleh" point1="ah02" point2="sh02" stem="X: dia Lite"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="interpolatev" point="iv01" point1="av02" point2="sh02"/>
+          <ttc code="singlev" point1="av02" point2="ih02" stem="Y: 135"/>
+          <ttc code="interpolatev" point="iv02" point1="av01" point2="sh01"/>
+          <ttc code="singlev" point1="av01" point2="ih04" stem="Y: 135"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresis" format="1">
+  <advance width="1100"/>
+  <unicode hex="00A8"/>
+  <outline>
+    <contour>
+      <point x="300" y="1500" type="line"/>
+      <point x="500" y="1500" type="line" name="fh01"/>
+      <point x="500" y="1300" type="line"/>
+      <point x="300" y="1300" type="line"/>
+    </contour>
+    <contour>
+      <point x="700" y="1500" type="line"/>
+      <point x="900" y="1500" type="line"/>
+      <point x="900" y="1300" type="line"/>
+      <point x="700" y="1300" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="fdeltah" delta="4" point="fh01" ppm1="17" ppm2="17"/>
+          <ttc code="fdeltav" delta="8" point="fh01" ppm1="17" ppm2="17"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

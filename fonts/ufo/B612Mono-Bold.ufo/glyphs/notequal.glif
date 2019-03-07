@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notequal" format="1">
+  <advance width="1300"/>
+  <unicode hex="2260"/>
+  <outline>
+    <contour>
+      <point x="521" y="0" type="line"/>
+      <point x="306" y="0" type="line"/>
+      <point x="667" y="1000" type="line"/>
+      <point x="873" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="200" y="800" type="line" name="hr01"/>
+      <point x="1000" y="800" type="line"/>
+      <point x="1000" y="581" type="line" name="mv01"/>
+      <point x="200" y="581" type="line" name="mv02"/>
+    </contour>
+    <contour>
+      <point x="200" y="400" type="line"/>
+      <point x="1000" y="400" type="line"/>
+      <point x="1000" y="181" type="line"/>
+      <point x="200" y="181" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="181" width="219"/>
+            <hstem pos="581" width="219"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="mdeltav" delta="4" point="mv01" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="7" point="mv02" ppm1="13" ppm2="13"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

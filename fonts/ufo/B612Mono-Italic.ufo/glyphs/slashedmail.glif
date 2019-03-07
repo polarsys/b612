@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slashedmail" format="1">
+  <advance width="1300"/>
+  <unicode hex="E065"/>
+  <outline>
+    <contour>
+      <point x="1118" y="461" type="line"/>
+      <point x="1086" y="600" type="line"/>
+      <point x="1086" y="948" type="line"/>
+      <point x="1118" y="1066" type="line"/>
+      <point x="821" y="800" type="line"/>
+    </contour>
+    <contour>
+      <point x="421" y="695" type="line"/>
+      <point x="414" y="675" type="line"/>
+      <point x="131" y="400" type="line"/>
+      <point x="623" y="400" type="line"/>
+      <point x="692" y="300" type="line"/>
+      <point x="0" y="300" type="line"/>
+      <point x="0" y="1160" type="line"/>
+      <point x="74" y="1160" type="line"/>
+      <point x="114" y="1038" type="line"/>
+      <point x="114" y="600" type="line"/>
+      <point x="82" y="462" type="line"/>
+      <point x="361" y="781" type="line"/>
+    </contour>
+    <contour>
+      <point x="485" y="1200" type="line"/>
+      <point x="1200" y="1200" type="line"/>
+      <point x="1200" y="300" type="line"/>
+      <point x="1130" y="300" type="line"/>
+      <point x="980" y="487" type="line"/>
+      <point x="726" y="854" type="line"/>
+      <point x="1041" y="1100" type="line"/>
+      <point x="555" y="1100" type="line"/>
+    </contour>
+    <contour>
+      <point x="-11" y="1500" type="line"/>
+      <point x="156" y="1500" type="line"/>
+      <point x="1197" y="0" type="line"/>
+      <point x="1019" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Mu" format="1">
+  <advance width="1300"/>
+  <unicode hex="039C"/>
+  <outline>
+    <contour>
+      <point x="837" y="0" type="line"/>
+      <point x="996" y="901" type="line"/>
+      <point x="1153" y="1399" type="line"/>
+      <point x="1148" y="1400" type="line"/>
+      <point x="900" y="921" type="line"/>
+      <point x="653" y="500" type="line"/>
+      <point x="553" y="500" type="line"/>
+      <point x="455" y="920" type="line"/>
+      <point x="370" y="1400" type="line"/>
+      <point x="364" y="1399" type="line"/>
+      <point x="351" y="901" type="line"/>
+      <point x="192" y="0" type="line"/>
+      <point x="12" y="0" type="line" name="ab01"/>
+      <point x="240" y="1290" type="line"/>
+      <point x="249" y="1500" type="line" name="at01"/>
+      <point x="467" y="1520" type="line" name="at02"/>
+      <point x="599" y="950" type="line"/>
+      <point x="631" y="700" type="line"/>
+      <point x="749" y="950" type="line"/>
+      <point x="1075" y="1500" type="line" name="sv01"/>
+      <point x="1286" y="1520" type="line" name="at03"/>
+      <point x="1017" y="0" type="line" name="sv02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignt" point="at02" zone="t: 1"/>
+          <ttc code="alignt" point="at03" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="at01" point2="sv01"/>
+          <ttc code="singlev" point1="ab01" point2="sv02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblbase" format="1">
+  <advance width="1300"/>
+  <unicode hex="201E"/>
+  <outline>
+    <contour>
+      <point x="142" y="121" type="qcurve" name="ah01"/>
+      <point x="142" y="152"/>
+      <point x="165" y="208"/>
+      <point x="207" y="250"/>
+      <point x="265" y="275"/>
+      <point x="300" y="275" type="qcurve" name="av01"/>
+      <point x="334" y="275"/>
+      <point x="394" y="250"/>
+      <point x="439" y="208"/>
+      <point x="464" y="152"/>
+      <point x="464" y="121" type="qcurve" name="ah02"/>
+      <point x="464" y="85"/>
+      <point x="450" y="-4"/>
+      <point x="410" y="-103"/>
+      <point x="337" y="-210"/>
+      <point x="277" y="-266" type="qcurve" name="av02"/>
+      <point x="175" y="-208" type="line"/>
+      <point x="186" y="-190"/>
+      <point x="209" y="-144"/>
+      <point x="228" y="-93"/>
+      <point x="242" y="-41"/>
+      <point x="245" y="-17" type="qcurve" name="ab01"/>
+      <point x="225" y="-9"/>
+      <point x="188" y="13"/>
+      <point x="160" y="45"/>
+      <point x="142" y="90"/>
+    </contour>
+    <contour>
+      <point x="542" y="121" type="qcurve" name="ah03"/>
+      <point x="542" y="152"/>
+      <point x="565" y="208"/>
+      <point x="607" y="250"/>
+      <point x="665" y="275"/>
+      <point x="700" y="275" type="qcurve" name="av03"/>
+      <point x="734" y="275"/>
+      <point x="794" y="250"/>
+      <point x="839" y="208"/>
+      <point x="864" y="152"/>
+      <point x="864" y="121" type="qcurve" name="ah04"/>
+      <point x="864" y="85"/>
+      <point x="850" y="-4"/>
+      <point x="810" y="-103"/>
+      <point x="737" y="-210"/>
+      <point x="677" y="-266" type="qcurve" name="av04"/>
+      <point x="575" y="-208" type="line"/>
+      <point x="586" y="-190"/>
+      <point x="609" y="-144"/>
+      <point x="628" y="-93"/>
+      <point x="642" y="-41"/>
+      <point x="645" y="-17" type="qcurve" name="ab02"/>
+      <point x="625" y="-9"/>
+      <point x="588" y="13"/>
+      <point x="560" y="45"/>
+      <point x="542" y="90"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList/>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc align="round" code="alignh" point="ah02"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc align="round" code="alignh" point="ah03"/>
+          <ttc align="round" code="alignh" point="ah04"/>
+          <ttc align="round" code="alignv" point="av03"/>
+          <ttc align="round" code="alignv" point="av04"/>
+          <ttc code="alignb" point="ab02" zone="b: 0"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

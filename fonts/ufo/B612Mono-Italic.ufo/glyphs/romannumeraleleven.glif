@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="romannumeraleleven" format="1">
+  <advance width="2600"/>
+  <unicode hex="216A"/>
+  <outline>
+    <contour>
+      <point x="846" y="0" type="line"/>
+      <point x="688" y="519" type="line"/>
+      <point x="647" y="700" type="line"/>
+      <point x="567" y="540" type="line"/>
+      <point x="197" y="0" type="line"/>
+      <point x="-1" y="0" type="line" name="ab01"/>
+      <point x="569" y="799" type="line"/>
+      <point x="320" y="1500" type="line" name="at01"/>
+      <point x="536" y="1520" type="line" name="at02"/>
+      <point x="682" y="1056" type="line"/>
+      <point x="717" y="860" type="line"/>
+      <point x="776" y="1020" type="line"/>
+      <point x="1106" y="1500" type="line"/>
+      <point x="1299" y="1500" type="line" name="sv01"/>
+      <point x="786" y="776" type="line"/>
+      <point x="1066" y="0" type="line" name="sv02"/>
+    </contour>
+    <contour>
+      <point x="1144" y="1500" type="line" name="at03"/>
+      <point x="2044" y="1500" type="line" name="sv03"/>
+      <point x="2016" y="1340" type="line"/>
+      <point x="1658" y="1340" type="line"/>
+      <point x="1449" y="160" type="line"/>
+      <point x="1827" y="160" type="line"/>
+      <point x="1779" y="0" type="line" name="sv04"/>
+      <point x="879" y="0" type="line" name="ab02"/>
+      <point x="907" y="160" type="line"/>
+      <point x="1263" y="160" type="line"/>
+      <point x="1472" y="1340" type="line"/>
+      <point x="1096" y="1340" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignt" point="at02" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="at01" point2="sv01"/>
+          <ttc code="singlev" point1="ab01" point2="sv02"/>
+          <ttc code="alignt" point="at03" zone="t: 1"/>
+          <ttc code="alignb" point="ab02" zone="b: 0"/>
+          <ttc code="singlev" point1="at03" point2="sv03"/>
+          <ttc code="singlev" point1="ab02" point2="sv04"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

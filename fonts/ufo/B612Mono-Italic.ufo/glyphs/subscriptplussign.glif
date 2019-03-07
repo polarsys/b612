@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="subscriptplussign" format="1">
+  <advance width="1300"/>
+  <unicode hex="208A"/>
+  <outline>
+    <contour>
+      <point x="211" y="-150" type="line"/>
+      <point x="398" y="-150" type="line"/>
+      <point x="435" y="61" type="line"/>
+      <point x="513" y="61" type="line"/>
+      <point x="475" y="-150" type="line"/>
+      <point x="661" y="-150" type="line"/>
+      <point x="648" y="-228" type="line"/>
+      <point x="462" y="-228" type="line"/>
+      <point x="424" y="-439" type="line"/>
+      <point x="347" y="-439" type="line"/>
+      <point x="384" y="-228" type="line"/>
+      <point x="198" y="-228" type="line"/>
+    </contour>
+  </outline>
+</glyph>

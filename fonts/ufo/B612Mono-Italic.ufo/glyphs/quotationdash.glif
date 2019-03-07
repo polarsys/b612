@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotationdash" format="1">
+  <advance width="1300"/>
+  <unicode hex="2015"/>
+  <outline>
+    <contour>
+      <point x="100" y="600" type="line" name="av01"/>
+      <point x="1300" y="600" type="line" name="sv01"/>
+      <point x="1273" y="445" type="line"/>
+      <point x="73" y="445" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="singlev" point1="av01" point2="sv01"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

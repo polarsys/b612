@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="phonein" format="1">
+  <advance width="1400"/>
+  <unicode hex="E060"/>
+  <outline>
+    <contour>
+      <point x="344" y="849" type="line"/>
+      <point x="421" y="819" type="line"/>
+      <point x="400" y="885" type="line"/>
+      <point x="400" y="1100" type="line"/>
+      <point x="800" y="749" type="line"/>
+      <point x="400" y="399" type="line"/>
+      <point x="400" y="612" type="line"/>
+      <point x="421" y="677" type="line"/>
+      <point x="344" y="649" type="line"/>
+      <point x="100" y="649" type="line"/>
+      <point x="100" y="849" type="line"/>
+    </contour>
+    <component base="phone" xOffset="300"/>
+  </outline>
+</glyph>

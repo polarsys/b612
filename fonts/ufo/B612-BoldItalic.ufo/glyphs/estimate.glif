@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="estimate" format="1">
+  <advance width="1000"/>
+  <unicode hex="2259"/>
+  <outline>
+    <contour>
+      <point x="120" y="600" type="line"/>
+      <point x="920" y="600" type="line"/>
+      <point x="920" y="460" type="line"/>
+      <point x="120" y="460" type="line"/>
+    </contour>
+    <contour>
+      <point x="120" y="300" type="line"/>
+      <point x="920" y="300" type="line"/>
+      <point x="920" y="160" type="line"/>
+      <point x="120" y="160" type="line"/>
+    </contour>
+    <contour>
+      <point x="951" y="727" type="line"/>
+      <point x="745" y="727" type="line"/>
+      <point x="560" y="915" type="line"/>
+      <point x="317" y="728" type="line"/>
+      <point x="100" y="728" type="line"/>
+      <point x="523" y="1104" type="line"/>
+      <point x="652" y="1120" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="blackcircledsix" format="1">
+  <advance width="1300"/>
+  <unicode hex="278F"/>
+  <outline>
+    <contour>
+      <point x="49" y="750" type="qcurve" name="hr00"/>
+      <point x="65" y="840"/>
+      <point x="134" y="1015"/>
+      <point x="236" y="1174"/>
+      <point x="365" y="1308"/>
+      <point x="515" y="1407"/>
+      <point x="684" y="1462"/>
+      <point x="774" y="1462" type="qcurve" name="av01"/>
+      <point x="864" y="1462"/>
+      <point x="1013" y="1407"/>
+      <point x="1129" y="1308"/>
+      <point x="1211" y="1174"/>
+      <point x="1257" y="1015"/>
+      <point x="1265" y="840"/>
+      <point x="1249" y="750" type="qcurve"/>
+      <point x="1233" y="660"/>
+      <point x="1163" y="486"/>
+      <point x="1062" y="330"/>
+      <point x="934" y="198"/>
+      <point x="783" y="102"/>
+      <point x="615" y="48"/>
+      <point x="525" y="48" type="qcurve" name="av02"/>
+      <point x="390" y="48"/>
+      <point x="190" y="166"/>
+      <point x="67" y="362"/>
+      <point x="25" y="615"/>
+    </contour>
+    <contour>
+      <point x="939" y="1199" type="line"/>
+      <point x="911" y="1207"/>
+      <point x="871" y="1210"/>
+      <point x="860" y="1210" type="qcurve"/>
+      <point x="786" y="1210"/>
+      <point x="650" y="1171"/>
+      <point x="530" y="1099"/>
+      <point x="428" y="1000"/>
+      <point x="348" y="881"/>
+      <point x="294" y="747"/>
+      <point x="282" y="676" type="qcurve"/>
+      <point x="276" y="642"/>
+      <point x="274" y="558"/>
+      <point x="290" y="472"/>
+      <point x="326" y="391"/>
+      <point x="388" y="328"/>
+      <point x="480" y="290"/>
+      <point x="545" y="290" type="qcurve"/>
+      <point x="619" y="290"/>
+      <point x="750" y="341"/>
+      <point x="854" y="430"/>
+      <point x="922" y="548"/>
+      <point x="934" y="615" type="qcurve"/>
+      <point x="946" y="683"/>
+      <point x="913" y="781"/>
+      <point x="840" y="844"/>
+      <point x="737" y="874"/>
+      <point x="678" y="874" type="qcurve"/>
+      <point x="651" y="874"/>
+      <point x="617" y="867" type="qcurve"/>
+      <point x="502" y="780" type="line"/>
+      <point x="525" y="851"/>
+      <point x="603" y="963"/>
+      <point x="695" y="1040"/>
+      <point x="790" y="1080"/>
+      <point x="831" y="1080" type="qcurve"/>
+      <point x="846" y="1080"/>
+      <point x="882" y="1076"/>
+      <point x="896" y="1068" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="649" y="754" type="qcurve"/>
+      <point x="672" y="754"/>
+      <point x="707" y="731"/>
+      <point x="729" y="692"/>
+      <point x="736" y="640"/>
+      <point x="731" y="610" type="qcurve"/>
+      <point x="725" y="577"/>
+      <point x="698" y="509"/>
+      <point x="657" y="454"/>
+      <point x="603" y="420"/>
+      <point x="570" y="420" type="qcurve"/>
+      <point x="548" y="420"/>
+      <point x="515" y="443"/>
+      <point x="490" y="481"/>
+      <point x="476" y="532"/>
+      <point x="474" y="560" type="qcurve"/>
+      <point x="473" y="573"/>
+      <point x="473" y="596"/>
+      <point x="474" y="619"/>
+      <point x="478" y="645"/>
+      <point x="481" y="661" type="qcurve"/>
+      <point x="495" y="675"/>
+      <point x="535" y="708"/>
+      <point x="580" y="736"/>
+      <point x="627" y="754"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="290" width="102"/>
+            <hstem pos="754" width="102"/>
+            <hstem pos="1108" width="102"/>
+            <vstem pos="291" width="123"/>
+            <vstem pos="770" width="123"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="k" format="1">
+  <advance width="1100"/>
+  <unicode hex="006B"/>
+  <outline>
+    <contour>
+      <point x="200" y="0" type="line"/>
+      <point x="450" y="1420" type="line"/>
+      <point x="462" y="1600" type="line"/>
+      <point x="667" y="1620" type="line"/>
+      <point x="503" y="690" type="line"/>
+      <point x="945" y="1100" type="line"/>
+      <point x="1174" y="1100" type="line"/>
+      <point x="732" y="690" type="line"/>
+      <point x="553" y="627" type="line"/>
+      <point x="710" y="567" type="line"/>
+      <point x="1092" y="0" type="line"/>
+      <point x="856" y="0" type="line"/>
+      <point x="480" y="557" type="line"/>
+      <point x="382" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

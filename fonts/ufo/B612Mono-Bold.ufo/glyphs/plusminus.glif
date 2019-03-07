@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plusminus" format="1">
+  <advance width="1300"/>
+  <unicode hex="00B1"/>
+  <outline>
+    <contour>
+      <point x="179" y="862" type="line" name="mv01"/>
+      <point x="539" y="862" type="line" name="mv02"/>
+      <point x="539" y="1196" type="line" name="mv03"/>
+      <point x="759" y="1196" type="line" name="mh01"/>
+      <point x="759" y="862" type="line" name="mh02"/>
+      <point x="1119" y="862" type="line" name="mv04"/>
+      <point x="1119" y="702" type="line"/>
+      <point x="759" y="702" type="line" name="ih01"/>
+      <point x="759" y="382" type="line" name="ih02"/>
+      <point x="539" y="382" type="line" name="ih05"/>
+      <point x="539" y="702" type="line" name="ih06"/>
+      <point x="179" y="702" type="line"/>
+    </contour>
+    <contour>
+      <point x="200" y="290" type="line" name="mh04"/>
+      <point x="1100" y="290" type="line" name="mh03"/>
+      <point x="1100" y="88" type="line" name="ih03"/>
+      <point x="200" y="88" type="line" name="ih04"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="ih04">
+            <hstem pos="88" width="202"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="mdeltah" delta="-5" point="mh01" ppm1="25" ppm2="25"/>
+          <ttc code="mdeltah" delta="-6" point="mh01" ppm1="18" ppm2="18"/>
+          <ttc code="mdeltah" delta="-6" point="mh02" ppm1="25" ppm2="25"/>
+          <ttc code="mdeltah" delta="-6" point="mh02" ppm1="18" ppm2="18"/>
+          <ttc code="mdeltah" delta="3" point="mh03" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltah" delta="-8" point="mh04" ppm1="27" ppm2="27"/>
+          <ttc code="interpolateh" point="ih01" point1="mh03" point2="mh04"/>
+          <ttc code="mdeltah" delta="8" point="ih01" ppm1="36" ppm2="36"/>
+          <ttc code="mdeltah" delta="5" point="ih01" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltah" delta="4" point="ih01" ppm1="17" ppm2="17"/>
+          <ttc code="interpolateh" point="ih02" point1="ih03" point2="ih04"/>
+          <ttc code="mdeltah" delta="8" point="ih02" ppm1="36" ppm2="36"/>
+          <ttc code="mdeltah" delta="2" point="ih02" ppm1="22" ppm2="22"/>
+          <ttc code="interpolateh" point="ih05" point1="ih04" point2="ih03"/>
+          <ttc code="mdeltah" delta="-5" point="ih05" ppm1="40" ppm2="40"/>
+          <ttc code="mdeltah" delta="-8" point="ih05" ppm1="27" ppm2="27"/>
+          <ttc code="interpolateh" point="ih06" point1="mh04" point2="mh03"/>
+          <ttc code="mdeltah" delta="-5" point="ih06" ppm1="28" ppm2="28"/>
+          <ttc code="mdeltah" delta="-3" point="ih06" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltah" delta="-5" point="ih06" ppm1="40" ppm2="40"/>
+          <ttc code="mdeltah" delta="-8" point="ih06" ppm1="27" ppm2="27"/>
+          <ttc code="mdeltav" delta="-6" point="mv01" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="-5" point="mv02" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="8" point="mv03" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="8" point="mh01" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="-5" point="mh02" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="-5" point="mv04" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="1" point="ih02" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltav" delta="1" point="ih06" ppm1="28" ppm2="28"/>
+          <ttc code="mdeltav" delta="1" point="mh04" ppm1="27" ppm2="27"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

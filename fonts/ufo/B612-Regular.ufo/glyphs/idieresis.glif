@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idieresis" format="1">
+  <advance width="600"/>
+  <unicode hex="00EF"/>
+  <outline>
+    <contour>
+      <point x="390" y="0" type="line" name="hr00"/>
+      <point x="200" y="0" type="line"/>
+      <point x="200" y="1055" type="line"/>
+      <point x="390" y="1075" type="line"/>
+    </contour>
+    <component base="dieresis" xOffset="-300"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="1300" width="200"/>
+            <vstem pos="200" width="190"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

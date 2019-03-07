@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedilla" format="1">
+  <advance width="1300"/>
+  <unicode hex="00B8"/>
+  <outline>
+    <contour>
+      <point x="884" y="0" type="line"/>
+      <point x="911" y="-20"/>
+      <point x="933" y="-46" type="qcurve"/>
+      <point x="952" y="-69"/>
+      <point x="983" y="-132"/>
+      <point x="983" y="-171" type="qcurve"/>
+      <point x="983" y="-221"/>
+      <point x="936" y="-307"/>
+      <point x="856" y="-370"/>
+      <point x="752" y="-407"/>
+      <point x="695" y="-407" type="qcurve"/>
+      <point x="635" y="-407"/>
+      <point x="520" y="-371"/>
+      <point x="472" y="-349" type="qcurve"/>
+      <point x="417" y="-323"/>
+      <point x="366" y="-290" type="qcurve"/>
+      <point x="481" y="-131" type="line"/>
+      <point x="513" y="-151"/>
+      <point x="545" y="-166" type="qcurve"/>
+      <point x="571" y="-179"/>
+      <point x="630" y="-200"/>
+      <point x="652" y="-200" type="qcurve"/>
+      <point x="675" y="-200"/>
+      <point x="716" y="-175"/>
+      <point x="716" y="-147" type="qcurve"/>
+      <point x="716" y="-126"/>
+      <point x="692" y="-79"/>
+      <point x="660" y="-37"/>
+      <point x="629" y="-6"/>
+      <point x="622" y="0" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList/>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Sevenroman" format="1">
+  <advance width="2300"/>
+  <unicode hex="2166"/>
+  <outline>
+    <contour>
+      <point x="1545" y="1500" type="line"/>
+      <point x="906" y="204" type="line"/>
+      <point x="837" y="-25" type="line"/>
+      <point x="472" y="5" type="line"/>
+      <point x="258" y="1492" type="line"/>
+      <point x="576" y="1526" type="line"/>
+      <point x="683" y="700" type="line"/>
+      <point x="699" y="260" type="line"/>
+      <point x="846" y="700" type="line"/>
+      <point x="1235" y="1500" type="line"/>
+    </contour>
+    <contour>
+      <point x="1415" y="0" type="line"/>
+      <point x="1637" y="1263" type="line"/>
+      <point x="1645" y="1494" type="line"/>
+      <point x="2020" y="1525" type="line"/>
+      <point x="1752" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1915" y="0" type="line"/>
+      <point x="2137" y="1263" type="line"/>
+      <point x="2145" y="1494" type="line"/>
+      <point x="2520" y="1525" type="line"/>
+      <point x="2252" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

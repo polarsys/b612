@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gamma" format="1">
+  <advance width="1300"/>
+  <unicode hex="03B3"/>
+  <outline>
+    <contour>
+      <point x="146" y="1117" type="line" name="ih02"/>
+      <point x="181" y="1120"/>
+      <point x="260" y="1116"/>
+      <point x="332" y="1081"/>
+      <point x="389" y="1006"/>
+      <point x="402" y="940" type="qcurve"/>
+      <point x="512" y="364" type="line"/>
+      <point x="523" y="132" type="line" name="ih01"/>
+      <point x="616" y="364" type="line"/>
+      <point x="1014" y="1100" type="line"/>
+      <point x="1200" y="1121" type="line" name="ih03"/>
+      <point x="590" y="-17" type="line"/>
+      <point x="504" y="-500" type="line" name="sv01"/>
+      <point x="312" y="-500" type="line" name="av01"/>
+      <point x="392" y="-47" type="line"/>
+      <point x="221" y="869" type="line"/>
+      <point x="211" y="919"/>
+      <point x="179" y="968"/>
+      <point x="163" y="978" type="qcurve"/>
+      <point x="145" y="989"/>
+      <point x="124" y="987" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="interpolateh" point="ih01" point1="ih02" point2="ih03"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="ih03"/>
+          <ttc align="round" code="alignv" point="ih02"/>
+          <ttc code="singlev" point1="av01" point2="sv01"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

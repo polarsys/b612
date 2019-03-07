@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="reversedprime" format="1">
+  <advance width="1300"/>
+  <unicode hex="2035"/>
+  <outline>
+    <contour>
+      <point x="168" y="1500" type="line"/>
+      <point x="415" y="1520" type="line" name="at01"/>
+      <point x="465" y="1232" type="line" name="sv02"/>
+      <point x="590" y="885" type="line" name="sv01"/>
+      <point x="437" y="885" type="line" name="av02"/>
+      <point x="216" y="1230" type="line" name="av01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="singlev" point1="av02" point2="sv01"/>
+          <ttc code="singlev" point1="av01" point2="sv02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

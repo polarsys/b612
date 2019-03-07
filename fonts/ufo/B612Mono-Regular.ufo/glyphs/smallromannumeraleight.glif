@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="smallromannumeraleight" format="1">
+  <advance width="2600"/>
+  <unicode hex="2177"/>
+  <outline>
+    <contour>
+      <point x="1108" y="1120" type="line" name="sh02"/>
+      <point x="737" y="-20" type="line" name="ab01"/>
+      <point x="531" y="0" type="line"/>
+      <point x="174" y="1100" type="line" name="sh04"/>
+      <point x="357" y="1120" type="line" name="sh03"/>
+      <point x="596" y="381" type="line"/>
+      <point x="649" y="149" type="line" name="ah01"/>
+      <point x="699" y="381" type="line"/>
+      <point x="933" y="1100" type="line" name="sh01"/>
+    </contour>
+    <contour>
+      <point x="1390" y="0" type="line" name="hr01"/>
+      <point x="1200" y="0" type="line"/>
+      <point x="1200" y="1100" type="line"/>
+      <point x="1390" y="1120" type="line"/>
+    </contour>
+    <contour>
+      <point x="1790" y="0" type="line" name="hr02"/>
+      <point x="1600" y="0" type="line"/>
+      <point x="1600" y="1100" type="line"/>
+      <point x="1790" y="1120" type="line"/>
+    </contour>
+    <contour>
+      <point x="2190" y="0" type="line" name="hr03"/>
+      <point x="2000" y="0" type="line"/>
+      <point x="2000" y="1100" type="line"/>
+      <point x="2190" y="1120" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="1300" width="200"/>
+            <vstem pos="900" width="190"/>
+          </hintset>
+          <hintset pointTag="hr02">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="1300" width="200"/>
+            <vstem pos="1300" width="190"/>
+          </hintset>
+          <hintset pointTag="hr03">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="1300" width="200"/>
+            <vstem pos="1700" width="190"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="center" code="alignh" point="ah01"/>
+          <ttc code="singleh" point1="ah01" point2="sh01"/>
+          <ttc code="singleh" point1="sh01" point2="sh02" stem="X: dia Fat"/>
+          <ttc code="singleh" point1="ah01" point2="sh03"/>
+          <ttc code="singleh" point1="sh03" point2="sh04" stem="X: dia Fat"/>
+          <ttc align="round" code="alignv" point="sh02"/>
+          <ttc align="round" code="alignv" point="sh03"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="mdeltav" delta="-5" point="sh02" ppm1="42" ppm2="42"/>
+          <ttc code="mdeltav" delta="-5" point="sh03" ppm1="42" ppm2="42"/>
+          <ttc code="interpolatev" point="ah01" point1="ab01" point2="sh02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

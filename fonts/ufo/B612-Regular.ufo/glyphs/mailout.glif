@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="mailout" format="1">
+  <advance width="2100"/>
+  <unicode hex="E064"/>
+  <outline>
+    <contour>
+      <point x="1544" y="849" type="line"/>
+      <point x="1621" y="819" type="line"/>
+      <point x="1600" y="885" type="line"/>
+      <point x="1600" y="1100" type="line"/>
+      <point x="2000" y="749" type="line"/>
+      <point x="1600" y="399" type="line"/>
+      <point x="1600" y="612" type="line"/>
+      <point x="1621" y="677" type="line"/>
+      <point x="1544" y="649" type="line"/>
+      <point x="1300" y="649" type="line"/>
+      <point x="1300" y="849" type="line"/>
+    </contour>
+    <component base="mail" yOffset="300"/>
+  </outline>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="romannumeraltwo" format="1">
+  <advance width="2600"/>
+  <unicode hex="2161"/>
+  <outline>
+    <contour>
+      <point x="586" y="1500" type="line"/>
+      <point x="2006" y="1500" type="line"/>
+      <point x="2006" y="1360" type="line"/>
+      <point x="1648" y="1360" type="line"/>
+      <point x="1648" y="160" type="line"/>
+      <point x="2026" y="160" type="line"/>
+      <point x="2006" y="0" type="line"/>
+      <point x="586" y="0" type="line"/>
+      <point x="606" y="160" type="line"/>
+      <point x="952" y="160" type="line"/>
+      <point x="952" y="1360" type="line"/>
+      <point x="606" y="1360" type="line"/>
+    </contour>
+    <contour>
+      <point x="1162" y="160" type="line"/>
+      <point x="1462" y="160" type="line"/>
+      <point x="1462" y="1360" type="line"/>
+      <point x="1162" y="1360" type="line"/>
+    </contour>
+  </outline>
+</glyph>

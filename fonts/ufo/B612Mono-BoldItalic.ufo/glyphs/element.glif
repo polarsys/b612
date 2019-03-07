@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="element" format="1">
+  <advance width="1300"/>
+  <unicode hex="2208"/>
+  <outline>
+    <contour>
+      <point x="1220" y="0" type="line"/>
+      <point x="843" y="0" type="line"/>
+      <point x="672" y="0"/>
+      <point x="397" y="81"/>
+      <point x="204" y="244"/>
+      <point x="100" y="488"/>
+      <point x="100" y="650" type="qcurve"/>
+      <point x="100" y="812"/>
+      <point x="204" y="1056"/>
+      <point x="397" y="1219"/>
+      <point x="672" y="1300"/>
+      <point x="843" y="1300" type="qcurve"/>
+      <point x="1220" y="1300" type="line"/>
+      <point x="1200" y="1146" type="line"/>
+      <point x="847" y="1146" type="line"/>
+      <point x="649" y="1146"/>
+      <point x="379" y="1013"/>
+      <point x="319" y="871" type="qcurve"/>
+      <point x="291" y="805"/>
+      <point x="284" y="725" type="qcurve"/>
+      <point x="1200" y="725" type="line"/>
+      <point x="1200" y="575" type="line"/>
+      <point x="284" y="575" type="line"/>
+      <point x="291" y="494"/>
+      <point x="319" y="428" type="qcurve"/>
+      <point x="379" y="286"/>
+      <point x="649" y="153"/>
+      <point x="847" y="153" type="qcurve"/>
+      <point x="1200" y="153" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>1300</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

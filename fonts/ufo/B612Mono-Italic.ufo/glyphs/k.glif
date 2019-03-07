@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="k" format="1">
+  <advance width="1300"/>
+  <unicode hex="006B"/>
+  <outline>
+    <contour>
+      <point x="160" y="0" type="line" name="ab01"/>
+      <point x="410" y="1420" type="line"/>
+      <point x="422" y="1600" type="line"/>
+      <point x="627" y="1620" type="line" name="av02"/>
+      <point x="463" y="690" type="line"/>
+      <point x="905" y="1100" type="line" name="av01"/>
+      <point x="1134" y="1100" type="line" name="sv01"/>
+      <point x="692" y="690" type="line"/>
+      <point x="513" y="627" type="line"/>
+      <point x="670" y="567" type="line"/>
+      <point x="1052" y="0" type="line" name="sv02"/>
+      <point x="816" y="0" type="line"/>
+      <point x="440" y="557" type="line"/>
+      <point x="342" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="av01" point2="sv01"/>
+          <ttc code="singlev" point1="ab01" point2="sv02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="blackdownpointingsmalltriangle" format="1">
+  <advance width="900"/>
+  <unicode hex="25BE"/>
+  <outline>
+    <component base="blackdownpointingtriangle" xScale="0.700012" yScale="0.700012" xOffset="-4" yOffset="330"/>
+  </outline>
+</glyph>

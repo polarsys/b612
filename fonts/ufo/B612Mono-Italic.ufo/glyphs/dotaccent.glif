@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccent" format="1">
+  <advance width="1300"/>
+  <unicode hex="02D9"/>
+  <outline>
+    <contour>
+      <point x="458" y="1500" type="line" name="at01"/>
+      <point x="660" y="1500" type="line" name="sv01"/>
+      <point x="625" y="1300" type="line" name="sv02"/>
+      <point x="423" y="1300" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="singlev" point1="at01" point2="sv01"/>
+          <ttc code="singlev" point1="sv01" point2="sv02" stem="Y: 153"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

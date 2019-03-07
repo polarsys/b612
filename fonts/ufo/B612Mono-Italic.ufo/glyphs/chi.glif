@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="chi" format="1">
+  <advance width="1300"/>
+  <unicode hex="03C7"/>
+  <outline>
+    <contour>
+      <point x="669" y="49" type="line"/>
+      <point x="624" y="230" type="line" name="ih01"/>
+      <point x="548" y="70" type="line"/>
+      <point x="132" y="-500" type="line" name="sv01"/>
+      <point x="-65" y="-500" type="line" name="ih02"/>
+      <point x="551" y="329" type="line"/>
+      <point x="341" y="869" type="line"/>
+      <point x="328" y="901"/>
+      <point x="295" y="947"/>
+      <point x="280" y="961" type="qcurve"/>
+      <point x="262" y="978"/>
+      <point x="244" y="987" type="qcurve"/>
+      <point x="266" y="1117" type="line" name="ih05"/>
+      <point x="303" y="1117"/>
+      <point x="379" y="1098"/>
+      <point x="446" y="1056"/>
+      <point x="503" y="988"/>
+      <point x="522" y="940" type="qcurve"/>
+      <point x="663" y="586" type="line"/>
+      <point x="708" y="390" type="line" name="ih04"/>
+      <point x="771" y="550" type="line"/>
+      <point x="1166" y="1100" type="line" name="av01"/>
+      <point x="1366" y="1100" type="line" name="ih06"/>
+      <point x="781" y="306" type="line"/>
+      <point x="1003" y="-269" type="line"/>
+      <point x="1023" y="-322"/>
+      <point x="1058" y="-371"/>
+      <point x="1072" y="-380" type="qcurve"/>
+      <point x="1087" y="-391"/>
+      <point x="1100" y="-387" type="qcurve"/>
+      <point x="1077" y="-517" type="line" name="ih03"/>
+      <point x="1045" y="-522"/>
+      <point x="980" y="-522"/>
+      <point x="914" y="-490"/>
+      <point x="851" y="-413"/>
+      <point x="822" y="-340" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="interpolateh" point="ih01" point1="ih02" point2="ih03"/>
+          <ttc code="interpolateh" point="ih04" point1="ih05" point2="ih06"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="ih02"/>
+          <ttc align="round" code="alignv" point="ih05"/>
+          <ttc align="round" code="alignv" point="ih03"/>
+          <ttc code="singlev" point1="ih02" point2="sv01"/>
+          <ttc code="singlev" point1="av01" point2="ih06"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

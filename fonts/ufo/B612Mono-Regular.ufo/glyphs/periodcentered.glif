@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="periodcentered" format="1">
+  <advance width="1300"/>
+  <unicode hex="00B7"/>
+  <outline>
+    <contour>
+      <point x="136" y="650" type="qcurve" name="ah01"/>
+      <point x="136" y="684"/>
+      <point x="162" y="744"/>
+      <point x="207" y="789"/>
+      <point x="266" y="815"/>
+      <point x="300" y="815" type="qcurve" name="av01"/>
+      <point x="334" y="815"/>
+      <point x="394" y="789"/>
+      <point x="439" y="744"/>
+      <point x="465" y="684"/>
+      <point x="465" y="650" type="qcurve" name="ah02"/>
+      <point x="465" y="616"/>
+      <point x="439" y="555"/>
+      <point x="395" y="510"/>
+      <point x="336" y="483"/>
+      <point x="302" y="483" type="qcurve" name="ab01"/>
+      <point x="268" y="483"/>
+      <point x="207" y="510"/>
+      <point x="162" y="555"/>
+      <point x="136" y="616"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="ah01">
+            <hstem pos="483" width="244"/>
+            <vstem pos="78" width="242"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc align="round" code="alignh" point="ah02"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc align="round" code="alignh" point="ah02"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="ab01"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

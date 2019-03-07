@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Deltagreek" format="1">
+  <advance width="1500"/>
+  <unicode hex="0394"/>
+  <outline>
+    <contour>
+      <point x="1485" y="0" type="line" name="ab01"/>
+      <point x="13" y="0" type="line"/>
+      <point x="636" y="1500" type="line"/>
+      <point x="854" y="1523" type="line" name="at01"/>
+    </contour>
+    <contour>
+      <point x="1158" y="160" type="line"/>
+      <point x="1281" y="108" type="line" name="iv01"/>
+      <point x="1199" y="200" type="line"/>
+      <point x="783" y="1258" type="line"/>
+      <point x="748" y="1425" type="line" name="iv02"/>
+      <point x="713" y="1258" type="line"/>
+      <point x="297" y="200" type="line"/>
+      <point x="212" y="108" type="line" name="iv03"/>
+      <point x="338" y="160" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="ab01">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="1523" width="-20"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="interpolatev" point="iv01" point1="ab01" point2="at01"/>
+          <ttc code="interpolatev" point="iv02" point1="ab01" point2="at01"/>
+          <ttc code="interpolatev" point="iv03" point1="ab01" point2="at01"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

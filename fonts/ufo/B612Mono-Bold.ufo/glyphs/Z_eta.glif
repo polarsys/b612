@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zeta" format="1">
+  <advance width="1300"/>
+  <unicode hex="0396"/>
+  <outline>
+    <contour>
+      <point x="1116" y="228" type="line" name="iv03"/>
+      <point x="1143" y="0" type="line" name="ab01"/>
+      <point x="104" y="0" type="line" name="iv05"/>
+      <point x="70" y="86" type="line"/>
+      <point x="611" y="1187" type="line"/>
+      <point x="749" y="1300" type="line" name="iv01"/>
+      <point x="618" y="1272" type="line" name="sv01"/>
+      <point x="160" y="1272" type="line" name="iv06"/>
+      <point x="133" y="1500" type="line" name="at01"/>
+      <point x="1047" y="1500" type="line" name="iv02"/>
+      <point x="1088" y="1442" type="line"/>
+      <point x="541" y="314" type="line"/>
+      <point x="407" y="200" type="line" name="iv04"/>
+      <point x="540" y="228" type="line" name="sv02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="iv03">
+            <hstem pos="0" width="228"/>
+            <hstem pos="1272" width="228"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="interpolatev" point="iv01" point1="iv02" point2="iv03"/>
+          <ttc code="singlev" point1="at01" point2="sv01" stem="eq Y: 171"/>
+          <ttc code="interpolatev" point="iv04" point1="iv05" point2="iv06"/>
+          <ttc code="singlev" point1="ab01" point2="sv02" stem="eq Y: 171"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

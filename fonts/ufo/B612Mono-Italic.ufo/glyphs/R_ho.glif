@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Rho" format="1">
+  <advance width="1300"/>
+  <unicode hex="03A1"/>
+  <outline>
+    <contour>
+      <point x="289" y="0" type="line" name="sv01"/>
+      <point x="99" y="0" type="line" name="ab01"/>
+      <point x="327" y="1290" type="line"/>
+      <point x="327" y="1490" type="line"/>
+      <point x="357" y="1495"/>
+      <point x="440" y="1503"/>
+      <point x="532" y="1509"/>
+      <point x="624" y="1512"/>
+      <point x="663" y="1512" type="qcurve" name="at01"/>
+      <point x="823" y="1512"/>
+      <point x="1057" y="1451"/>
+      <point x="1203" y="1342"/>
+      <point x="1260" y="1190"/>
+      <point x="1244" y="1099" type="qcurve"/>
+      <point x="1157" y="624"/>
+      <point x="399" y="624" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="491" y="1147" type="line"/>
+      <point x="424" y="765" type="line"/>
+      <point x="576" y="765"/>
+      <point x="803" y="809"/>
+      <point x="960" y="895"/>
+      <point x="1051" y="1019"/>
+      <point x="1066" y="1100" type="qcurve"/>
+      <point x="1079" y="1167"/>
+      <point x="1030" y="1268"/>
+      <point x="925" y="1336"/>
+      <point x="773" y="1370"/>
+      <point x="683" y="1370" type="qcurve"/>
+      <point x="666" y="1370"/>
+      <point x="619" y="1369"/>
+      <point x="570" y="1366"/>
+      <point x="524" y="1362"/>
+      <point x="509" y="1359" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="ab01" point2="sv01"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

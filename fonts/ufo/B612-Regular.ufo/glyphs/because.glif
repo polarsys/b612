@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="because" format="1">
+  <advance width="1200"/>
+  <unicode hex="2235"/>
+  <outline>
+    <component base="period" yOffset="890"/>
+    <component base="period" xOffset="800" yOffset="890"/>
+    <component base="period" xOffset="400"/>
+  </outline>
+</glyph>

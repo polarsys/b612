@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="blackdownpointingsmalltriangle" format="1">
+  <advance width="900"/>
+  <unicode hex="25BE"/>
+  <outline>
+    <contour>
+      <point x="64" y="1100" type="line"/>
+      <point x="834" y="1100" type="line"/>
+      <point x="449" y="470" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hungarumlaut" format="1">
+  <advance width="1300"/>
+  <unicode hex="02DD"/>
+  <outline>
+    <contour>
+      <point x="369" y="1500" type="line" name="at05"/>
+      <point x="703" y="1520" type="line" name="at03"/>
+      <point x="349" y="1117" type="line" name="sv01"/>
+      <point x="120" y="1117" type="line" name="at01"/>
+    </contour>
+    <contour>
+      <point x="782" y="1500" type="line" name="sv02"/>
+      <point x="1116" y="1520" type="line" name="at04"/>
+      <point x="762" y="1117" type="line" name="sv03"/>
+      <point x="533" y="1117" type="line" name="at02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: x"/>
+          <ttc code="alignt" point="at02" zone="t: x"/>
+          <ttc code="alignt" point="at03" zone="t: 1"/>
+          <ttc code="alignt" point="at04" zone="t: 1"/>
+          <ttc code="alignt" point="at05" zone="t: 1"/>
+          <ttc code="singlev" point1="at01" point2="sv01"/>
+          <ttc code="singlev" point1="at05" point2="sv02"/>
+          <ttc code="singlev" point1="at02" point2="sv03"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

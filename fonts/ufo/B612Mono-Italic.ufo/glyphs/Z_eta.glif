@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zeta" format="1">
+  <advance width="1300"/>
+  <unicode hex="0396"/>
+  <outline>
+    <contour>
+      <point x="1058" y="160" type="line"/>
+      <point x="1050" y="0" type="line" name="sv01"/>
+      <point x="21" y="0" type="line" name="ab01"/>
+      <point x="9" y="50" type="line"/>
+      <point x="867" y="1200" type="line"/>
+      <point x="1083" y="1380" type="line"/>
+      <point x="811" y="1340" type="line"/>
+      <point x="326" y="1340" type="line"/>
+      <point x="334" y="1500" type="line" name="at01"/>
+      <point x="1280" y="1500" type="line" name="sv02"/>
+      <point x="1291" y="1478" type="line"/>
+      <point x="422" y="300" type="line"/>
+      <point x="213" y="120" type="line"/>
+      <point x="485" y="160" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="ab01" point2="sv01"/>
+          <ttc code="singlev" point1="at01" point2="sv02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

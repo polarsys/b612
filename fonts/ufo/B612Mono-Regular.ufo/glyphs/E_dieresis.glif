@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Edieresis" format="1">
+  <advance width="1300"/>
+  <unicode hex="00CB"/>
+  <outline>
+    <contour>
+      <point x="1135" y="160" type="line" name="dh04"/>
+      <point x="1115" y="0" type="line" name="ab01"/>
+      <point x="195" y="0" type="line" name="ab02"/>
+      <point x="210" y="200" type="line" name="dh01"/>
+      <point x="210" y="1290" type="line"/>
+      <point x="180" y="1500" type="line" name="at01"/>
+      <point x="1100" y="1500" type="line" name="at02"/>
+      <point x="1100" y="1340" type="line"/>
+      <point x="375" y="1340" type="line" name="sv01"/>
+      <point x="395" y="1150" type="line" name="sh01"/>
+      <point x="395" y="885" type="line"/>
+      <point x="1030" y="885" type="line" name="dv01"/>
+      <point x="1030" y="740" type="line" name="dh03"/>
+      <point x="395" y="740" type="line"/>
+      <point x="395" y="340" type="line" name="dh02"/>
+      <point x="385" y="160" type="line"/>
+    </contour>
+    <contour>
+      <point x="350" y="1800" type="line"/>
+      <point x="550" y="1800" type="line"/>
+      <point x="550" y="1600" type="line"/>
+      <point x="350" y="1600" type="line"/>
+    </contour>
+    <contour>
+      <point x="750" y="1800" type="line"/>
+      <point x="950" y="1800" type="line"/>
+      <point x="950" y="1600" type="line"/>
+      <point x="750" y="1600" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="dh04">
+            <hstem pos="0" width="160"/>
+            <hstem pos="740" width="145"/>
+            <hstem pos="1340" width="160"/>
+            <vstem pos="190" width="210"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 208"/>
+          <ttc code="doubleh" point1="dh03" point2="dh04" stem="X: ecart du B"/>
+          <ttc code="singleh" point1="dh02" point2="sh01"/>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignt" point="at02" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="alignb" point="ab02" zone="b: 0"/>
+          <ttc code="doublev" point1="dh03" point2="dv01" stem="Y: 144"/>
+          <ttc code="singlev" point1="ab02" point2="dh04" stem="Y: 162"/>
+          <ttc code="singlev" point1="at02" point2="sv01" stem="Y: 162"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

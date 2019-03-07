@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="flligature" format="1">
+  <advance width="1300"/>
+  <unicode hex="FB02"/>
+  <outline>
+    <contour>
+      <point x="152" y="1100" type="line" name="at01"/>
+      <point x="292" y="1100" type="line" name="sv01"/>
+      <point x="317" y="1242" type="line"/>
+      <point x="333" y="1330"/>
+      <point x="407" y="1469"/>
+      <point x="524" y="1566"/>
+      <point x="684" y="1617"/>
+      <point x="786" y="1617" type="qcurve" name="av01"/>
+      <point x="875" y="1617"/>
+      <point x="1023" y="1572"/>
+      <point x="1126" y="1483"/>
+      <point x="1177" y="1352"/>
+      <point x="1169" y="1266" type="qcurve"/>
+      <point x="1016" y="403" type="line" name="sv02"/>
+      <point x="1008" y="360"/>
+      <point x="1002" y="288"/>
+      <point x="1012" y="237"/>
+      <point x="1043" y="209"/>
+      <point x="1073" y="209" type="qcurve"/>
+      <point x="1087" y="209"/>
+      <point x="1124" y="220"/>
+      <point x="1161" y="235"/>
+      <point x="1192" y="249"/>
+      <point x="1200" y="252" type="qcurve"/>
+      <point x="1182" y="27" type="line"/>
+      <point x="1170" y="21"/>
+      <point x="1131" y="6"/>
+      <point x="1080" y="-7"/>
+      <point x="1016" y="-17"/>
+      <point x="979" y="-17" type="qcurve" name="ab01"/>
+      <point x="868" y="-17"/>
+      <point x="738" y="48"/>
+      <point x="678" y="163"/>
+      <point x="675" y="320"/>
+      <point x="691" y="411" type="qcurve" name="av02"/>
+      <point x="862" y="1379" type="line"/>
+      <point x="851" y="1387"/>
+      <point x="811" y="1403"/>
+      <point x="780" y="1403" type="qcurve"/>
+      <point x="758" y="1403"/>
+      <point x="710" y="1382"/>
+      <point x="668" y="1340"/>
+      <point x="635" y="1276"/>
+      <point x="628" y="1233" type="qcurve"/>
+      <point x="604" y="1100" type="line"/>
+      <point x="692" y="1100" type="line" name="sv03"/>
+      <point x="653" y="876" type="line" name="sv04"/>
+      <point x="579" y="876" type="line"/>
+      <point x="424" y="0" type="line" name="sv05"/>
+      <point x="98" y="0" type="line" name="ab02"/>
+      <point x="253" y="876" type="line"/>
+      <point x="113" y="876" type="line" name="sv06"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="alignt" point="at01" zone="t: x"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="alignb" point="ab02" zone="b: 0"/>
+          <ttc code="singlev" point1="at01" point2="sv01"/>
+          <ttc code="singlev" point1="av02" point2="sv02" round="true"/>
+          <ttc code="singlev" point1="sv01" point2="sv03"/>
+          <ttc code="singlev" point1="sv03" point2="sv04" stem="Y: 171"/>
+          <ttc code="singlev" point1="ab02" point2="sv05"/>
+          <ttc code="singlev" point1="sv04" point2="sv06"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

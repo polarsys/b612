@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="blackcircledsix" format="1">
+  <advance width="1300"/>
+  <unicode hex="278F"/>
+  <outline>
+    <contour>
+      <point x="50" y="750" type="qcurve" name="ah01"/>
+      <point x="50" y="840"/>
+      <point x="89" y="1015"/>
+      <point x="162" y="1174"/>
+      <point x="268" y="1308"/>
+      <point x="401" y="1407"/>
+      <point x="560" y="1462"/>
+      <point x="650" y="1462" type="qcurve" name="av01"/>
+      <point x="740" y="1462"/>
+      <point x="899" y="1407"/>
+      <point x="1032" y="1308"/>
+      <point x="1138" y="1174"/>
+      <point x="1211" y="1015"/>
+      <point x="1250" y="840"/>
+      <point x="1250" y="750" type="qcurve" name="ah02"/>
+      <point x="1250" y="615"/>
+      <point x="1164" y="362"/>
+      <point x="1006" y="166"/>
+      <point x="785" y="48"/>
+      <point x="650" y="48" type="qcurve" name="av02"/>
+      <point x="515" y="48"/>
+      <point x="294" y="166"/>
+      <point x="136" y="362"/>
+      <point x="50" y="615"/>
+    </contour>
+    <contour>
+      <point x="860" y="1199" type="line"/>
+      <point x="819" y="1210"/>
+      <point x="793" y="1210"/>
+      <point x="778" y="1210" type="curve" smooth="yes"/>
+      <point x="482" y="1210"/>
+      <point x="294" y="959"/>
+      <point x="294" y="676" type="curve" smooth="yes"/>
+      <point x="294" y="539"/>
+      <point x="367" y="290"/>
+      <point x="626" y="290" type="curve" smooth="yes"/>
+      <point x="823" y="290"/>
+      <point x="957" y="437"/>
+      <point x="957" y="615" type="curve" smooth="yes"/>
+      <point x="957" y="797"/>
+      <point x="811" y="874"/>
+      <point x="656" y="874" type="curve" smooth="yes"/>
+      <point x="637" y="874"/>
+      <point x="617" y="871"/>
+      <point x="595" y="867" type="curve"/>
+      <point x="496" y="780" type="line"/>
+      <point x="525" y="970"/>
+      <point x="663" y="1080"/>
+      <point x="773" y="1080" type="curve" smooth="yes"/>
+      <point x="792" y="1080"/>
+      <point x="818" y="1079"/>
+      <point x="839" y="1068" type="curve"/>
+    </contour>
+    <contour>
+      <point x="647" y="754" type="curve" smooth="yes"/>
+      <point x="709" y="754"/>
+      <point x="755" y="690"/>
+      <point x="755" y="610" type="curve" smooth="yes"/>
+      <point x="755" y="521"/>
+      <point x="715" y="420"/>
+      <point x="628" y="420" type="curve" smooth="yes"/>
+      <point x="569" y="420"/>
+      <point x="526" y="485"/>
+      <point x="506" y="560" type="curve"/>
+      <point x="497" y="593"/>
+      <point x="496" y="619"/>
+      <point x="496" y="661" type="curve"/>
+      <point x="527" y="700"/>
+      <point x="590" y="754"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList/>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc align="round" code="alignh" point="ah02"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iota" format="1">
+  <advance width="1300"/>
+  <unicode hex="0399"/>
+  <outline>
+    <contour>
+      <point x="353" y="1500" type="line" name="at01"/>
+      <point x="1231" y="1500" type="line" name="sv01"/>
+      <point x="1191" y="1272" type="line"/>
+      <point x="918" y="1272" type="line"/>
+      <point x="733" y="228" type="line"/>
+      <point x="1034" y="228" type="line"/>
+      <point x="959" y="0" type="line" name="sv02"/>
+      <point x="81" y="0" type="line" name="ab01"/>
+      <point x="121" y="228" type="line"/>
+      <point x="399" y="228" type="line"/>
+      <point x="584" y="1272" type="line"/>
+      <point x="278" y="1272" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="at01">
+            <hstem pos="19" width="-21"/>
+            <hstem pos="1518" width="-20"/>
+            <vstem pos="167" width="262"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="at01" point2="sv01"/>
+          <ttc code="singlev" point1="ab01" point2="sv02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

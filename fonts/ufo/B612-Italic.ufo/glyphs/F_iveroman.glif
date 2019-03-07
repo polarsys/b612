@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Fiveroman" format="1">
+  <advance width="1300"/>
+  <unicode hex="2164"/>
+  <outline>
+    <component base="V"/>
+  </outline>
+</glyph>

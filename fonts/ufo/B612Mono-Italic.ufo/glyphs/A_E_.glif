@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AE" format="1">
+  <advance width="1300"/>
+  <unicode hex="00C6"/>
+  <outline>
+    <contour>
+      <point x="1300" y="160" type="line"/>
+      <point x="1252" y="0" type="line" name="sv01"/>
+      <point x="546" y="0" type="line"/>
+      <point x="598" y="200" type="line"/>
+      <point x="642" y="450" type="line"/>
+      <point x="347" y="450" type="line"/>
+      <point x="113" y="0" type="line"/>
+      <point x="-103" y="0" type="line" name="ab01"/>
+      <point x="575" y="1300" type="line"/>
+      <point x="655" y="1500" type="line" name="at01"/>
+      <point x="1400" y="1500" type="line" name="sv02"/>
+      <point x="1372" y="1340" type="line"/>
+      <point x="986" y="1340" type="line"/>
+      <point x="974" y="1149" type="line"/>
+      <point x="927" y="885" type="line" name="av02"/>
+      <point x="1252" y="885" type="line" name="sv03"/>
+      <point x="1227" y="740" type="line"/>
+      <point x="902" y="740" type="line"/>
+      <point x="831" y="340" type="line"/>
+      <point x="789" y="160" type="line"/>
+    </contour>
+    <contour>
+      <point x="669" y="600" type="line" name="sv04"/>
+      <point x="757" y="1106" type="line"/>
+      <point x="758" y="1340" type="line"/>
+      <point x="662" y="1099" type="line"/>
+      <point x="415" y="600" type="line" name="av01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="ab01" point2="sv01"/>
+          <ttc code="singlev" point1="at01" point2="sv02"/>
+          <ttc code="singlev" point1="av02" point2="sv03"/>
+          <ttc code="singlev" point1="av01" point2="sv04"/>
+        </ttProgram>
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>80</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>707</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

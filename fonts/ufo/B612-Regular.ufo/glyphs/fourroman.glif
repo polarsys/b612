@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fourroman" format="1">
+  <advance width="1600"/>
+  <unicode hex="2173"/>
+  <outline>
+    <component base="v" xOffset="500"/>
+    <component base="oneroman"/>
+  </outline>
+</glyph>

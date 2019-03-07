@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ringoperator" format="1">
+  <advance width="1300"/>
+  <unicode hex="2218"/>
+  <outline>
+    <contour>
+      <point x="668" y="920" type="qcurve"/>
+      <point x="779" y="905"/>
+      <point x="896" y="764"/>
+      <point x="889" y="650" type="qcurve"/>
+      <point x="886" y="594"/>
+      <point x="827" y="491"/>
+      <point x="738" y="414"/>
+      <point x="627" y="374"/>
+      <point x="572" y="380" type="qcurve"/>
+      <point x="462" y="393"/>
+      <point x="349" y="537"/>
+      <point x="351" y="650" type="qcurve"/>
+      <point x="352" y="688"/>
+      <point x="379" y="760"/>
+      <point x="425" y="823"/>
+      <point x="486" y="875"/>
+      <point x="556" y="910"/>
+      <point x="631" y="925"/>
+    </contour>
+    <contour>
+      <point x="592" y="491" type="qcurve"/>
+      <point x="623" y="488"/>
+      <point x="688" y="507"/>
+      <point x="742" y="548"/>
+      <point x="777" y="610"/>
+      <point x="779" y="650" type="qcurve"/>
+      <point x="782" y="717"/>
+      <point x="714" y="797"/>
+      <point x="648" y="809" type="qcurve"/>
+      <point x="614" y="815"/>
+      <point x="547" y="797"/>
+      <point x="494" y="755"/>
+      <point x="461" y="690"/>
+      <point x="461" y="650" type="qcurve"/>
+      <point x="462" y="584"/>
+      <point x="531" y="498"/>
+    </contour>
+  </outline>
+</glyph>

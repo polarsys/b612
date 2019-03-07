@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="indianrupee" format="1">
+  <advance width="1300"/>
+  <unicode hex="20B9"/>
+  <outline>
+    <contour>
+      <point x="180" y="1500" type="line" name="hr00"/>
+      <point x="1135" y="1500" type="line"/>
+      <point x="1022" y="1292" type="line"/>
+      <point x="934" y="1292" type="line"/>
+      <point x="790" y="1340" type="line"/>
+      <point x="881" y="1251" type="line"/>
+      <point x="891" y="1231"/>
+      <point x="895" y="1183"/>
+      <point x="895" y="1169" type="qcurve"/>
+      <point x="1136" y="1169" type="line"/>
+      <point x="1022" y="959" type="line"/>
+      <point x="930" y="959" type="line"/>
+      <point x="817" y="990" type="line"/>
+      <point x="877" y="925" type="line"/>
+      <point x="855" y="866"/>
+      <point x="774" y="765" name="mv01"/>
+      <point x="669" y="687" name="mv02"/>
+      <point x="546" y="636"/>
+      <point x="482" y="627" type="qcurve"/>
+      <point x="630" y="583" type="line"/>
+      <point x="1067" y="0" type="line"/>
+      <point x="699" y="0" type="line"/>
+      <point x="272" y="573" type="line"/>
+      <point x="264" y="583"/>
+      <point x="252" y="583" type="qcurve"/>
+      <point x="160" y="583" type="line"/>
+      <point x="160" y="802" type="line"/>
+      <point x="330" y="802" type="line"/>
+      <point x="377" y="802"/>
+      <point x="453" y="827"/>
+      <point x="513" y="869"/>
+      <point x="556" y="926"/>
+      <point x="570" y="959" type="qcurve"/>
+      <point x="122" y="959" type="line"/>
+      <point x="180" y="1169" type="line"/>
+      <point x="576" y="1169" type="line"/>
+      <point x="570" y="1185"/>
+      <point x="550" y="1228"/>
+      <point x="513" y="1266"/>
+      <point x="454" y="1292"/>
+      <point x="410" y="1292" type="qcurve"/>
+      <point x="122" y="1292" type="line" name="mh01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="959" width="210"/>
+            <hstem pos="1292" width="208"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="mdeltah" delta="3" point="mh01" ppm1="23" ppm2="23"/>
+          <ttc code="mdeltav" delta="4" point="mv01" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="-2" point="mv02" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="1" point="mh01" ppm1="13" ppm2="13"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

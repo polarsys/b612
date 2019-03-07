@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gamma" format="1">
+  <advance width="1300"/>
+  <unicode hex="0393"/>
+  <outline>
+    <contour>
+      <point x="588" y="1131" type="line" name="hr00"/>
+      <point x="388" y="0" type="line" name="sv01"/>
+      <point x="46" y="0" type="line" name="ab01"/>
+      <point x="270" y="1269" type="line"/>
+      <point x="292" y="1500" type="line" name="at01"/>
+      <point x="1241" y="1500" type="line" name="sv02"/>
+      <point x="1202" y="1282" type="line"/>
+      <point x="602" y="1282" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="1350" width="150"/>
+            <vstem pos="200" width="200"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="ab01" point2="sv01"/>
+          <ttc code="singlev" point1="at01" point2="sv02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

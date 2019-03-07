@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="radical" format="1">
+  <advance width="1300"/>
+  <unicode hex="221A"/>
+  <outline>
+    <contour>
+      <point x="1220" y="1300" type="line" name="dv02"/>
+      <point x="1200" y="1150" type="line" name="dv01"/>
+      <point x="1030" y="1150" type="line"/>
+      <point x="830" y="1170" type="line"/>
+      <point x="516" y="-20" type="line" name="ab01"/>
+      <point x="278" y="0" type="line"/>
+      <point x="145" y="550" type="line"/>
+      <point x="68" y="750" type="line"/>
+      <point x="253" y="770" type="line"/>
+      <point x="364" y="300" type="line"/>
+      <point x="400" y="60" type="line"/>
+      <point x="436" y="300" type="line"/>
+      <point x="698" y="1300" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 153"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

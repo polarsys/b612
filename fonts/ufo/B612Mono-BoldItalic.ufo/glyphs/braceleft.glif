@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="braceleft" format="1">
+  <advance width="1300"/>
+  <unicode hex="007B"/>
+  <outline>
+    <contour>
+      <point x="1078" y="1260" type="line" name="hr00"/>
+      <point x="1048" y="1280"/>
+      <point x="965" y="1305"/>
+      <point x="930" y="1305" type="qcurve"/>
+      <point x="900" y="1303"/>
+      <point x="859" y="1274"/>
+      <point x="831" y="1222"/>
+      <point x="812" y="1147"/>
+      <point x="804" y="1099" type="qcurve"/>
+      <point x="762" y="864" type="line"/>
+      <point x="752" y="808"/>
+      <point x="704" y="710"/>
+      <point x="642" y="631"/>
+      <point x="573" y="570"/>
+      <point x="543" y="550" type="qcurve" name="iv01"/>
+      <point x="567" y="530"/>
+      <point x="614" y="470"/>
+      <point x="648" y="390"/>
+      <point x="662" y="293"/>
+      <point x="652" y="238" type="qcurve" name="mh01"/>
+      <point x="609" y="-2" type="line"/>
+      <point x="601" y="-50"/>
+      <point x="593" y="-126"/>
+      <point x="602" y="-180"/>
+      <point x="633" y="-208"/>
+      <point x="663" y="-208" type="qcurve"/>
+      <point x="698" y="-208"/>
+      <point x="789" y="-183"/>
+      <point x="827" y="-163" type="qcurve"/>
+      <point x="890" y="-348" type="line"/>
+      <point x="855" y="-363"/>
+      <point x="789" y="-390"/>
+      <point x="718" y="-409"/>
+      <point x="635" y="-420"/>
+      <point x="583" y="-420" type="qcurve" name="av01"/>
+      <point x="470" y="-420"/>
+      <point x="331" y="-356"/>
+      <point x="262" y="-244"/>
+      <point x="252" y="-91"/>
+      <point x="267" y="-2" type="qcurve"/>
+      <point x="310" y="238" type="line"/>
+      <point x="326" y="327"/>
+      <point x="313" y="432"/>
+      <point x="269" y="442" type="qcurve"/>
+      <point x="134" y="462" type="line"/>
+      <point x="166" y="640" type="line"/>
+      <point x="307" y="660" type="line"/>
+      <point x="355" y="671"/>
+      <point x="405" y="776"/>
+      <point x="420" y="864" type="qcurve"/>
+      <point x="462" y="1099" type="line"/>
+      <point x="478" y="1188"/>
+      <point x="541" y="1341"/>
+      <point x="651" y="1453"/>
+      <point x="812" y="1517"/>
+      <point x="925" y="1517" type="qcurve" name="at01"/>
+      <point x="977" y="1517"/>
+      <point x="1056" y="1506"/>
+      <point x="1120" y="1487"/>
+      <point x="1177" y="1461"/>
+      <point x="1207" y="1445" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="-399" width="-21"/>
+            <hstem pos="475" width="150"/>
+            <hstem pos="1519" width="-20"/>
+            <vstem pos="500" width="200"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="mdeltah" delta="-2" point="mh01" ppm1="14" ppm2="14"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="interpolatev" point="iv01" point1="at01" point2="av01"/>
+        </ttProgram>
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>550</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>475</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

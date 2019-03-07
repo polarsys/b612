@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="K" format="1">
+  <advance width="1300"/>
+  <unicode hex="004B"/>
+  <outline>
+    <contour>
+      <point x="50" y="0" type="line" name="ab01"/>
+      <point x="277" y="1290" type="line"/>
+      <point x="284" y="1500" type="line" name="at01"/>
+      <point x="518" y="1520" type="line" name="at02"/>
+      <point x="400" y="856" type="line"/>
+      <point x="1055" y="1500" type="line"/>
+      <point x="1277" y="1500" type="line" name="sv01"/>
+      <point x="634" y="865" type="line"/>
+      <point x="454" y="802" type="line"/>
+      <point x="618" y="744" type="line"/>
+      <point x="1040" y="0" type="line" name="sv02"/>
+      <point x="803" y="0" type="line"/>
+      <point x="381" y="746" type="line"/>
+      <point x="250" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignt" point="at02" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="at01" point2="sv01"/>
+          <ttc code="singlev" point1="ab01" point2="sv02"/>
+        </ttProgram>
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>516</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
