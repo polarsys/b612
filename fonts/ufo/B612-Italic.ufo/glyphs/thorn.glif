@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thorn" format="1">
+  <advance width="1200"/>
+  <unicode hex="00FE"/>
+  <outline>
+    <component base="o" xOffset="10"/>
+    <component base="bar" xOffset="-1"/>
+  </outline>
+</glyph>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less" format="1">
+  <advance width="1300"/>
+  <unicode hex="003C"/>
+  <outline>
+    <contour>
+      <point x="1107" y="1187" type="line" name="av01"/>
+      <point x="1076" y="1012" type="line" name="sv01"/>
+      <point x="324" y="646" type="line"/>
+      <point x="243" y="626" type="line" name="iv01"/>
+      <point x="316" y="606" type="line"/>
+      <point x="940" y="242" type="line" name="sv02"/>
+      <point x="909" y="67" type="line" name="av02"/>
+      <point x="92" y="524" type="line"/>
+      <point x="129" y="733" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="singlev" point1="av01" point2="sv01" stem="Y: 153"/>
+          <ttc code="interpolatev" point="iv01" point1="av01" point2="av02"/>
+          <ttc code="singlev" point1="av02" point2="sv02" stem="Y: 153"/>
+        </ttProgram>
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>1298</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

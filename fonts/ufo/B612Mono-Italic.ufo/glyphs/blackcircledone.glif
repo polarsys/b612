@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="blackcircledone" format="1">
+  <advance width="1300"/>
+  <unicode hex="278A"/>
+  <outline>
+    <contour>
+      <point x="10" y="750" type="qcurve"/>
+      <point x="27" y="845"/>
+      <point x="101" y="1029"/>
+      <point x="209" y="1193"/>
+      <point x="346" y="1332"/>
+      <point x="506" y="1433"/>
+      <point x="685" y="1490"/>
+      <point x="780" y="1490" type="qcurve" name="av01"/>
+      <point x="875" y="1490"/>
+      <point x="1034" y="1433"/>
+      <point x="1159" y="1332"/>
+      <point x="1247" y="1193"/>
+      <point x="1297" y="1029"/>
+      <point x="1307" y="845"/>
+      <point x="1290" y="750" type="qcurve"/>
+      <point x="1273" y="655"/>
+      <point x="1198" y="471"/>
+      <point x="1091" y="307"/>
+      <point x="953" y="168"/>
+      <point x="793" y="67"/>
+      <point x="614" y="10"/>
+      <point x="519" y="10" type="qcurve" name="av02"/>
+      <point x="424" y="10"/>
+      <point x="265" y="67"/>
+      <point x="141" y="168"/>
+      <point x="52" y="307"/>
+      <point x="3" y="471"/>
+      <point x="-7" y="655"/>
+    </contour>
+    <contour>
+      <point x="785" y="300" type="line"/>
+      <point x="802" y="396" type="line"/>
+      <point x="655" y="396" type="line"/>
+      <point x="796" y="1200" type="line"/>
+      <point x="715" y="1212" type="line"/>
+      <point x="395" y="960" type="line"/>
+      <point x="447" y="887" type="line"/>
+      <point x="594" y="1000" type="line"/>
+      <point x="695" y="1112" type="line"/>
+      <point x="637" y="976" type="line"/>
+      <point x="535" y="396" type="line"/>
+      <point x="388" y="396" type="line"/>
+      <point x="371" y="300" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pageup" format="1">
+  <advance width="1000"/>
+  <unicode hex="21DE"/>
+  <outline>
+    <contour>
+      <point x="200" y="500" type="line"/>
+      <point x="400" y="500" type="line"/>
+      <point x="400" y="660" type="line"/>
+      <point x="200" y="660" type="line"/>
+      <point x="200" y="800" type="line"/>
+      <point x="400" y="800" type="line"/>
+      <point x="400" y="1053" type="line"/>
+      <point x="412" y="1157" type="line"/>
+      <point x="337" y="1100" type="line"/>
+      <point x="100" y="1100" type="line"/>
+      <point x="400" y="1401" type="line"/>
+      <point x="500" y="1520" type="line"/>
+      <point x="600" y="1400" type="line"/>
+      <point x="900" y="1100" type="line"/>
+      <point x="665" y="1100" type="line"/>
+      <point x="590" y="1157" type="line"/>
+      <point x="600" y="1053" type="line"/>
+      <point x="600" y="800" type="line"/>
+      <point x="800" y="800" type="line"/>
+      <point x="800" y="660" type="line"/>
+      <point x="600" y="660" type="line"/>
+      <point x="600" y="500" type="line"/>
+      <point x="800" y="500" type="line"/>
+      <point x="800" y="360" type="line"/>
+      <point x="600" y="360" type="line"/>
+      <point x="600" y="0" type="line"/>
+      <point x="400" y="0" type="line"/>
+      <point x="400" y="360" type="line"/>
+      <point x="200" y="360" type="line"/>
+    </contour>
+  </outline>
+</glyph>

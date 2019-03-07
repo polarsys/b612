@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ifraktur" format="1">
+  <advance width="1300"/>
+  <unicode hex="2111"/>
+  <outline>
+    <contour>
+      <point x="418" y="1400" type="curve"/>
+      <point x="1038" y="1400" type="line"/>
+      <point x="1012" y="1216" type="line"/>
+      <point x="909" y="1155"/>
+      <point x="800" y="1022"/>
+      <point x="800" y="926" type="curve" smooth="yes"/>
+      <point x="800" y="750"/>
+      <point x="1080" y="520"/>
+      <point x="1080" y="251" type="curve" smooth="yes"/>
+      <point x="1080" y="77"/>
+      <point x="979" y="-17"/>
+      <point x="792" y="-17" type="curve" smooth="yes"/>
+      <point x="684" y="-17"/>
+      <point x="561" y="50"/>
+      <point x="498" y="102" type="curve"/>
+      <point x="480" y="200" type="line"/>
+      <point x="330" y="66" type="line"/>
+      <point x="211" y="156" type="line"/>
+      <point x="440" y="353" type="line"/>
+      <point x="544" y="255"/>
+      <point x="669" y="164"/>
+      <point x="778" y="164" type="curve" smooth="yes"/>
+      <point x="836" y="164"/>
+      <point x="890" y="189"/>
+      <point x="890" y="252" type="curve" smooth="yes"/>
+      <point x="890" y="401"/>
+      <point x="610" y="700"/>
+      <point x="610" y="900" type="curve" smooth="yes"/>
+      <point x="610" y="970"/>
+      <point x="638" y="1104"/>
+      <point x="804" y="1216" type="curve"/>
+      <point x="470" y="1216" type="line"/>
+      <point x="439" y="1185"/>
+      <point x="431" y="1147"/>
+      <point x="431" y="1107" type="curve" smooth="yes"/>
+      <point x="431" y="1061"/>
+      <point x="460" y="1007"/>
+      <point x="460" y="1007" type="curve"/>
+      <point x="354" y="947" type="line"/>
+      <point x="315" y="1002"/>
+      <point x="295" y="1060"/>
+      <point x="295" y="1121" type="curve" smooth="yes"/>
+      <point x="295" y="1208"/>
+      <point x="336" y="1301"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicaland" format="1">
+  <advance width="1300"/>
+  <unicode hex="2227"/>
+  <outline>
+    <contour>
+      <point x="780" y="1320" type="line"/>
+      <point x="1222" y="0" type="line"/>
+      <point x="1058" y="0" type="line"/>
+      <point x="722" y="980" type="line"/>
+      <point x="657" y="1220" type="line"/>
+      <point x="592" y="980" type="line"/>
+      <point x="255" y="0" type="line"/>
+      <point x="93" y="0" type="line"/>
+      <point x="522" y="1300" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>1302</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

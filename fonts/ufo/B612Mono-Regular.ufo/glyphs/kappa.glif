@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kappa" format="1">
+  <advance width="1300"/>
+  <unicode hex="03BA"/>
+  <outline>
+    <contour>
+      <point x="300" y="0" type="line" name="dh01"/>
+      <point x="300" y="919" type="line"/>
+      <point x="280" y="1100" type="line"/>
+      <point x="480" y="1120" type="line" name="sh01"/>
+      <point x="480" y="644" type="line" name="iv01"/>
+      <point x="850" y="1100" type="line"/>
+      <point x="1050" y="1120" type="line" name="av01"/>
+      <point x="700" y="670" type="line"/>
+      <point x="546" y="600" type="line" name="iv02"/>
+      <point x="700" y="530" type="line"/>
+      <point x="1100" y="2" type="line" name="ab01"/>
+      <point x="900" y="2" type="line"/>
+      <point x="480" y="554" type="line" name="iv03"/>
+      <point x="480" y="0" type="line" name="dh02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="dh01">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="1121" width="-20"/>
+            <vstem pos="200" width="180"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: ecart du B"/>
+          <ttc code="singleh" point1="dh02" point2="sh01"/>
+          <ttc align="round" code="alignv" point="sh01"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignb" point="dh01" zone="b: 0"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="interpolatev" point="iv01" point1="dh01" point2="av01"/>
+          <ttc code="interpolatev" point="iv02" point1="dh01" point2="av01"/>
+          <ttc code="interpolatev" point="iv03" point1="dh01" point2="av01"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rightwardsarrowwithhook" format="1">
+  <advance width="1400"/>
+  <unicode hex="21AA"/>
+  <outline>
+    <component base="leftwardsarrowwithhook" xScale="-1" xOffset="1400"/>
+  </outline>
+</glyph>

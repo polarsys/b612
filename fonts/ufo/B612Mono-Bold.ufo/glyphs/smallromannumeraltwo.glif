@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="smallromannumeraltwo" format="1">
+  <advance width="1300"/>
+  <unicode hex="2171"/>
+  <outline>
+    <contour>
+      <point x="550" y="1120" type="line"/>
+      <point x="250" y="1100" type="line"/>
+      <point x="250" y="0" type="line"/>
+      <point x="550" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1050" y="1120" type="line" name="hr01"/>
+      <point x="750" y="1100" type="line"/>
+      <point x="750" y="0" type="line"/>
+      <point x="1050" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="1120" width="-20"/>
+            <vstem pos="750" width="300"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

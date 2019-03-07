@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="F" format="1">
+  <advance width="1300"/>
+  <unicode hex="0046"/>
+  <outline>
+    <contour>
+      <point x="551" y="0" type="line" name="dh02"/>
+      <point x="200" y="0" type="line" name="dh01"/>
+      <point x="200" y="1263" type="line"/>
+      <point x="165" y="1500" type="line" name="at01"/>
+      <point x="1167" y="1500" type="line" name="dh04"/>
+      <point x="1140" y="1272" type="line" name="sv01"/>
+      <point x="536" y="1272" type="line"/>
+      <point x="551" y="1134" type="line" name="sh01"/>
+      <point x="551" y="916" type="line"/>
+      <point x="1064" y="916" type="line" name="dh03"/>
+      <point x="1064" y="703" type="line" name="dv01"/>
+      <point x="551" y="703" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="dh02">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="703" width="213"/>
+            <hstem pos="1272" width="228"/>
+            <vstem pos="200" width="351"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="doubleh" point1="dh01" point2="dh02" stem="eq X: 208"/>
+          <ttc code="doubleh" point1="dh03" point2="dh04" stem="eq X: ecart du B"/>
+          <ttc code="singleh" point1="dh02" point2="sh01"/>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignb" point="dh02" zone="b: 0"/>
+          <ttc code="doublev" point1="dh03" point2="dv01" stem="eq Y: 144"/>
+          <ttc code="singlev" point1="at01" point2="sv01" stem="eq Y: 162"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

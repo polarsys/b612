@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="two" format="1">
+  <advance width="1300"/>
+  <unicode hex="0032"/>
+  <outline>
+    <contour>
+      <point x="71" y="0" type="line" name="ab01"/>
+      <point x="100" y="168" type="line"/>
+      <point x="169" y="266"/>
+      <point x="312" y="428"/>
+      <point x="456" y="566"/>
+      <point x="598" y="685"/>
+      <point x="665" y="739" type="qcurve"/>
+      <point x="725" y="787"/>
+      <point x="833" y="880"/>
+      <point x="915" y="973"/>
+      <point x="963" y="1070"/>
+      <point x="963" y="1123" type="qcurve"/>
+      <point x="963" y="1177"/>
+      <point x="935" y="1263"/>
+      <point x="872" y="1321"/>
+      <point x="772" y="1352"/>
+      <point x="699" y="1352" type="qcurve"/>
+      <point x="651" y="1352"/>
+      <point x="570" y="1319"/>
+      <point x="502" y="1265"/>
+      <point x="447" y="1196"/>
+      <point x="426" y="1160" type="qcurve"/>
+      <point x="296" y="1220" type="line"/>
+      <point x="362" y="1362"/>
+      <point x="598" y="1517"/>
+      <point x="752" y="1517" type="qcurve" name="at01"/>
+      <point x="762" y="1517"/>
+      <point x="781" y="1517"/>
+      <point x="791" y="1516" type="qcurve"/>
+      <point x="882" y="1510"/>
+      <point x="1015" y="1440"/>
+      <point x="1102" y="1332"/>
+      <point x="1144" y="1198"/>
+      <point x="1144" y="1128" type="qcurve"/>
+      <point x="1144" y="1122"/>
+      <point x="1143" y="1110"/>
+      <point x="1143" y="1104" type="qcurve"/>
+      <point x="1139" y="1025"/>
+      <point x="1064" y="888"/>
+      <point x="956" y="766"/>
+      <point x="829" y="658"/>
+      <point x="772" y="607" type="qcurve"/>
+      <point x="700" y="542"/>
+      <point x="571" y="428"/>
+      <point x="460" y="320"/>
+      <point x="368" y="215"/>
+      <point x="333" y="160" type="qcurve"/>
+      <point x="1003" y="160" type="line"/>
+      <point x="975" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

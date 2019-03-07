@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="romannumeraltwelve" format="1">
+  <advance width="2600"/>
+  <unicode hex="216B"/>
+  <outline>
+    <contour>
+      <point x="1166" y="1500" type="line"/>
+      <point x="2448" y="1500" type="line"/>
+      <point x="2425" y="1361" type="line"/>
+      <point x="2067" y="1361" type="line"/>
+      <point x="1853" y="160" type="line"/>
+      <point x="2231" y="160" type="line"/>
+      <point x="2183" y="0" type="line"/>
+      <point x="878" y="0" type="line"/>
+      <point x="926" y="160" type="line"/>
+      <point x="1272" y="160" type="line"/>
+      <point x="1483" y="1360" type="line"/>
+      <point x="1166" y="1360" type="line"/>
+    </contour>
+    <contour>
+      <point x="1482" y="160" type="line"/>
+      <point x="1667" y="160" type="line"/>
+      <point x="1881" y="1360" type="line"/>
+      <point x="1693" y="1360" type="line"/>
+    </contour>
+    <contour>
+      <point x="846" y="0" type="line"/>
+      <point x="688" y="519" type="line"/>
+      <point x="647" y="700" type="line"/>
+      <point x="567" y="540" type="line"/>
+      <point x="197" y="0" type="line"/>
+      <point x="-1" y="0" type="line"/>
+      <point x="569" y="799" type="line"/>
+      <point x="320" y="1500" type="line"/>
+      <point x="536" y="1520" type="line"/>
+      <point x="682" y="1056" type="line"/>
+      <point x="717" y="860" type="line"/>
+      <point x="776" y="1020" type="line"/>
+      <point x="1106" y="1500" type="line"/>
+      <point x="1299" y="1500" type="line"/>
+      <point x="786" y="776" type="line"/>
+      <point x="1066" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

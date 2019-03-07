@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflex" format="1">
+  <advance width="1300"/>
+  <unicode hex="02C6"/>
+  <outline>
+    <contour>
+      <point x="920" y="1220" type="line" name="ah02"/>
+      <point x="700" y="1220" type="line" name="sh01"/>
+      <point x="630" y="1323" type="line" name="mv01"/>
+      <point x="600" y="1450" type="line" name="ih01"/>
+      <point x="570" y="1323" type="line" name="mh01"/>
+      <point x="489" y="1220" type="line" name="sh02"/>
+      <point x="250" y="1220" type="line" name="ah01"/>
+      <point x="445" y="1500" type="line" name="ih02"/>
+      <point x="735" y="1520" type="line" name="ih03"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="ah01">
+            <hstem pos="1220" width="290"/>
+          </hintset>
+          <hintset pointTag="ah02">
+            <hstem pos="1520" width="-20"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc align="round" code="alignh" point="ah02"/>
+          <ttc code="singleh" point1="ah02" point2="sh01" stem="eq X: dia Lite"/>
+          <ttc code="mdeltah" delta="6" point="sh01" ppm1="18" ppm2="18"/>
+          <ttc code="interpolateh" point="ih01" point1="ah01" point2="ah02"/>
+          <ttc code="mdeltah" delta="-4" point="mh01" ppm1="18" ppm2="18"/>
+          <ttc code="singleh" point1="ah01" point2="sh02" stem="eq X: dia Lite"/>
+          <ttc code="mdeltah" delta="-4" point="sh02" ppm1="18" ppm2="18"/>
+          <ttc code="interpolateh" point="ih02" point1="ah02" point2="sh02"/>
+          <ttc code="interpolateh" point="ih03" point1="ah01" point2="sh01"/>
+          <ttc align="round" code="alignv" point="ah01"/>
+          <ttc align="round" code="alignv" point="ah02"/>
+          <ttc code="alignt" point="ih03" zone="t: 1"/>
+          <ttc code="alignt" point="ih02" zone="t: 1"/>
+          <ttc code="mdeltav" delta="2" point="mv01" ppm1="18" ppm2="18"/>
+          <ttc code="mdeltav" delta="-1" point="sh02" ppm1="18" ppm2="18"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ogonek" format="1">
+  <advance width="1300"/>
+  <unicode hex="02DB"/>
+  <outline>
+    <contour>
+      <point x="843" y="0" type="line"/>
+      <point x="837" y="-6" name="sv01"/>
+      <point x="811" y="-37"/>
+      <point x="787" y="-79"/>
+      <point x="771" y="-126"/>
+      <point x="775" y="-147" type="qcurve"/>
+      <point x="780" y="-175"/>
+      <point x="825" y="-200"/>
+      <point x="848" y="-200" type="qcurve"/>
+      <point x="870" y="-200"/>
+      <point x="925" y="-179"/>
+      <point x="949" y="-166" type="qcurve"/>
+      <point x="978" y="-151"/>
+      <point x="1007" y="-131" type="qcurve"/>
+      <point x="1150" y="-290" type="line"/>
+      <point x="1105" y="-323"/>
+      <point x="1054" y="-349" type="qcurve"/>
+      <point x="1010" y="-371"/>
+      <point x="901" y="-407"/>
+      <point x="841" y="-407" type="qcurve" name="av01"/>
+      <point x="784" y="-407"/>
+      <point x="673" y="-370"/>
+      <point x="583" y="-307"/>
+      <point x="521" y="-221"/>
+      <point x="512" y="-171" type="qcurve"/>
+      <point x="505" y="-132"/>
+      <point x="524" y="-69"/>
+      <point x="539" y="-46" type="qcurve"/>
+      <point x="557" y="-20"/>
+      <point x="581" y="0" type="qcurve" name="ab01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="ab01" point2="sv01" round="true"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

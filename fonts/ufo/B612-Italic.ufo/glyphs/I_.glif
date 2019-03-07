@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I" format="1">
+  <advance width="600"/>
+  <unicode hex="0049"/>
+  <outline>
+    <contour>
+      <point x="200" y="0" type="line"/>
+      <point x="427" y="1290" type="line"/>
+      <point x="434" y="1500" type="line"/>
+      <point x="668" y="1520" type="line"/>
+      <point x="400" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divide" format="1">
+  <advance width="1300"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <contour>
+      <point x="541" y="307" type="qcurve"/>
+      <point x="541" y="329"/>
+      <point x="558" y="368"/>
+      <point x="588" y="398"/>
+      <point x="627" y="415"/>
+      <point x="649" y="415" type="qcurve"/>
+      <point x="671" y="415"/>
+      <point x="710" y="398"/>
+      <point x="740" y="368"/>
+      <point x="757" y="329"/>
+      <point x="757" y="307" type="qcurve"/>
+      <point x="757" y="285"/>
+      <point x="740" y="245"/>
+      <point x="711" y="215"/>
+      <point x="672" y="197"/>
+      <point x="650" y="197" type="qcurve"/>
+      <point x="627" y="197"/>
+      <point x="588" y="215"/>
+      <point x="558" y="245"/>
+      <point x="541" y="285"/>
+    </contour>
+    <contour>
+      <point x="541" y="920" type="qcurve"/>
+      <point x="541" y="942"/>
+      <point x="558" y="981"/>
+      <point x="588" y="1011"/>
+      <point x="627" y="1028"/>
+      <point x="649" y="1028" type="qcurve"/>
+      <point x="671" y="1028"/>
+      <point x="710" y="1011"/>
+      <point x="740" y="981"/>
+      <point x="757" y="942"/>
+      <point x="757" y="920" type="qcurve"/>
+      <point x="757" y="898"/>
+      <point x="740" y="858"/>
+      <point x="711" y="828"/>
+      <point x="672" y="810"/>
+      <point x="650" y="810" type="qcurve"/>
+      <point x="627" y="810"/>
+      <point x="588" y="828"/>
+      <point x="558" y="858"/>
+      <point x="541" y="898"/>
+    </contour>
+    <contour>
+      <point x="200" y="700" type="line"/>
+      <point x="1100" y="700" type="line"/>
+      <point x="1100" y="545" type="line"/>
+      <point x="200" y="545" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList/>
+      </data>
+    </dict>
+  </lib>
+</glyph>

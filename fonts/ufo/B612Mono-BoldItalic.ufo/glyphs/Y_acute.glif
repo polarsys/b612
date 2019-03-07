@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yacute" format="1">
+  <advance width="1300"/>
+  <unicode hex="00DD"/>
+  <outline>
+    <contour>
+      <point x="487" y="1143" type="line"/>
+      <point x="529" y="773" type="line"/>
+      <point x="652" y="1143" type="line"/>
+      <point x="897" y="1500" type="line"/>
+      <point x="1232" y="1500" type="line" name="sv01"/>
+      <point x="649" y="650" type="line"/>
+      <point x="534" y="0" type="line" name="sv02"/>
+      <point x="183" y="0" type="line" name="ab01"/>
+      <point x="298" y="650" type="line"/>
+      <point x="19" y="1500" type="line" name="at01"/>
+      <point x="362" y="1520" type="line" name="at02"/>
+    </contour>
+    <contour>
+      <point x="616" y="1900" type="line" name="at03"/>
+      <point x="957" y="1920" type="line"/>
+      <point x="615" y="1600" type="line"/>
+      <point x="400" y="1600" type="line" name="av01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="at03">
+            <hstem pos="1621" width="-21"/>
+            <hstem pos="1920" width="-20"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignt" point="at02" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="at01" point2="sv01"/>
+          <ttc code="singlev" point1="ab01" point2="sv02"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignt" point="at03" zone="t: 1"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

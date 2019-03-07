@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equivalence" format="1">
+  <advance width="1300"/>
+  <unicode hex="2261"/>
+  <outline>
+    <contour>
+      <point x="213" y="300" type="line" name="av03"/>
+      <point x="1013" y="300" type="line" name="sv01"/>
+      <point x="980" y="116" type="line"/>
+      <point x="180" y="116" type="line"/>
+    </contour>
+    <contour>
+      <point x="266" y="600" type="line" name="av02"/>
+      <point x="1066" y="600" type="line" name="sv02"/>
+      <point x="1033" y="416" type="line"/>
+      <point x="233" y="416" type="line"/>
+    </contour>
+    <contour>
+      <point x="319" y="900" type="line" name="av01"/>
+      <point x="1119" y="900" type="line" name="sv03"/>
+      <point x="1086" y="716" type="line"/>
+      <point x="286" y="716" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc align="round" code="alignv" point="av03"/>
+          <ttc code="mdeltav" delta="-6" point="av03" ppm1="17" ppm2="18"/>
+          <ttc code="singlev" point1="av03" point2="sv01"/>
+          <ttc code="mdeltav" delta="-4" point="sv01" ppm1="17" ppm2="17"/>
+          <ttc code="singlev" point1="av02" point2="sv02"/>
+          <ttc code="singlev" point1="av01" point2="sv03"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

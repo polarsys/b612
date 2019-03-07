@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotationdash" format="1">
+  <advance width="1600"/>
+  <unicode hex="2015"/>
+  <outline>
+    <contour>
+      <point x="305" y="600" type="line"/>
+      <point x="1505" y="600" type="line"/>
+      <point x="1478" y="445" type="line"/>
+      <point x="278" y="445" type="line"/>
+    </contour>
+  </outline>
+</glyph>

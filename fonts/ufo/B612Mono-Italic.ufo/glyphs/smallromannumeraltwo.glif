@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="smallromannumeraltwo" format="1">
+  <advance width="1300"/>
+  <unicode hex="2171"/>
+  <outline>
+    <contour>
+      <point x="290" y="0" type="line"/>
+      <point x="100" y="0" type="line"/>
+      <point x="293" y="1100" type="line"/>
+      <point x="487" y="1121" type="line"/>
+    </contour>
+    <contour>
+      <point x="690" y="0" type="line"/>
+      <point x="500" y="0" type="line"/>
+      <point x="693" y="1100" type="line"/>
+      <point x="887" y="1121" type="line"/>
+    </contour>
+  </outline>
+</glyph>

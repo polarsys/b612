@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cruise" format="1">
+  <advance width="2600"/>
+  <unicode hex="E002"/>
+  <outline>
+    <contour>
+      <point x="1043" y="1400" type="line"/>
+      <point x="686" y="1400" type="line"/>
+      <point x="988" y="909" type="line"/>
+      <point x="625" y="893" type="line"/>
+      <point x="339" y="1083" type="line"/>
+      <point x="100" y="1083" type="line"/>
+      <point x="350" y="780" type="line"/>
+      <point x="350" y="639" type="line"/>
+      <point x="418" y="638"/>
+      <point x="937" y="500"/>
+      <point x="1036" y="457" type="curve"/>
+      <point x="2167" y="502" type="line" smooth="yes"/>
+      <point x="2308" y="508"/>
+      <point x="2500" y="597"/>
+      <point x="2500" y="739" type="curve" smooth="yes"/>
+      <point x="2500" y="896"/>
+      <point x="2293" y="996"/>
+      <point x="2124" y="996" type="curve"/>
+      <point x="1519" y="961" type="line"/>
+    </contour>
+  </outline>
+</glyph>

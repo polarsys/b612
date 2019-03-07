@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iacute" format="1">
+  <advance width="1300"/>
+  <unicode hex="00CD"/>
+  <outline>
+    <contour>
+      <point x="338" y="1500" type="line" name="at01"/>
+      <point x="1238" y="1500" type="line" name="sv01"/>
+      <point x="1210" y="1340" type="line"/>
+      <point x="852" y="1340" type="line"/>
+      <point x="643" y="160" type="line"/>
+      <point x="1021" y="160" type="line"/>
+      <point x="973" y="0" type="line" name="sv02"/>
+      <point x="73" y="0" type="line" name="ab01"/>
+      <point x="101" y="160" type="line"/>
+      <point x="457" y="160" type="line"/>
+      <point x="666" y="1340" type="line"/>
+      <point x="290" y="1340" type="line"/>
+    </contour>
+    <contour>
+      <point x="894" y="1900" type="line" name="at02"/>
+      <point x="1128" y="1920" type="line"/>
+      <point x="831" y="1600" type="line"/>
+      <point x="681" y="1600" type="line" name="av01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="at01" point2="sv01"/>
+          <ttc code="singlev" point1="ab01" point2="sv02"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignt" point="at02" zone="t: 1"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

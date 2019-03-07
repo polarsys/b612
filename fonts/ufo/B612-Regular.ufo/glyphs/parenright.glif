@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenright" format="1">
+  <advance width="900"/>
+  <unicode hex="0029"/>
+  <outline>
+    <contour>
+      <point x="699" y="0" type="line" name="hr00"/>
+      <point x="699" y="-89"/>
+      <point x="681" y="-243"/>
+      <point x="620" y="-356"/>
+      <point x="501" y="-420"/>
+      <point x="399" y="-420" type="qcurve"/>
+      <point x="380" y="-420"/>
+      <point x="338" y="-417"/>
+      <point x="300" y="-411"/>
+      <point x="269" y="-401"/>
+      <point x="260" y="-395" type="qcurve"/>
+      <point x="329" y="-269" type="line"/>
+      <point x="335" y="-271"/>
+      <point x="343" y="-272" type="qcurve"/>
+      <point x="350" y="-273"/>
+      <point x="368" y="-274"/>
+      <point x="379" y="-274" type="qcurve"/>
+      <point x="423" y="-274"/>
+      <point x="472" y="-232"/>
+      <point x="495" y="-160"/>
+      <point x="499" y="-66"/>
+      <point x="499" y="-14" type="qcurve"/>
+      <point x="499" y="1194" type="line"/>
+      <point x="499" y="1246"/>
+      <point x="495" y="1340"/>
+      <point x="472" y="1412"/>
+      <point x="423" y="1454"/>
+      <point x="379" y="1454" type="qcurve"/>
+      <point x="368" y="1454"/>
+      <point x="350" y="1452"/>
+      <point x="343" y="1451" type="qcurve"/>
+      <point x="335" y="1450"/>
+      <point x="329" y="1449" type="qcurve"/>
+      <point x="260" y="1575" type="line"/>
+      <point x="269" y="1581"/>
+      <point x="300" y="1591"/>
+      <point x="338" y="1597"/>
+      <point x="380" y="1600"/>
+      <point x="399" y="1600" type="qcurve"/>
+      <point x="501" y="1600"/>
+      <point x="620" y="1536"/>
+      <point x="681" y="1423"/>
+      <point x="699" y="1269"/>
+      <point x="699" y="1180" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="-420" width="146"/>
+            <hstem pos="1374" width="146"/>
+            <vstem pos="499" width="200"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

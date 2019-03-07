@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="landing" format="1">
+  <advance width="2600"/>
+  <unicode hex="E004"/>
+  <outline>
+    <contour>
+      <point x="2400" y="-200" type="curve"/>
+      <point x="2403" y="-200"/>
+      <point x="600" y="-200"/>
+      <point x="600" y="-200" type="curve"/>
+      <point x="600" y="-200"/>
+      <point x="600" y="0"/>
+      <point x="600" y="0" type="curve"/>
+      <point x="600" y="0"/>
+      <point x="2400" y="0"/>
+      <point x="2400" y="0" type="curve"/>
+      <point x="2400" y="0"/>
+      <point x="2400" y="-200"/>
+    </contour>
+    <contour>
+      <point x="200" y="-200" type="curve"/>
+      <point x="203" y="-200"/>
+      <point x="80" y="-200"/>
+      <point x="80" y="-200" type="curve"/>
+      <point x="80" y="-200"/>
+      <point x="100" y="0"/>
+      <point x="100" y="0" type="curve"/>
+      <point x="100" y="0"/>
+      <point x="200" y="0"/>
+      <point x="200" y="0" type="curve"/>
+      <point x="200" y="0"/>
+      <point x="200" y="-200"/>
+    </contour>
+    <contour>
+      <point x="500" y="-200" type="curve"/>
+      <point x="503" y="-200"/>
+      <point x="300" y="-200"/>
+      <point x="300" y="-200" type="curve"/>
+      <point x="300" y="-200"/>
+      <point x="300" y="0"/>
+      <point x="300" y="0" type="curve"/>
+      <point x="300" y="0"/>
+      <point x="500" y="0"/>
+      <point x="500" y="0" type="curve"/>
+      <point x="500" y="0"/>
+      <point x="500" y="-200"/>
+    </contour>
+    <component base="descent" xOffset="-16" yOffset="118"/>
+  </outline>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="send" format="1">
+  <advance width="1500"/>
+  <unicode hex="E0A8"/>
+  <outline>
+    <contour>
+      <point x="1000" y="1200" type="line"/>
+      <point x="1000" y="1000" type="line"/>
+      <point x="1200" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="1200" y="620" type="line"/>
+      <point x="1200" y="900" type="line"/>
+      <point x="900" y="900" type="line"/>
+      <point x="900" y="1200" type="line"/>
+      <point x="200" y="1200" type="line"/>
+      <point x="200" y="-100" type="line"/>
+      <point x="1200" y="-100" type="line"/>
+      <point x="1200" y="180" type="line"/>
+      <point x="1300" y="200" type="line"/>
+      <point x="1300" y="-200" type="line"/>
+      <point x="100" y="-200" type="line"/>
+      <point x="100" y="1300" type="line"/>
+      <point x="1040" y="1300" type="line"/>
+      <point x="1300" y="1040" type="line"/>
+      <point x="1300" y="600" type="line"/>
+    </contour>
+    <contour>
+      <point x="874" y="500" type="line"/>
+      <point x="978" y="488" type="line"/>
+      <point x="900" y="563" type="line"/>
+      <point x="900" y="700" type="line"/>
+      <point x="1400" y="400" type="line"/>
+      <point x="900" y="100" type="line"/>
+      <point x="900" y="235" type="line"/>
+      <point x="978" y="310" type="line"/>
+      <point x="874" y="300" type="line"/>
+      <point x="600" y="300" type="line"/>
+      <point x="600" y="500" type="line"/>
+    </contour>
+  </outline>
+</glyph>

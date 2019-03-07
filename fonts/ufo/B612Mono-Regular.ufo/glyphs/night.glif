@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="night" format="1">
+  <advance width="1300"/>
+  <unicode hex="263E"/>
+  <outline>
+    <contour>
+      <point x="1152" y="288" type="curve"/>
+      <point x="1069" y="108"/>
+      <point x="886" y="-17"/>
+      <point x="676" y="-17" type="curve" smooth="yes"/>
+      <point x="385" y="-17"/>
+      <point x="150" y="218"/>
+      <point x="150" y="509" type="curve" smooth="yes"/>
+      <point x="150" y="799"/>
+      <point x="385" y="1034"/>
+      <point x="676" y="1034" type="curve" smooth="yes"/>
+      <point x="760" y="1034"/>
+      <point x="841" y="1014"/>
+      <point x="912" y="978" type="curve"/>
+      <point x="908" y="957" type="line"/>
+      <point x="881" y="963"/>
+      <point x="853" y="966"/>
+      <point x="825" y="966" type="curve" smooth="yes"/>
+      <point x="602" y="966"/>
+      <point x="420" y="784"/>
+      <point x="420" y="561" type="curve" smooth="yes"/>
+      <point x="420" y="337"/>
+      <point x="602" y="155"/>
+      <point x="825" y="155" type="curve" smooth="yes"/>
+      <point x="949" y="155"/>
+      <point x="1061" y="211"/>
+      <point x="1135" y="300" type="curve"/>
+      <point x="1135" y="299"/>
+      <point x="1152" y="288"/>
+    </contour>
+  </outline>
+</glyph>

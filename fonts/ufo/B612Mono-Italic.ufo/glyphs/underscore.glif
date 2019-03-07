@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscore" format="1">
+  <advance width="1300"/>
+  <unicode hex="005F"/>
+  <outline>
+    <contour>
+      <point x="101" y="-300" type="line"/>
+      <point x="1200" y="-300" type="line"/>
+      <point x="1172" y="-455" type="line" name="sv01"/>
+      <point x="73" y="-455" type="line" name="ab01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignb" point="ab01" zone="b: -500"/>
+          <ttc code="singlev" point1="ab01" point2="sv01"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

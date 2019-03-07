@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="romannumeralsix" format="1">
+  <advance width="2600"/>
+  <unicode hex="2165"/>
+  <outline>
+    <contour>
+      <point x="1036" y="1500" type="line"/>
+      <point x="1906" y="1500" type="line"/>
+      <point x="1906" y="1360" type="line"/>
+      <point x="1562" y="1360" type="line"/>
+      <point x="1562" y="160" type="line"/>
+      <point x="1906" y="160" type="line"/>
+      <point x="1906" y="0" type="line"/>
+      <point x="986" y="0" type="line"/>
+      <point x="1006" y="160" type="line"/>
+      <point x="1352" y="160" type="line"/>
+      <point x="1352" y="1360" type="line"/>
+      <point x="1006" y="1360" type="line"/>
+    </contour>
+    <contour>
+      <point x="605" y="500" type="line" name="hr01"/>
+      <point x="663" y="140" type="line"/>
+      <point x="701" y="454" type="line"/>
+      <point x="1011" y="1500" type="line"/>
+      <point x="1195" y="1500" type="line"/>
+      <point x="808" y="180" type="line"/>
+      <point x="782" y="-20" type="line"/>
+      <point x="554" y="0" type="line"/>
+      <point x="112" y="1500" type="line"/>
+      <point x="302" y="1520" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="1" width="-21"/>
+            <hstem pos="1520" width="-20"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

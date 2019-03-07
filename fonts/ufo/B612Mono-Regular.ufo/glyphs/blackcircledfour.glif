@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="blackcircledfour" format="1">
+  <advance width="1300"/>
+  <unicode hex="278D"/>
+  <outline>
+    <contour>
+      <point x="50" y="750" type="qcurve" name="ah01"/>
+      <point x="50" y="885"/>
+      <point x="136" y="1138"/>
+      <point x="294" y="1334"/>
+      <point x="515" y="1452"/>
+      <point x="650" y="1452" type="qcurve" name="av01"/>
+      <point x="785" y="1452"/>
+      <point x="1006" y="1334"/>
+      <point x="1164" y="1138"/>
+      <point x="1250" y="885"/>
+      <point x="1250" y="750" type="qcurve" name="ah02"/>
+      <point x="1250" y="615"/>
+      <point x="1164" y="362"/>
+      <point x="1006" y="166"/>
+      <point x="785" y="48"/>
+      <point x="650" y="48" type="qcurve" name="av02"/>
+      <point x="515" y="48"/>
+      <point x="294" y="166"/>
+      <point x="136" y="362"/>
+      <point x="50" y="615"/>
+    </contour>
+    <contour>
+      <point x="945" y="576" type="line"/>
+      <point x="828" y="576" type="line"/>
+      <point x="828" y="810" type="line"/>
+      <point x="702" y="820" type="line"/>
+      <point x="702" y="576" type="line"/>
+      <point x="444" y="576" type="line"/>
+      <point x="499" y="660" type="line"/>
+      <point x="748" y="1200" type="line"/>
+      <point x="635" y="1212" type="line"/>
+      <point x="345" y="583" type="line"/>
+      <point x="345" y="480" type="line"/>
+      <point x="702" y="480" type="line"/>
+      <point x="702" y="300" type="line"/>
+      <point x="828" y="300" type="line"/>
+      <point x="828" y="480" type="line"/>
+      <point x="936" y="480" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="ah01">
+            <hstem pos="313" width="-13"/>
+            <hstem pos="480" width="96"/>
+            <hstem pos="1212" width="-12"/>
+            <vstem pos="672" width="126"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc align="round" code="alignh" point="ah02"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

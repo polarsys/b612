@@ -1,0 +1,299 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem grek dflt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feature kern {
+   pos slash slash -200;
+   pos D t 100;
+   pos F h -100;
+   pos F b -100;
+   pos F d -100;
+   pos F g -100;
+   pos F j -100;
+   pos F k -100;
+   pos F m -100;
+   pos F p -100;
+   pos F q -100;
+   pos F t -100;
+   pos F v -100;
+   pos F w -100;
+   pos F r -100;
+   pos G q 100;
+   pos G Z 100;
+   pos L T -100;
+   pos L v -100;
+   pos L Q -100;
+   pos L V -150;
+   pos L W -100;
+   pos P L -100;
+   pos P d -100;
+   pos P g -100;
+   pos P h -100;
+   pos P j -100;
+   pos P m -100;
+   pos P p -100;
+   pos P r -100;
+   pos P x -100;
+   pos P X -100;
+   pos P V -100;
+   pos Q V -100;
+   pos Q W -100;
+   pos R T -100;
+   pos R d -100;
+   pos R V -100;
+   pos R W -100;
+   pos T d -100;
+   pos T g -100;
+   pos T k -100;
+   pos T m -100;
+   pos T p -100;
+   pos T q -100;
+   pos T r -100;
+   pos T v -100;
+   pos T w -100;
+   pos T x -100;
+   pos V d -100;
+   pos V g -100;
+   pos V j -100;
+   pos V k -100;
+   pos V m -100;
+   pos V p -100;
+   pos V q -100;
+   pos V r -100;
+   pos V w -100;
+   pos V v -100;
+   pos V x -100;
+   pos V z -100;
+   pos W d -100;
+   pos W g -100;
+   pos W h -100;
+   pos W j -100;
+   pos W k -100;
+   pos W m -100;
+   pos W p -100;
+   pos W q -100;
+   pos W r -100;
+   pos W w -100;
+   pos W v -100;
+   pos W x -100;
+   pos W z -100;
+   pos W Q -100;
+   pos d d -100;
+   pos f f -100;
+   pos f b -100;
+   pos f p -100;
+   pos f q -100;
+   pos f g -100;
+   pos f d -100;
+   pos f l -100;
+   pos f w -100;
+   pos f m -100;
+   pos g b -100;
+   pos h T -100;
+   pos l l -100;
+   pos p T -100;
+   pos p l -100;
+   pos q T -100;
+   pos q l -100;
+   pos r t 100;
+   pos r f 100;
+   pos t t -100;
+   pos t T -100;
+   pos v T -100;
+   pos v d -100;
+   pos w d -100;
+   pos z T -100;
+   enum pos @_u_accents T -100;
+   enum pos @_u_accents j -100;
+   enum pos @_c_accents T -100;
+   enum pos @_n_accents j -100;
+   enum pos @_n_accents m -100;
+   enum pos @_s_accents T -100;
+   enum pos @_y_accents T -100;
+   enum pos @_S_accents V -100;
+   enum pos @_Y_accents d -100;
+   enum pos @_Y_accents b -100;
+   enum pos @_Y_accents g -100;
+   enum pos @_Y_accents j -100;
+   enum pos @_Y_accents k -100;
+   enum pos @_Y_accents m -100;
+   enum pos @_Y_accents p -100;
+   enum pos @_Y_accents q -100;
+   enum pos @_Y_accents r -100;
+   enum pos @_Y_accents v -100;
+   enum pos @_Y_accents w -100;
+   enum pos @_Y_accents x -100;
+   enum pos @_Y_accents z -100;
+   enum pos @_a_right T -100;
+   enum pos @_e_right T -100;
+   enum pos @_E_right V -100;
+   enum pos @_o_right T -200;
+   enum pos @_o_right V -100;
+   enum pos @_O_right T -100;
+   enum pos @_O_right W -100;
+   enum pos @_O_right b -100;
+   enum pos @_O_right h -100;
+   enum pos @_O_right j -100;
+   enum pos @_O_right D -100;
+   enum pos @_O_right V -100;
+   enum pos @_O_right X -100;
+   enum pos @_B_right b -100;
+   enum pos @_B_right h -100;
+   enum pos @_B_right j -100;
+   enum pos @_B_right k -100;
+   enum pos @_B_right m -100;
+   enum pos @_B_right p -100;
+   enum pos @_B_right T -100;
+   enum pos @_B_right V -100;
+   enum pos @_B_right W -100;
+   subtable;
+   enum pos D @_C_accents 100;
+   enum pos F @_a_left -100;
+   enum pos F @_o_left -100;
+   enum pos F @_c_accents -100;
+   enum pos F @_e_left -100;
+   enum pos F @_i_accents -100;
+   enum pos F @_n_accents -100;
+   enum pos F @_s_accents -100;
+   enum pos F @_u_accents -100;
+   enum pos F @_y_accents -100;
+   enum pos F @_A_left -100;
+   enum pos G @_o_left 100;
+   enum pos L @_Y_accents -100;
+   enum pos L @_O_left -100;
+   enum pos P @_A_left -100;
+   enum pos P @_o_left -100;
+   enum pos P @_a_left -100;
+   enum pos P @_c_accents -100;
+   enum pos P @_e_left -100;
+   enum pos P @_i_accents -100;
+   enum pos P @_n_accents -100;
+   enum pos P @_u_accents -100;
+   enum pos P @_Y_accents -100;
+   enum pos R @_O_left -100;
+   enum pos T @_O_left -100;
+   enum pos T @_A_left -100;
+   enum pos T @_o_left -100;
+   enum pos T @_a_left -100;
+   enum pos T @_c_accents -100;
+   enum pos T @_e_left -100;
+   enum pos T @_n_accents -100;
+   enum pos T @_s_accents -100;
+   enum pos T @_u_accents -100;
+   enum pos T @_y_accents -100;
+   enum pos V @_o_left -100;
+   enum pos V @_a_left -100;
+   enum pos V @_e_left -100;
+   enum pos V @_i_accents -100;
+   enum pos V @_n_accents -100;
+   enum pos V @_u_accents -100;
+   enum pos V @_y_accents -100;
+   enum pos V @_O_left -100;
+   enum pos W @_A_left -100;
+   enum pos W @_e_left -100;
+   enum pos W @_i_accents -100;
+   enum pos W @_n_accents -100;
+   enum pos W @_u_accents -100;
+   enum pos W @_y_accents -100;
+   enum pos W @_O_left -100;
+   enum pos X @_O_left -100;
+   enum pos Z @_O_left -100;
+   enum pos d @_n_accents -100;
+   enum pos f @_c_accents -100;
+   enum pos f @_o_left -100;
+   enum pos f @_e_left -100;
+   enum pos f @_u_accents -100;
+   enum pos f @_n_accents -100;
+   enum pos h @_Y_accents -100;
+   enum pos l @_s_accents 100;
+   enum pos q @_Y_accents -100;
+   enum pos r @_S_accents 100;
+   enum pos r @_s_accents 100;
+   enum pos r @_y_accents 100;
+   enum pos z @_O_left -100;
+   enum pos z @_Y_accents -100;
+   subtable;
+   pos @_u_accents @_Y_accents -100;
+   pos @_c_accents @_i_accents -100;
+   pos @_n_accents @_n_accents -100;
+   pos @_U_accents @_A_left -100;
+   pos @_C_accents @_O_left -100;
+   pos @_Y_accents @_A_left -100;
+   pos @_Y_accents @_a_left -100;
+   pos @_Y_accents @_c_accents -100;
+   pos @_Y_accents @_e_left -100;
+   pos @_Y_accents @_i_accents -100;
+   pos @_Y_accents @_n_accents -100;
+   pos @_Y_accents @_u_accents -100;
+   pos @_Y_accents @_y_accents -100;
+   pos @_Y_accents @_O_left -100;
+   pos @_a_right @_Y_accents -100;
+   pos @_a_right @_s_accents 100;
+   pos @_E_right @_O_left -100;
+   pos @_o_right @_Y_accents -100;
+   pos @_O_right @_i_accents -100;
+   pos @_O_right @_Y_accents -100;
+   pos @_B_right @_i_accents -100;
+   pos @_B_right @_u_accents -100;
+   pos @_B_right @_y_accents -100;
+   pos @_B_right @_O_left -100;
+} kern;
+
+
+
+
+
+
+
+
+
+
+
+
+

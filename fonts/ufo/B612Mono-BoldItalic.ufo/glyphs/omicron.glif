@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omicron" format="1">
+  <advance width="1300"/>
+  <unicode hex="03BF"/>
+  <outline>
+    <contour>
+      <point x="554" y="-17" type="qcurve" name="ab01"/>
+      <point x="434" y="-17"/>
+      <point x="249" y="70"/>
+      <point x="132" y="223"/>
+      <point x="88" y="431"/>
+      <point x="109" y="553" type="qcurve"/>
+      <point x="130" y="674"/>
+      <point x="245" y="881"/>
+      <point x="415" y="1032"/>
+      <point x="632" y="1117"/>
+      <point x="755" y="1117" type="qcurve" name="at01"/>
+      <point x="875" y="1117"/>
+      <point x="1058" y="1032"/>
+      <point x="1172" y="881"/>
+      <point x="1213" y="674"/>
+      <point x="1192" y="553" type="qcurve"/>
+      <point x="1171" y="431"/>
+      <point x="1059" y="223"/>
+      <point x="892" y="70"/>
+      <point x="678" y="-17"/>
+    </contour>
+    <contour>
+      <point x="861" y="528" type="qcurve"/>
+      <point x="873" y="596"/>
+      <point x="873" y="728"/>
+      <point x="840" y="833"/>
+      <point x="769" y="897"/>
+      <point x="711" y="897" type="qcurve"/>
+      <point x="655" y="897"/>
+      <point x="565" y="842"/>
+      <point x="496" y="750"/>
+      <point x="450" y="633"/>
+      <point x="439" y="571" type="qcurve"/>
+      <point x="427" y="502"/>
+      <point x="429" y="370"/>
+      <point x="465" y="267"/>
+      <point x="538" y="203"/>
+      <point x="597" y="203" type="qcurve"/>
+      <point x="651" y="203"/>
+      <point x="739" y="258"/>
+      <point x="806" y="350"/>
+      <point x="850" y="466"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="ab01">
+            <hstem pos="-16" width="219"/>
+            <hstem pos="897" width="219"/>
+            <vstem pos="38" width="327"/>
+            <vstem pos="794" width="326"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: x"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="phoneout" format="1">
+  <advance width="1900"/>
+  <unicode hex="E061"/>
+  <outline>
+    <contour>
+      <point x="1344" y="849" type="line"/>
+      <point x="1421" y="819" type="line"/>
+      <point x="1400" y="885" type="line"/>
+      <point x="1400" y="1100" type="line"/>
+      <point x="1800" y="749" type="line"/>
+      <point x="1400" y="399" type="line"/>
+      <point x="1400" y="612" type="line"/>
+      <point x="1421" y="677" type="line"/>
+      <point x="1344" y="649" type="line"/>
+      <point x="1100" y="649" type="line"/>
+      <point x="1100" y="849" type="line"/>
+    </contour>
+    <component base="phone"/>
+  </outline>
+</glyph>

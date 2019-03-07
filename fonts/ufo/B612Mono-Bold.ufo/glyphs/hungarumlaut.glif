@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hungarumlaut" format="1">
+  <advance width="1300"/>
+  <unicode hex="02DD"/>
+  <outline>
+    <contour>
+      <point x="336" y="1496" type="line" name="hr02"/>
+      <point x="667" y="1518" type="line" name="hr01"/>
+      <point x="385" y="1117" type="line" name="sh01"/>
+      <point x="156" y="1117" type="line" name="ah01"/>
+    </contour>
+    <contour>
+      <point x="699" y="1496" type="line"/>
+      <point x="1030" y="1518" type="line" name="hr03"/>
+      <point x="748" y="1117" type="line" name="sh03"/>
+      <point x="519" y="1117" type="line" name="sh02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="1518" width="-20"/>
+          </hintset>
+          <hintset pointTag="hr02">
+            <hstem pos="1117" width="390"/>
+          </hintset>
+          <hintset pointTag="hr03">
+            <hstem pos="1518" width="-20"/>
+          </hintset>
+          <hintset pointTag="ah01">
+            <hstem pos="1117" width="390"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc code="singleh" point1="ah01" point2="sh01" stem="eq X: 208"/>
+          <ttc code="mdeltah" delta="-3" point="sh01" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltah" delta="-5" point="sh01" ppm1="19" ppm2="19"/>
+          <ttc code="singleh" point1="sh01" point2="sh02" stem="eq X: dia Lite"/>
+          <ttc code="mdeltah" delta="5" point="sh02" ppm1="19" ppm2="20"/>
+          <ttc code="singleh" point1="sh02" point2="sh03" stem="eq X: 208"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

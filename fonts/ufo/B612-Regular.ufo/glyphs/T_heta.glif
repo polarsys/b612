@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Theta" format="1">
+  <advance width="1600"/>
+  <unicode hex="0398"/>
+  <outline>
+    <contour>
+      <point x="520" y="835" type="line" name="hr00"/>
+      <point x="1100" y="835" type="line"/>
+      <point x="1080" y="665" type="line"/>
+      <point x="500" y="665" type="line"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="675" width="150"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

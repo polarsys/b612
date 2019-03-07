@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicaland" format="1">
+  <advance width="1300"/>
+  <unicode hex="2227"/>
+  <outline>
+    <contour>
+      <point x="779" y="1320" type="line"/>
+      <point x="1221" y="0" type="line"/>
+      <point x="1057" y="0" type="line"/>
+      <point x="721" y="980" type="line"/>
+      <point x="656" y="1220" type="line"/>
+      <point x="591" y="980" type="line"/>
+      <point x="254" y="0" type="line"/>
+      <point x="92" y="0" type="line"/>
+      <point x="521" y="1300" type="line"/>
+    </contour>
+  </outline>
+</glyph>

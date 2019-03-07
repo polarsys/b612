@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Threeroman" format="1">
+  <advance width="1800"/>
+  <unicode hex="2162"/>
+  <outline>
+    <component base="I"/>
+    <component base="I" xOffset="600"/>
+    <component base="I" xOffset="1200"/>
+  </outline>
+</glyph>

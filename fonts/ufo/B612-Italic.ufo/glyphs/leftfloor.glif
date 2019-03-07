@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="leftfloor" format="1">
+  <advance width="800"/>
+  <unicode hex="230A"/>
+  <outline>
+    <component base="leftceiling" yScale="-0.999939" yOffset="1500"/>
+  </outline>
+</glyph>

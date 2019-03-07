@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noparking" format="1">
+  <advance width="1800"/>
+  <unicode hex="E0D1"/>
+  <outline>
+    <contour>
+      <point x="1426" y="1117" type="line"/>
+      <point x="1349" y="1239"/>
+      <point x="1227" y="1316" type="qcurve"/>
+      <point x="305" y="395" type="line"/>
+      <point x="343" y="335"/>
+      <point x="444" y="233"/>
+      <point x="504" y="195" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="867" y="1517" type="qcurve"/>
+      <point x="973" y="1517"/>
+      <point x="1169" y="1462"/>
+      <point x="1339" y="1362"/>
+      <point x="1479" y="1223"/>
+      <point x="1579" y="1052"/>
+      <point x="1634" y="856"/>
+      <point x="1634" y="750" type="qcurve"/>
+      <point x="1634" y="644"/>
+      <point x="1579" y="448"/>
+      <point x="1479" y="277"/>
+      <point x="1339" y="138"/>
+      <point x="1169" y="38"/>
+      <point x="973" y="-17"/>
+      <point x="867" y="-17" type="qcurve"/>
+      <point x="761" y="-17"/>
+      <point x="565" y="38"/>
+      <point x="395" y="138"/>
+      <point x="255" y="277"/>
+      <point x="155" y="448"/>
+      <point x="100" y="644"/>
+      <point x="100" y="750" type="qcurve"/>
+      <point x="100" y="856"/>
+      <point x="155" y="1052"/>
+      <point x="255" y="1223"/>
+      <point x="395" y="1362"/>
+      <point x="565" y="1462"/>
+      <point x="761" y="1517"/>
+    </contour>
+  </outline>
+</glyph>

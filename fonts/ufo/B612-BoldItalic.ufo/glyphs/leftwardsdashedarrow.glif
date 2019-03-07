@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="leftwardsdashedarrow" format="1">
+  <advance width="1600"/>
+  <unicode hex="21E0"/>
+  <outline>
+    <contour>
+      <point x="547" y="500" type="line"/>
+      <point x="443" y="512" type="line"/>
+      <point x="500" y="437" type="line"/>
+      <point x="500" y="200" type="line"/>
+      <point x="199" y="500" type="line"/>
+      <point x="80" y="600" type="line"/>
+      <point x="200" y="700" type="line"/>
+      <point x="500" y="1000" type="line"/>
+      <point x="500" y="765" type="line"/>
+      <point x="443" y="690" type="line"/>
+      <point x="547" y="700" type="line"/>
+      <point x="650" y="700" type="line"/>
+      <point x="650" y="500" type="line"/>
+    </contour>
+    <contour>
+      <point x="800" y="700" type="line"/>
+      <point x="1050" y="700" type="line"/>
+      <point x="1050" y="500" type="line"/>
+      <point x="800" y="500" type="line"/>
+    </contour>
+    <contour>
+      <point x="1200" y="700" type="line"/>
+      <point x="1450" y="700" type="line"/>
+      <point x="1450" y="500" type="line"/>
+      <point x="1200" y="500" type="line"/>
+    </contour>
+  </outline>
+</glyph>

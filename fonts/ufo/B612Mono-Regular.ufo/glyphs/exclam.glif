@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam" format="1">
+  <advance width="1300"/>
+  <unicode hex="0021"/>
+  <outline>
+    <contour>
+      <point x="605" y="1500" type="line"/>
+      <point x="605" y="450" type="line" name="mh01"/>
+      <point x="395" y="429" type="line"/>
+      <point x="395" y="1500" type="line" name="sh02"/>
+    </contour>
+    <contour>
+      <point x="378" y="106" type="qcurve" name="sh01"/>
+      <point x="378" y="131"/>
+      <point x="397" y="175"/>
+      <point x="430" y="208"/>
+      <point x="474" y="227"/>
+      <point x="499" y="227" type="qcurve" name="mh02"/>
+      <point x="524" y="227"/>
+      <point x="568" y="208"/>
+      <point x="601" y="175"/>
+      <point x="620" y="131"/>
+      <point x="620" y="106" type="qcurve" name="mh03"/>
+      <point x="620" y="81"/>
+      <point x="601" y="36"/>
+      <point x="569" y="3"/>
+      <point x="525" y="-17"/>
+      <point x="500" y="-17" type="qcurve" name="ab01"/>
+      <point x="474" y="-17"/>
+      <point x="430" y="3"/>
+      <point x="397" y="36"/>
+      <point x="378" y="81"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="lsb"/>
+          <ttc code="mdeltah" delta="-2" point="mh01" ppm1="22" ppm2="22"/>
+          <ttc code="singleh" point1="lsb" point2="sh01" round="true"/>
+          <ttc code="singleh" point1="sh01" point2="sh02"/>
+          <ttc code="mdeltah" delta="-1" point="mh02" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltah" delta="-4" point="mh03" ppm1="22" ppm2="22"/>
+          <ttc align="round" code="alignv" point="mh02"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="mdeltav" delta="-2" point="mh02" ppm1="22" ppm2="22"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

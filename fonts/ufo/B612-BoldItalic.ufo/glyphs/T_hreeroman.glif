@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Threeroman" format="1">
+  <advance width="1800"/>
+  <unicode hex="2162"/>
+  <outline>
+    <contour>
+      <point x="115" y="0" type="line"/>
+      <point x="337" y="1263" type="line"/>
+      <point x="345" y="1494" type="line"/>
+      <point x="720" y="1525" type="line"/>
+      <point x="452" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="715" y="0" type="line"/>
+      <point x="937" y="1263" type="line"/>
+      <point x="945" y="1494" type="line"/>
+      <point x="1320" y="1525" type="line"/>
+      <point x="1052" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1315" y="0" type="line"/>
+      <point x="1537" y="1263" type="line"/>
+      <point x="1545" y="1494" type="line"/>
+      <point x="1920" y="1525" type="line"/>
+      <point x="1652" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

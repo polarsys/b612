@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="similar" format="1">
+  <advance width="1300"/>
+  <unicode hex="223C"/>
+  <outline>
+    <contour>
+      <point x="1000" y="500" type="line"/>
+      <point x="947" y="440"/>
+      <point x="832" y="380"/>
+      <point x="760" y="380" type="qcurve"/>
+      <point x="713" y="380"/>
+      <point x="624" y="427"/>
+      <point x="540" y="484"/>
+      <point x="459" y="531"/>
+      <point x="420" y="531" type="qcurve"/>
+      <point x="390" y="531"/>
+      <point x="331" y="513"/>
+      <point x="274" y="484"/>
+      <point x="222" y="446"/>
+      <point x="200" y="426" type="qcurve"/>
+      <point x="200" y="602" type="line"/>
+      <point x="226" y="631"/>
+      <point x="281" y="682"/>
+      <point x="340" y="719"/>
+      <point x="404" y="741"/>
+      <point x="440" y="741" type="qcurve"/>
+      <point x="471" y="741"/>
+      <point x="529" y="718"/>
+      <point x="583" y="685"/>
+      <point x="637" y="645"/>
+      <point x="691" y="612"/>
+      <point x="748" y="589"/>
+      <point x="780" y="589" type="qcurve"/>
+      <point x="840" y="589"/>
+      <point x="955" y="633"/>
+      <point x="1000" y="672" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList/>
+      </data>
+    </dict>
+  </lib>
+</glyph>

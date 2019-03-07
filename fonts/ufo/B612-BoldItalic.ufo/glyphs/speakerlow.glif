@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="speakerlow" format="1">
+  <advance width="1200"/>
+  <unicode hex="E081"/>
+  <outline>
+    <contour>
+      <point x="700" y="1121" type="line"/>
+      <point x="800" y="1100" type="line"/>
+      <point x="800" y="0" type="line"/>
+      <point x="700" y="-20" type="line"/>
+      <point x="449" y="200" type="line"/>
+      <point x="100" y="200" type="line"/>
+      <point x="100" y="900" type="line"/>
+      <point x="446" y="900" type="line"/>
+    </contour>
+    <contour>
+      <point x="700" y="961" type="line"/>
+      <point x="630" y="800" type="line"/>
+      <point x="515" y="720" type="line"/>
+      <point x="200" y="720" type="line"/>
+      <point x="200" y="380" type="line"/>
+      <point x="515" y="380" type="line"/>
+      <point x="630" y="301" type="line"/>
+      <point x="700" y="127" type="line"/>
+    </contour>
+    <contour>
+      <point x="1024" y="820" type="line"/>
+      <point x="1042" y="805"/>
+      <point x="1070" y="755"/>
+      <point x="1090" y="695"/>
+      <point x="1100" y="630"/>
+      <point x="1100" y="600" type="qcurve"/>
+      <point x="1100" y="556"/>
+      <point x="1078" y="468"/>
+      <point x="1030" y="389"/>
+      <point x="954" y="322"/>
+      <point x="900" y="300" type="qcurve"/>
+      <point x="900" y="400" type="line"/>
+      <point x="938" y="438"/>
+      <point x="975" y="547"/>
+      <point x="975" y="600" type="qcurve"/>
+      <point x="975" y="626"/>
+      <point x="966" y="681"/>
+      <point x="947" y="733"/>
+      <point x="919" y="781"/>
+      <point x="900" y="800" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ampersand" format="1">
+  <advance width="1300"/>
+  <unicode hex="0026"/>
+  <outline>
+    <contour>
+      <point x="1200" y="740" type="line"/>
+      <point x="1200" y="642"/>
+      <point x="1168" y="477"/>
+      <point x="1114" y="342"/>
+      <point x="1041" y="237"/>
+      <point x="1000" y="200" type="qcurve"/>
+      <point x="1077" y="200" type="line"/>
+      <point x="1241" y="-17" type="line"/>
+      <point x="862" y="-17" type="line"/>
+      <point x="786" y="100" type="line"/>
+      <point x="750" y="11" type="line" name="ah03"/>
+      <point x="727" y="5"/>
+      <point x="680" y="-5"/>
+      <point x="629" y="-13"/>
+      <point x="570" y="-17"/>
+      <point x="534" y="-17" type="qcurve" name="ab01"/>
+      <point x="421" y="-17"/>
+      <point x="239" y="60"/>
+      <point x="110" y="189"/>
+      <point x="41" y="360"/>
+      <point x="41" y="454" type="qcurve" name="ah01"/>
+      <point x="41" y="532"/>
+      <point x="85" y="662"/>
+      <point x="155" y="765"/>
+      <point x="242" y="842"/>
+      <point x="285" y="867" type="qcurve"/>
+      <point x="268" y="896"/>
+      <point x="234" y="964"/>
+      <point x="207" y="1035"/>
+      <point x="190" y="1104"/>
+      <point x="190" y="1134" type="qcurve" name="ah04"/>
+      <point x="190" y="1208"/>
+      <point x="235" y="1341"/>
+      <point x="333" y="1441"/>
+      <point x="488" y="1500"/>
+      <point x="598" y="1500" type="qcurve" name="at01"/>
+      <point x="675" y="1500"/>
+      <point x="792" y="1465"/>
+      <point x="884" y="1406"/>
+      <point x="957" y="1329"/>
+      <point x="991" y="1286" type="qcurve"/>
+      <point x="850" y="1100" type="line"/>
+      <point x="822" y="1137"/>
+      <point x="772" y="1193"/>
+      <point x="719" y="1231"/>
+      <point x="658" y="1250"/>
+      <point x="620" y="1250" type="qcurve"/>
+      <point x="584" y="1250"/>
+      <point x="540" y="1227"/>
+      <point x="515" y="1193"/>
+      <point x="506" y="1152"/>
+      <point x="506" y="1133" type="qcurve"/>
+      <point x="506" y="1121"/>
+      <point x="509" y="1096"/>
+      <point x="513" y="1084" type="qcurve"/>
+      <point x="518" y="1064"/>
+      <point x="545" y="1010"/>
+      <point x="598" y="921"/>
+      <point x="681" y="787"/>
+      <point x="742" y="688" type="qcurve"/>
+      <point x="761" y="657"/>
+      <point x="785" y="618"/>
+      <point x="811" y="578"/>
+      <point x="844" y="525"/>
+      <point x="872" y="480" type="qcurve"/>
+      <point x="886" y="498"/>
+      <point x="894" y="527" type="qcurve"/>
+      <point x="901" y="554"/>
+      <point x="900" y="621" type="qcurve" name="ah02"/>
+      <point x="900" y="720" type="line"/>
+    </contour>
+    <contour>
+      <point x="400" y="694" type="line"/>
+      <point x="400" y="596" type="line"/>
+      <point x="366" y="543"/>
+      <point x="366" y="463" type="qcurve"/>
+      <point x="366" y="405"/>
+      <point x="401" y="319"/>
+      <point x="456" y="262"/>
+      <point x="524" y="233"/>
+      <point x="557" y="233" type="qcurve"/>
+      <point x="599" y="233"/>
+      <point x="652" y="254"/>
+      <point x="672" y="269" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="ah02">
+            <hstem pos="-17" width="250"/>
+            <hstem pos="1250" width="250"/>
+            <vstem pos="41" width="325"/>
+            <vstem pos="900" width="300"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc align="round" code="alignh" point="ah02"/>
+          <ttc align="round" code="alignh" point="ah03"/>
+          <ttc align="round" code="alignh" point="ah04"/>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

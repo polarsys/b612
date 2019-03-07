@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="whitedownpointingsmalltriangle" format="1">
+  <advance width="900"/>
+  <unicode hex="25BF"/>
+  <outline>
+    <contour>
+      <point x="449" y="617" type="line"/>
+      <point x="680" y="1016" type="line"/>
+      <point x="218" y="1016" type="line"/>
+    </contour>
+    <contour>
+      <point x="64" y="1100" type="line"/>
+      <point x="834" y="1100" type="line"/>
+      <point x="449" y="470" type="line"/>
+    </contour>
+  </outline>
+</glyph>

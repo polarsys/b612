@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresis" format="1">
+  <advance width="1300"/>
+  <unicode hex="00A8"/>
+  <outline>
+    <contour>
+      <point x="485" y="1566" type="line" name="av01"/>
+      <point x="761" y="1566" type="line" name="mh01"/>
+      <point x="714" y="1300" type="line" name="sv01"/>
+      <point x="438" y="1300" type="line"/>
+    </contour>
+    <contour>
+      <point x="885" y="1566" type="line" name="av02"/>
+      <point x="1161" y="1566" type="line" name="mh02"/>
+      <point x="1114" y="1300" type="line" name="sv02"/>
+      <point x="838" y="1300" type="line" name="mh03"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="mdeltah" delta="-2" point="mh01" ppm1="15" ppm2="15"/>
+          <ttc code="mdeltah" delta="1" point="mh02" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltah" delta="8" point="mh03" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltah" delta="6" point="mh03" ppm1="12" ppm2="12"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="singlev" point1="av01" point2="mh01"/>
+          <ttc code="singlev" point1="mh01" point2="sv01" stem="Y: 171"/>
+          <ttc code="singlev" point1="av02" point2="mh02"/>
+          <ttc code="singlev" point1="mh02" point2="sv02" stem="Y: 171"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

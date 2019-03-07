@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="perpendicular" format="1">
+  <advance width="1300"/>
+  <unicode hex="22A5"/>
+  <outline>
+    <contour>
+      <point x="700" y="1300" type="line" name="av01"/>
+      <point x="700" y="150" type="line" name="dh02"/>
+      <point x="1100" y="150" type="line"/>
+      <point x="1080" y="0" type="line" name="ab01"/>
+      <point x="95" y="0" type="line"/>
+      <point x="115" y="150" type="line" name="sv01"/>
+      <point x="500" y="150" type="line" name="dh01"/>
+      <point x="500" y="1300" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="doubleh" point1="dh01" point2="dh02" stem="eq X: 208"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="ab01" point2="dh02" stem="eq Y: 153"/>
+          <ttc code="singlev" point1="dh02" point2="sv01"/>
+          <ttc code="singlev" point1="sv01" point2="dh01"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

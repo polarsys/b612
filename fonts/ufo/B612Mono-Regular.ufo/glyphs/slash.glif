@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash" format="1">
+  <advance width="1300"/>
+  <unicode hex="002F"/>
+  <outline>
+    <contour>
+      <point x="385" y="-100" type="line" name="av02"/>
+      <point x="175" y="-100" type="line"/>
+      <point x="885" y="1600" type="line" name="av01"/>
+      <point x="1085" y="1600" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="av02">
+            <hstem pos="-79" width="-21"/>
+            <hstem pos="1600" width="-20"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

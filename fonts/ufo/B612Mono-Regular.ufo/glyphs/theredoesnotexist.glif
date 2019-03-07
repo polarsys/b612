@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="theredoesnotexist" format="1">
+  <advance width="1300"/>
+  <unicode hex="2204"/>
+  <outline>
+    <contour>
+      <point x="320" y="-200" type="line"/>
+      <point x="165" y="-200" type="line"/>
+      <point x="774" y="1500" type="line"/>
+      <point x="920" y="1500" type="line"/>
+    </contour>
+    <contour>
+      <point x="915" y="160" type="line"/>
+      <point x="900" y="350" type="line"/>
+      <point x="900" y="650" type="line"/>
+      <point x="148" y="650" type="line"/>
+      <point x="130" y="800" type="line"/>
+      <point x="900" y="800" type="line"/>
+      <point x="900" y="950" type="line"/>
+      <point x="920" y="1150" type="line"/>
+      <point x="75" y="1150" type="line"/>
+      <point x="75" y="1300" type="line"/>
+      <point x="1092" y="1300" type="line"/>
+      <point x="1070" y="1100" type="line"/>
+      <point x="1070" y="200" type="line"/>
+      <point x="1087" y="0" type="line"/>
+      <point x="75" y="0" type="line"/>
+      <point x="75" y="160" type="line"/>
+    </contour>
+  </outline>
+</glyph>

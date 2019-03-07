@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowdbldown" format="1">
+  <advance width="1200"/>
+  <unicode hex="21D3"/>
+  <outline>
+    <component base="arrowdblup" yScale="-0.999939" yOffset="1500"/>
+  </outline>
+</glyph>

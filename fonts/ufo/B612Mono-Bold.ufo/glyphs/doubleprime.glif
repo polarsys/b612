@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="doubleprime" format="1">
+  <advance width="1300"/>
+  <unicode hex="2033"/>
+  <outline>
+    <contour>
+      <point x="480" y="1230" type="line"/>
+      <point x="319" y="885" type="line"/>
+      <point x="166" y="885" type="line"/>
+      <point x="230" y="1232" type="line"/>
+      <point x="230" y="1520" type="line"/>
+      <point x="480" y="1500" type="line"/>
+    </contour>
+    <contour>
+      <point x="780" y="1230" type="line" name="hr01"/>
+      <point x="619" y="885" type="line"/>
+      <point x="466" y="885" type="line"/>
+      <point x="530" y="1232" type="line"/>
+      <point x="530" y="1520" type="line"/>
+      <point x="780" y="1500" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="906" width="-21"/>
+            <hstem pos="1520" width="-20"/>
+            <vstem pos="530" width="250"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

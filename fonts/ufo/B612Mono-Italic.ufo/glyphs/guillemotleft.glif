@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotleft" format="1">
+  <advance width="1300"/>
+  <unicode hex="00AB"/>
+  <outline>
+    <contour>
+      <point x="650" y="1026" type="line" name="at01"/>
+      <point x="678" y="901" type="line"/>
+      <point x="302" y="610" type="line"/>
+      <point x="153" y="550" type="line" name="iv01"/>
+      <point x="280" y="490" type="line"/>
+      <point x="557" y="201" type="line"/>
+      <point x="479" y="66" type="line" name="av01"/>
+      <point x="84" y="478" type="line"/>
+      <point x="108" y="617" type="line"/>
+    </contour>
+    <contour>
+      <point x="1150" y="1026" type="line" name="at02"/>
+      <point x="1178" y="901" type="line"/>
+      <point x="802" y="610" type="line"/>
+      <point x="653" y="550" type="line" name="iv02"/>
+      <point x="780" y="490" type="line"/>
+      <point x="1057" y="201" type="line"/>
+      <point x="979" y="66" type="line" name="av02"/>
+      <point x="584" y="478" type="line"/>
+      <point x="608" y="617" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignt" point="at01" zone="t: x"/>
+          <ttc code="interpolatev" point="iv01" point1="at01" point2="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="alignt" point="at02" zone="t: x"/>
+          <ttc code="interpolatev" point="iv02" point1="at02" point2="av02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

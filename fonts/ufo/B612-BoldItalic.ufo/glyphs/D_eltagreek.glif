@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Deltagreek" format="1">
+  <advance width="1500"/>
+  <unicode hex="0394"/>
+  <outline>
+    <contour>
+      <point x="1510" y="0" type="line"/>
+      <point x="-52" y="0" type="line"/>
+      <point x="832" y="1494" type="line"/>
+      <point x="1146" y="1528" type="line"/>
+    </contour>
+    <contour>
+      <point x="1077" y="230" type="line"/>
+      <point x="1211" y="178" type="line"/>
+      <point x="1132" y="330" type="line"/>
+      <point x="963" y="1061" type="line"/>
+      <point x="950" y="1265" type="line"/>
+      <point x="867" y="1061" type="line"/>
+      <point x="438" y="330" type="line"/>
+      <point x="302" y="178" type="line"/>
+      <point x="477" y="230" type="line"/>
+    </contour>
+  </outline>
+</glyph>

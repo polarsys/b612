@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="romannumeralnine" format="1">
+  <advance width="2600"/>
+  <unicode hex="2168"/>
+  <outline>
+    <contour>
+      <point x="1978" y="0" type="line"/>
+      <point x="1701" y="519" type="line"/>
+      <point x="1624" y="700" type="line"/>
+      <point x="1576" y="540" type="line"/>
+      <point x="1268" y="0" type="line"/>
+      <point x="386" y="0" type="line"/>
+      <point x="406" y="160" type="line"/>
+      <point x="752" y="160" type="line"/>
+      <point x="752" y="1360" type="line"/>
+      <point x="406" y="1360" type="line"/>
+      <point x="386" y="1500" type="line"/>
+      <point x="1351" y="1500" type="line"/>
+      <point x="1600" y="1056" type="line"/>
+      <point x="1680" y="860" type="line"/>
+      <point x="1715" y="1020" type="line"/>
+      <point x="1967" y="1500" type="line"/>
+      <point x="2167" y="1500" type="line"/>
+      <point x="1768" y="776" type="line"/>
+      <point x="2198" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="962" y="160" type="line"/>
+      <point x="1162" y="160" type="line"/>
+      <point x="1533" y="799" type="line"/>
+      <point x="1208" y="1360" type="line"/>
+      <point x="962" y="1360" type="line"/>
+    </contour>
+  </outline>
+</glyph>

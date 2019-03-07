@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="capslock" format="1">
+  <advance width="1200"/>
+  <unicode hex="21EA"/>
+  <outline>
+    <contour>
+      <point x="599" y="1430" type="line"/>
+      <point x="690" y="1323" type="line"/>
+      <point x="1072" y="957" type="line"/>
+      <point x="1072" y="855" type="line"/>
+      <point x="917" y="855" type="line"/>
+      <point x="909" y="755" type="line"/>
+      <point x="909" y="400" type="line"/>
+      <point x="289" y="400" type="line"/>
+      <point x="289" y="755" type="line"/>
+      <point x="280" y="855" type="line"/>
+      <point x="126" y="855" type="line"/>
+      <point x="126" y="957" type="line"/>
+      <point x="508" y="1323" type="line"/>
+    </contour>
+    <contour>
+      <point x="399" y="662" type="line"/>
+      <point x="399" y="500" type="line"/>
+      <point x="799" y="500" type="line"/>
+      <point x="799" y="662" type="line"/>
+      <point x="820" y="937" type="line"/>
+      <point x="932" y="937" type="line"/>
+      <point x="599" y="1273" type="line"/>
+      <point x="266" y="937" type="line"/>
+      <point x="379" y="937" type="line"/>
+    </contour>
+    <contour>
+      <point x="909" y="300" type="line"/>
+      <point x="909" y="200" type="line"/>
+      <point x="920" y="0" type="line"/>
+      <point x="278" y="0" type="line"/>
+      <point x="289" y="200" type="line"/>
+      <point x="289" y="300" type="line"/>
+    </contour>
+    <contour>
+      <point x="399" y="94" type="line"/>
+      <point x="799" y="94" type="line"/>
+      <point x="799" y="200" type="line"/>
+      <point x="399" y="200" type="line"/>
+    </contour>
+  </outline>
+</glyph>

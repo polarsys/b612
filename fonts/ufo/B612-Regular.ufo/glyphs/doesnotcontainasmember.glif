@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="doesnotcontainasmember" format="1">
+  <advance width="1500"/>
+  <unicode hex="220C"/>
+  <outline>
+    <contour>
+      <point x="420" y="-200" type="line"/>
+      <point x="265" y="-200" type="line"/>
+      <point x="874" y="1500" type="line"/>
+      <point x="1020" y="1500" type="line"/>
+    </contour>
+    <component base="suchthat"/>
+  </outline>
+</glyph>

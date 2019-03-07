@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tilde" format="1">
+  <advance width="1300"/>
+  <unicode hex="02DC"/>
+  <outline>
+    <contour>
+      <point x="318" y="1307" type="line" name="sh01"/>
+      <point x="322" y="1347"/>
+      <point x="354" y="1438"/>
+      <point x="414" y="1514"/>
+      <point x="506" y="1564" name="mv01"/>
+      <point x="569" y="1564" type="qcurve" name="ah01"/>
+      <point x="618" y="1564"/>
+      <point x="685" y="1539"/>
+      <point x="739" y="1509"/>
+      <point x="788" y="1484"/>
+      <point x="819" y="1484" type="qcurve" name="av03"/>
+      <point x="840" y="1484"/>
+      <point x="868" y="1498"/>
+      <point x="887" y="1522"/>
+      <point x="897" y="1554"/>
+      <point x="900" y="1572" type="qcurve"/>
+      <point x="1067" y="1562" type="line" name="av04"/>
+      <point x="1064" y="1518" name="mh01"/>
+      <point x="1036" y="1425"/>
+      <point x="979" y="1349"/>
+      <point x="889" y="1300" name="mv02"/>
+      <point x="822" y="1300" type="qcurve" name="av01"/>
+      <point x="776" y="1300"/>
+      <point x="713" y="1325"/>
+      <point x="661" y="1355"/>
+      <point x="608" y="1380"/>
+      <point x="573" y="1380" type="qcurve" name="av02"/>
+      <point x="555" y="1380"/>
+      <point x="531" y="1366"/>
+      <point x="514" y="1344"/>
+      <point x="504" y="1315"/>
+      <point x="500" y="1300" type="qcurve" name="sh02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList/>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc code="singleh" point1="ah01" point2="sh01" stem="eq X: 208"/>
+          <ttc code="mdeltah" delta="4" point="mh01" ppm1="21" ppm2="21"/>
+          <ttc code="singleh" point1="sh01" point2="sh02" stem="eq X: ecart du B"/>
+          <ttc align="round" code="alignv" point="ah01"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc align="round" code="alignv" point="av03"/>
+          <ttc align="round" code="alignv" point="av04"/>
+          <ttc align="round" code="alignv" point="sh01"/>
+          <ttc code="mdeltav" delta="4" point="sh01" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="5" point="mv01" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="8" point="ah01" ppm1="21" ppm2="21"/>
+          <ttc code="mdeltav" delta="4" point="ah01" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="-5" point="av03" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="-6" point="av03" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="-8" point="av03" ppm1="21" ppm2="21"/>
+          <ttc code="mdeltav" delta="-4" point="mv02" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="1" point="av01" ppm1="21" ppm2="21"/>
+          <ttc code="mdeltav" delta="7" point="av02" ppm1="21" ppm2="21"/>
+          <ttc code="mdeltav" delta="5" point="av02" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="4" point="sh02" ppm1="12" ppm2="12"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

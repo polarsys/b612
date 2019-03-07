@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron" format="1">
+  <advance width="1300"/>
+  <unicode hex="02C7"/>
+  <outline>
+    <contour>
+      <point x="880" y="1220" type="line" name="av01"/>
+      <point x="683" y="1240" type="line"/>
+      <point x="557" y="1520" type="line" name="ih02"/>
+      <point x="707" y="1520" type="line"/>
+      <point x="794" y="1387" type="line"/>
+      <point x="800" y="1310" type="line" name="ih01"/>
+      <point x="834" y="1388" type="line"/>
+      <point x="968" y="1520" type="line"/>
+      <point x="1118" y="1520" type="line" name="ih03"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="interpolateh" point="ih01" point1="ih02" point2="ih03"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignt" point="ih02" zone="t: 1"/>
+          <ttc code="singlev" point1="ih02" point2="ih03"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

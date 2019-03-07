@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecircumflex" format="1">
+  <advance width="1300"/>
+  <unicode hex="00CA"/>
+  <outline>
+    <contour>
+      <point x="1066" y="228" type="line"/>
+      <point x="999" y="0" type="line" name="sv01"/>
+      <point x="39" y="0" type="line" name="ab01"/>
+      <point x="97" y="231" type="line"/>
+      <point x="279" y="1263" type="line"/>
+      <point x="279" y="1500" type="line" name="at01"/>
+      <point x="1254" y="1500" type="line" name="sv02"/>
+      <point x="1214" y="1272" type="line"/>
+      <point x="617" y="1272" type="line"/>
+      <point x="607" y="1134" type="line"/>
+      <point x="569" y="916" type="line" name="av01"/>
+      <point x="1085" y="916" type="line" name="sv03"/>
+      <point x="1047" y="703" type="line"/>
+      <point x="531" y="703" type="line"/>
+      <point x="471" y="360" type="line"/>
+      <point x="439" y="228" type="line" name="mv01"/>
+    </contour>
+    <contour>
+      <point x="1143" y="1620" type="line" name="sv04"/>
+      <point x="923" y="1620" type="line"/>
+      <point x="871" y="1723" type="line"/>
+      <point x="864" y="1850" type="line"/>
+      <point x="811" y="1723" type="line"/>
+      <point x="712" y="1620" type="line"/>
+      <point x="473" y="1620" type="line" name="av02"/>
+      <point x="717" y="1900" type="line"/>
+      <point x="1011" y="1920" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="sv04">
+            <hstem pos="1641" width="-21"/>
+            <hstem pos="1920" width="-20"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="ab01" point2="sv01"/>
+          <ttc code="singlev" point1="at01" point2="sv02"/>
+          <ttc code="mdeltav" delta="-1" point="sv02" ppm1="12" ppm2="12"/>
+          <ttc code="singlev" point1="av01" point2="sv03"/>
+          <ttc code="mdeltav" delta="-1" point="mv01" ppm1="12" ppm2="12"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="singlev" point1="av02" point2="sv04"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="redo" format="1">
+  <advance width="1600"/>
+  <unicode hex="21B7"/>
+  <outline>
+    <component base="undo" xScale="-0.999939" xOffset="1600"/>
+  </outline>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicalnot" format="1">
+  <advance width="1300"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="1258" y="800" type="line" name="sv01"/>
+      <point x="1203" y="589" type="line"/>
+      <point x="1149" y="280" type="line" name="sv02"/>
+      <point x="949" y="280" type="line" name="av02"/>
+      <point x="979" y="449" type="line"/>
+      <point x="1028" y="640" type="line"/>
+      <point x="24" y="640" type="line" name="sv03"/>
+      <point x="53" y="800" type="line" name="av01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="singlev" point1="av01" point2="sv01"/>
+          <ttc code="singlev" point1="av02" point2="sv02"/>
+          <ttc code="singlev" point1="av01" point2="sv03" stem="Y: 153"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

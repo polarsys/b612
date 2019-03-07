@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="smallromannumeralseven" format="1">
+  <advance width="2600"/>
+  <unicode hex="2176"/>
+  <outline>
+    <contour>
+      <point x="508" y="700" type="line"/>
+      <point x="511" y="300" type="line"/>
+      <point x="654" y="700" type="line"/>
+      <point x="855" y="1100" type="line" name="sv01"/>
+      <point x="1172" y="1120" type="line" name="at02"/>
+      <point x="598" y="-17" type="line" name="ab01"/>
+      <point x="285" y="0" type="line"/>
+      <point x="128" y="1100" type="line" name="at03"/>
+      <point x="446" y="1120" type="line" name="at01"/>
+    </contour>
+    <contour>
+      <point x="1351" y="0" type="line" name="hr01"/>
+      <point x="1051" y="0" type="line"/>
+      <point x="1245" y="1100" type="line"/>
+      <point x="1548" y="1120" type="line"/>
+    </contour>
+    <contour>
+      <point x="1851" y="0" type="line" name="hr02"/>
+      <point x="1551" y="0" type="line"/>
+      <point x="1745" y="1100" type="line"/>
+      <point x="2048" y="1120" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="1300" width="200"/>
+            <vstem pos="900" width="190"/>
+          </hintset>
+          <hintset pointTag="hr02">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="1300" width="200"/>
+            <vstem pos="1400" width="190"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: x"/>
+          <ttc code="alignt" point="at02" zone="t: x"/>
+          <ttc code="alignt" point="at03" zone="t: x"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="at03" point2="sv01"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

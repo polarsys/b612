@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dagger" format="1">
+  <advance width="1300"/>
+  <unicode hex="2020"/>
+  <outline>
+    <contour>
+      <point x="288" y="1117" type="line" name="at02"/>
+      <point x="544" y="1117" type="line"/>
+      <point x="611" y="1500" type="line"/>
+      <point x="897" y="1520" type="line" name="at01"/>
+      <point x="826" y="1117" type="line"/>
+      <point x="1116" y="1117" type="line" name="sv01"/>
+      <point x="1050" y="900" type="line"/>
+      <point x="788" y="900" type="line"/>
+      <point x="558" y="-401" type="line" name="sv02"/>
+      <point x="276" y="-401" type="line" name="av01"/>
+      <point x="506" y="900" type="line"/>
+      <point x="250" y="900" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="at02">
+            <hstem pos="-379" width="-21"/>
+            <hstem pos="900" width="149"/>
+            <hstem pos="1520" width="-20"/>
+            <vstem pos="400" width="200"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignt" point="at02" zone="t: x"/>
+          <ttc code="singlev" point1="at02" point2="sv01"/>
+          <ttc code="singlev" point1="av01" point2="sv02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

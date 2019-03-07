@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="estimate" format="1">
+  <advance width="1300"/>
+  <unicode hex="2259"/>
+  <outline>
+    <contour>
+      <point x="200" y="300" type="line"/>
+      <point x="1000" y="300" type="line" name="av02"/>
+      <point x="1000" y="116" type="line" name="sv01"/>
+      <point x="200" y="116" type="line" name="sv02"/>
+    </contour>
+    <contour>
+      <point x="200" y="600" type="line"/>
+      <point x="1000" y="600" type="line" name="av01"/>
+      <point x="1000" y="416" type="line" name="sv03"/>
+      <point x="200" y="416" type="line" name="sv04"/>
+    </contour>
+    <contour>
+      <point x="960" y="727" type="line" name="mh01"/>
+      <point x="780" y="727" type="line" name="mv01"/>
+      <point x="600" y="927" type="line"/>
+      <point x="420" y="728" type="line" name="mv02"/>
+      <point x="240" y="728" type="line" name="mh02"/>
+      <point x="530" y="1107" type="line"/>
+      <point x="656" y="1119" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="mh01">
+            <hstem pos="739" width="-12"/>
+            <hstem pos="1119" width="-12"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="mdeltah" delta="-6" point="mh01" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltah" delta="5" point="mh02" ppm1="12" ppm2="12"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="mdeltav" delta="-5" point="av02" ppm1="17" ppm2="17"/>
+          <ttc code="mdeltav" delta="-6" point="av02" ppm1="24" ppm2="24"/>
+          <ttc code="mdeltav" delta="-7" point="av02" ppm1="18" ppm2="18"/>
+          <ttc code="singlev" point1="av02" point2="sv01" stem="eq Y: 144"/>
+          <ttc code="mdeltav" delta="-4" point="sv01" ppm1="18" ppm2="18"/>
+          <ttc code="mdeltav" delta="-5" point="sv01" ppm1="17" ppm2="17"/>
+          <ttc code="singlev" point1="sv01" point2="sv02"/>
+          <ttc code="singlev" point1="av01" point2="sv03" stem="eq Y: 144"/>
+          <ttc code="mdeltav" delta="7" point="sv03" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="5" point="sv03" ppm1="14" ppm2="14"/>
+          <ttc code="mdeltav" delta="-1" point="sv03" ppm1="17" ppm2="17"/>
+          <ttc code="singlev" point1="sv03" point2="sv04"/>
+          <ttc code="mdeltav" delta="5" point="mh01" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="2" point="mh01" ppm1="14" ppm2="14"/>
+          <ttc code="mdeltav" delta="6" point="mv01" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="6" point="mv02" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="5" point="mh02" ppm1="12" ppm2="12"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

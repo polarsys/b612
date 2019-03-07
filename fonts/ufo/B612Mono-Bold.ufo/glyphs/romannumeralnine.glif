@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="romannumeralnine" format="1">
+  <advance width="2600"/>
+  <unicode hex="2168"/>
+  <outline>
+    <contour>
+      <point x="1889" y="0" type="line" name="hr00"/>
+      <point x="1577" y="583" type="line"/>
+      <point x="1556" y="400" type="line"/>
+      <point x="1328" y="0" type="line"/>
+      <point x="985" y="0" type="line"/>
+      <point x="1446" y="797" type="line"/>
+      <point x="1044" y="1500" type="line"/>
+      <point x="1400" y="1500" type="line"/>
+      <point x="1686" y="995" type="line"/>
+      <point x="1717" y="1199" type="line"/>
+      <point x="1878" y="1500" type="line"/>
+      <point x="2223" y="1500" type="line"/>
+      <point x="1823" y="800" type="line"/>
+      <point x="2252" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="339" y="1500" type="line"/>
+      <point x="1217" y="1500" type="line"/>
+      <point x="1217" y="1272" type="line"/>
+      <point x="944" y="1272" type="line"/>
+      <point x="944" y="228" type="line"/>
+      <point x="1245" y="228" type="line"/>
+      <point x="1210" y="0" type="line"/>
+      <point x="332" y="0" type="line"/>
+      <point x="332" y="228" type="line"/>
+      <point x="610" y="228" type="line"/>
+      <point x="610" y="1272" type="line"/>
+      <point x="304" y="1272" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="0" width="228"/>
+            <hstem pos="1272" width="228"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="romannumeralthree" format="1">
+  <advance width="2600"/>
+  <unicode hex="2162"/>
+  <outline>
+    <contour>
+      <point x="862" y="160" type="line"/>
+      <point x="1145" y="160" type="line"/>
+      <point x="1145" y="1360" type="line"/>
+      <point x="862" y="1360" type="line"/>
+    </contour>
+    <contour>
+      <point x="286" y="1500" type="line"/>
+      <point x="2182" y="1500" type="line"/>
+      <point x="2182" y="1360" type="line"/>
+      <point x="1824" y="1360" type="line"/>
+      <point x="1824" y="160" type="line"/>
+      <point x="2202" y="160" type="line"/>
+      <point x="2182" y="0" type="line"/>
+      <point x="286" y="0" type="line"/>
+      <point x="306" y="160" type="line"/>
+      <point x="652" y="160" type="line"/>
+      <point x="652" y="1360" type="line"/>
+      <point x="306" y="1360" type="line"/>
+    </contour>
+    <contour>
+      <point x="1355" y="160" type="line"/>
+      <point x="1638" y="160" type="line"/>
+      <point x="1638" y="1360" type="line"/>
+      <point x="1355" y="1360" type="line"/>
+    </contour>
+  </outline>
+</glyph>

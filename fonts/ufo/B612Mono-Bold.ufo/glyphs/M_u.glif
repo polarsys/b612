@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Mu" format="1">
+  <advance width="1300"/>
+  <unicode hex="039C"/>
+  <outline>
+    <contour>
+      <point x="883" y="0" type="line" name="sh01"/>
+      <point x="883" y="449" type="line" name="mh01"/>
+      <point x="990" y="1200" type="line" name="mh02"/>
+      <point x="980" y="1200" type="line" name="ih01"/>
+      <point x="843" y="700" type="line" name="mh03"/>
+      <point x="755" y="475" type="line" name="ih03"/>
+      <point x="544" y="475" type="line" name="ih04"/>
+      <point x="459" y="700" type="line" name="mh05"/>
+      <point x="320" y="1200" type="line" name="ih05"/>
+      <point x="310" y="1200" type="line" name="mh06"/>
+      <point x="422" y="449" type="line" name="mh04"/>
+      <point x="422" y="0" type="line" name="dh02"/>
+      <point x="100" y="0" type="line" name="dh01"/>
+      <point x="100" y="1263" type="line"/>
+      <point x="69" y="1500" type="line" name="ih06"/>
+      <point x="409" y="1520" type="line" name="sh02"/>
+      <point x="600" y="1079" type="line" name="mh07"/>
+      <point x="651" y="800" type="line" name="ah02"/>
+      <point x="700" y="1082" type="line" name="mh08"/>
+      <point x="870" y="1500" type="line" name="sh03"/>
+      <point x="1206" y="1520" type="line" name="ih02"/>
+      <point x="1206" y="0" type="line" name="ah01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="sh01">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="1520" width="-20"/>
+            <vstem pos="100" width="322"/>
+            <vstem pos="883" width="323"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc align="round" code="alignh" point="ah02"/>
+          <ttc code="doubleh" point1="dh01" point2="dh02" stem="eq X: 208"/>
+          <ttc code="singleh" point1="ah01" point2="sh01" stem="eq X: 208"/>
+          <ttc code="mdeltah" delta="3" point="mh01" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltah" delta="-2" point="mh01" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltah" delta="-8" point="mh02" ppm1="24" ppm2="25"/>
+          <ttc code="mdeltah" delta="-7" point="mh02" ppm1="27" ppm2="27"/>
+          <ttc code="mdeltah" delta="-6" point="mh02" ppm1="30" ppm2="30"/>
+          <ttc code="mdeltah" delta="-5" point="mh02" ppm1="26" ppm2="26"/>
+          <ttc code="mdeltah" delta="-4" point="mh02" ppm1="18" ppm2="18"/>
+          <ttc code="mdeltah" delta="-3" point="mh02" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltah" delta="-3" point="mh02" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltah" delta="1" point="mh02" ppm1="31" ppm2="31"/>
+          <ttc code="mdeltah" delta="1" point="mh02" ppm1="48" ppm2="48"/>
+          <ttc code="mdeltah" delta="-3" point="mh02" ppm1="14" ppm2="14"/>
+          <ttc code="mdeltah" delta="-3" point="mh02" ppm1="28" ppm2="28"/>
+          <ttc code="mdeltah" delta="-4" point="mh02" ppm1="23" ppm2="23"/>
+          <ttc code="mdeltah" delta="-6" point="mh02" ppm1="34" ppm2="34"/>
+          <ttc code="mdeltah" delta="-6" point="mh02" ppm1="20" ppm2="20"/>
+          <ttc code="mdeltah" delta="-8" point="mh02" ppm1="33" ppm2="33"/>
+          <ttc code="mdeltah" delta="-8" point="mh02" ppm1="29" ppm2="29"/>
+          <ttc code="mdeltah" delta="-8" point="mh02" ppm1="19" ppm2="19"/>
+          <ttc code="mdeltah" delta="-4" point="mh03" ppm1="14" ppm2="14"/>
+          <ttc code="mdeltah" delta="-3" point="mh03" ppm1="24" ppm2="24"/>
+          <ttc code="mdeltah" delta="-2" point="mh03" ppm1="33" ppm2="33"/>
+          <ttc code="mdeltah" delta="1" point="mh03" ppm1="28" ppm2="28"/>
+          <ttc code="mdeltah" delta="3" point="mh03" ppm1="31" ppm2="31"/>
+          <ttc code="mdeltah" delta="-1" point="mh03" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltah" delta="-3" point="mh03" ppm1="18" ppm2="18"/>
+          <ttc code="mdeltah" delta="-3" point="mh03" ppm1="30" ppm2="30"/>
+          <ttc code="mdeltah" delta="-5" point="mh03" ppm1="19" ppm2="19"/>
+          <ttc code="mdeltah" delta="-5" point="mh03" ppm1="29" ppm2="29"/>
+          <ttc code="interpolateh" point="ih01" point1="ih02" point2="mh03"/>
+          <ttc code="mdeltah" delta="-3" point="ih01" ppm1="14" ppm2="14"/>
+          <ttc code="mdeltah" delta="1" point="ih01" ppm1="32" ppm2="32"/>
+          <ttc code="mdeltah" delta="3" point="ih01" ppm1="48" ppm2="48"/>
+          <ttc code="mdeltah" delta="6" point="ih01" ppm1="33" ppm2="33"/>
+          <ttc code="mdeltah" delta="5" point="ih01" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltah" delta="2" point="ih01" ppm1="42" ppm2="42"/>
+          <ttc code="mdeltah" delta="-2" point="ih01" ppm1="27" ppm2="27"/>
+          <ttc code="mdeltah" delta="-3" point="ih01" ppm1="28" ppm2="29"/>
+          <ttc code="mdeltah" delta="-4" point="ih01" ppm1="19" ppm2="19"/>
+          <ttc code="mdeltah" delta="-1" point="mh04" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltah" delta="-1" point="mh04" ppm1="33" ppm2="33"/>
+          <ttc code="mdeltah" delta="-2" point="mh04" ppm1="18" ppm2="18"/>
+          <ttc code="interpolateh" point="ih03" point1="mh01" point2="mh04"/>
+          <ttc code="mdeltah" delta="-5" point="ih03" ppm1="20" ppm2="20"/>
+          <ttc code="interpolateh" point="ih04" point1="mh04" point2="mh01"/>
+          <ttc code="mdeltah" delta="4" point="ih04" ppm1="16" ppm2="16"/>
+          <ttc code="mdeltah" delta="5" point="ih04" ppm1="20" ppm2="20"/>
+          <ttc code="mdeltah" delta="4" point="ih04" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltah" delta="4" point="ih04" ppm1="23" ppm2="23"/>
+          <ttc code="mdeltah" delta="-2" point="ih04" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltah" delta="1" point="mh05" ppm1="34" ppm2="34"/>
+          <ttc code="mdeltah" delta="2" point="mh05" ppm1="16" ppm2="16"/>
+          <ttc code="mdeltah" delta="4" point="mh05" ppm1="18" ppm2="18"/>
+          <ttc code="mdeltah" delta="5" point="mh05" ppm1="31" ppm2="31"/>
+          <ttc code="mdeltah" delta="5" point="mh05" ppm1="28" ppm2="28"/>
+          <ttc code="mdeltah" delta="4" point="mh05" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltah" delta="3" point="mh05" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltah" delta="2" point="mh05" ppm1="23" ppm2="23"/>
+          <ttc code="mdeltah" delta="-2" point="mh05" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltah" delta="-4" point="mh05" ppm1="27" ppm2="27"/>
+          <ttc code="interpolateh" point="ih05" point1="ih06" point2="mh05"/>
+          <ttc code="mdeltah" delta="-6" point="ih05" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltah" delta="-5" point="ih05" ppm1="34" ppm2="34"/>
+          <ttc code="mdeltah" delta="-1" point="ih05" ppm1="29" ppm2="29"/>
+          <ttc code="mdeltah" delta="3" point="ih05" ppm1="21" ppm2="21"/>
+          <ttc code="mdeltah" delta="3" point="ih05" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltah" delta="6" point="ih05" ppm1="23" ppm2="23"/>
+          <ttc code="mdeltah" delta="8" point="ih05" ppm1="18" ppm2="18"/>
+          <ttc code="mdeltah" delta="5" point="ih05" ppm1="26" ppm2="26"/>
+          <ttc code="mdeltah" delta="3" point="ih05" ppm1="19" ppm2="19"/>
+          <ttc code="mdeltah" delta="-1" point="ih05" ppm1="14" ppm2="14"/>
+          <ttc code="mdeltah" delta="-4" point="ih05" ppm1="33" ppm2="33"/>
+          <ttc code="mdeltah" delta="-5" point="ih05" ppm1="31" ppm2="31"/>
+          <ttc code="mdeltah" delta="-6" point="ih05" ppm1="28" ppm2="28"/>
+          <ttc code="mdeltah" delta="-8" point="ih05" ppm1="24" ppm2="24"/>
+          <ttc code="mdeltah" delta="2" point="mh06" ppm1="14" ppm2="15"/>
+          <ttc code="mdeltah" delta="3" point="mh06" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltah" delta="5" point="mh06" ppm1="35" ppm2="35"/>
+          <ttc code="mdeltah" delta="5" point="mh06" ppm1="19" ppm2="20"/>
+          <ttc code="mdeltah" delta="7" point="mh06" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltah" delta="8" point="mh06" ppm1="23" ppm2="25"/>
+          <ttc code="mdeltah" delta="8" point="mh06" ppm1="29" ppm2="29"/>
+          <ttc code="mdeltah" delta="6" point="mh06" ppm1="26" ppm2="26"/>
+          <ttc code="mdeltah" delta="5" point="mh06" ppm1="28" ppm2="28"/>
+          <ttc code="mdeltah" delta="4" point="mh06" ppm1="34" ppm2="34"/>
+          <ttc code="mdeltah" delta="3" point="mh06" ppm1="31" ppm2="31"/>
+          <ttc code="mdeltah" delta="2" point="mh06" ppm1="33" ppm2="33"/>
+          <ttc code="mdeltah" delta="1" point="mh06" ppm1="27" ppm2="27"/>
+          <ttc code="singleh" point1="ah02" point2="sh02"/>
+          <ttc code="mdeltah" delta="5" point="sh02" ppm1="19" ppm2="19"/>
+          <ttc code="mdeltah" delta="-5" point="sh02" ppm1="17" ppm2="17"/>
+          <ttc code="mdeltah" delta="3" point="mh07" ppm1="19" ppm2="19"/>
+          <ttc code="mdeltah" delta="2" point="mh07" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltah" delta="-4" point="mh07" ppm1="17" ppm2="17"/>
+          <ttc code="mdeltah" delta="4" point="mh08" ppm1="13" ppm2="13"/>
+          <ttc code="singleh" point1="ah02" point2="sh03"/>
+          <ttc code="mdeltah" delta="8" point="sh03" ppm1="23" ppm2="23"/>
+          <ttc code="mdeltah" delta="1" point="sh03" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltah" delta="1" point="sh03" ppm1="15" ppm2="15"/>
+          <ttc align="round" code="alignv" point="ih03"/>
+          <ttc code="alignt" point="ih02" zone="t: 1"/>
+          <ttc code="alignt" point="sh02" zone="t: 1"/>
+          <ttc code="alignb" point="dh02" zone="b: 0"/>
+          <ttc code="alignb" point="ah01" zone="b: 0"/>
+          <ttc code="mdeltav" delta="5" point="mh01" ppm1="32" ppm2="32"/>
+          <ttc code="mdeltav" delta="2" point="mh01" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="1" point="mh01" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltav" delta="-8" point="mh02" ppm1="26" ppm2="26"/>
+          <ttc code="mdeltav" delta="-8" point="mh02" ppm1="16" ppm2="16"/>
+          <ttc code="mdeltav" delta="-6" point="mh02" ppm1="29" ppm2="29"/>
+          <ttc code="mdeltav" delta="-5" point="mh02" ppm1="34" ppm2="34"/>
+          <ttc code="mdeltav" delta="-2" point="mh02" ppm1="27" ppm2="27"/>
+          <ttc code="mdeltav" delta="-1" point="mh02" ppm1="23" ppm2="23"/>
+          <ttc code="mdeltav" delta="4" point="mh02" ppm1="48" ppm2="48"/>
+          <ttc code="mdeltav" delta="5" point="mh02" ppm1="31" ppm2="31"/>
+          <ttc code="mdeltav" delta="-1" point="mh02" ppm1="18" ppm2="18"/>
+          <ttc code="mdeltav" delta="-1" point="mh02" ppm1="33" ppm2="33"/>
+          <ttc code="mdeltav" delta="-3" point="mh02" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="-6" point="mh02" ppm1="19" ppm2="20"/>
+          <ttc code="mdeltav" delta="-7" point="mh02" ppm1="25" ppm2="25"/>
+          <ttc code="mdeltav" delta="-8" point="mh02" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltav" delta="-8" point="mh02" ppm1="28" ppm2="28"/>
+          <ttc code="mdeltav" delta="-8" point="mh02" ppm1="30" ppm2="30"/>
+          <ttc code="mdeltav" delta="-8" point="ih01" ppm1="16" ppm2="16"/>
+          <ttc code="mdeltav" delta="-5" point="ih01" ppm1="31" ppm2="31"/>
+          <ttc code="mdeltav" delta="-3" point="ih01" ppm1="42" ppm2="42"/>
+          <ttc code="mdeltav" delta="-2" point="ih01" ppm1="32" ppm2="32"/>
+          <ttc code="mdeltav" delta="6" point="ih01" ppm1="30" ppm2="30"/>
+          <ttc code="mdeltav" delta="-2" point="ih01" ppm1="14" ppm2="14"/>
+          <ttc code="mdeltav" delta="-2" point="ih01" ppm1="48" ppm2="48"/>
+          <ttc code="mdeltav" delta="-5" point="ih01" ppm1="28" ppm2="28"/>
+          <ttc code="mdeltav" delta="-7" point="ih01" ppm1="29" ppm2="29"/>
+          <ttc code="mdeltav" delta="-8" point="ih01" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltav" delta="-8" point="ih01" ppm1="34" ppm2="34"/>
+          <ttc code="mdeltav" delta="8" point="mh03" ppm1="33" ppm2="33"/>
+          <ttc code="mdeltav" delta="8" point="mh03" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltav" delta="8" point="mh03" ppm1="19" ppm2="19"/>
+          <ttc code="mdeltav" delta="8" point="mh03" ppm1="27" ppm2="27"/>
+          <ttc code="mdeltav" delta="6" point="mh03" ppm1="25" ppm2="25"/>
+          <ttc code="mdeltav" delta="-4" point="mh03" ppm1="23" ppm2="23"/>
+          <ttc code="mdeltav" delta="8" point="ih03" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltav" delta="4" point="ih03" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="8" point="ih04" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltav" delta="8" point="ih04" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="8" point="ih04" ppm1="27" ppm2="27"/>
+          <ttc code="mdeltav" delta="5" point="ih04" ppm1="14" ppm2="14"/>
+          <ttc code="mdeltav" delta="5" point="mh05" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="8" point="mh05" ppm1="34" ppm2="35"/>
+          <ttc code="mdeltav" delta="8" point="mh05" ppm1="27" ppm2="27"/>
+          <ttc code="mdeltav" delta="8" point="mh05" ppm1="19" ppm2="19"/>
+          <ttc code="mdeltav" delta="8" point="mh05" ppm1="23" ppm2="23"/>
+          <ttc code="mdeltav" delta="8" point="mh05" ppm1="29" ppm2="29"/>
+          <ttc code="mdeltav" delta="6" point="mh05" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltav" delta="-1" point="mh05" ppm1="31" ppm2="31"/>
+          <ttc code="mdeltav" delta="-3" point="mh05" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="-8" point="ih05" ppm1="20" ppm2="20"/>
+          <ttc code="mdeltav" delta="-7" point="ih05" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="-6" point="ih05" ppm1="21" ppm2="21"/>
+          <ttc code="mdeltav" delta="-2" point="ih05" ppm1="18" ppm2="19"/>
+          <ttc code="mdeltav" delta="2" point="ih05" ppm1="34" ppm2="34"/>
+          <ttc code="mdeltav" delta="4" point="ih05" ppm1="31" ppm2="31"/>
+          <ttc code="mdeltav" delta="3" point="ih05" ppm1="33" ppm2="33"/>
+          <ttc code="mdeltav" delta="-2" point="ih05" ppm1="14" ppm2="14"/>
+          <ttc code="mdeltav" delta="-5" point="ih05" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltav" delta="-6" point="ih05" ppm1="28" ppm2="28"/>
+          <ttc code="mdeltav" delta="-8" point="ih05" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="-8" point="ih05" ppm1="26" ppm2="26"/>
+          <ttc code="mdeltav" delta="-8" point="ih05" ppm1="29" ppm2="29"/>
+          <ttc code="mdeltav" delta="-8" point="mh06" ppm1="22" ppm2="23"/>
+          <ttc code="mdeltav" delta="-6" point="mh06" ppm1="20" ppm2="20"/>
+          <ttc code="mdeltav" delta="-5" point="mh06" ppm1="25" ppm2="25"/>
+          <ttc code="mdeltav" delta="-3" point="mh06" ppm1="15" ppm2="15"/>
+          <ttc code="mdeltav" delta="-1" point="mh06" ppm1="27" ppm2="27"/>
+          <ttc code="mdeltav" delta="3" point="mh06" ppm1="31" ppm2="31"/>
+          <ttc code="mdeltav" delta="6" point="mh06" ppm1="34" ppm2="34"/>
+          <ttc code="mdeltav" delta="3" point="mh06" ppm1="33" ppm2="33"/>
+          <ttc code="mdeltav" delta="-2" point="mh06" ppm1="13" ppm2="14"/>
+          <ttc code="mdeltav" delta="-3" point="mh06" ppm1="28" ppm2="28"/>
+          <ttc code="mdeltav" delta="-5" point="mh06" ppm1="35" ppm2="35"/>
+          <ttc code="mdeltav" delta="-8" point="mh06" ppm1="19" ppm2="19"/>
+          <ttc code="mdeltav" delta="-8" point="mh06" ppm1="26" ppm2="26"/>
+          <ttc code="mdeltav" delta="-8" point="mh06" ppm1="29" ppm2="29"/>
+          <ttc code="mdeltav" delta="8" point="mh04" ppm1="33" ppm2="33"/>
+          <ttc code="mdeltav" delta="8" point="mh04" ppm1="29" ppm2="29"/>
+          <ttc code="mdeltav" delta="7" point="mh04" ppm1="18" ppm2="18"/>
+          <ttc code="mdeltav" delta="3" point="mh04" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="6" point="mh07" ppm1="13" ppm2="13"/>
+          <ttc code="interpolatev" point="ah02" point1="dh02" point2="sh02"/>
+          <ttc code="mdeltav" delta="-3" point="sh03" ppm1="13" ppm2="13"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

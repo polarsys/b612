@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotright" format="1">
+  <advance width="1300"/>
+  <unicode hex="00BB"/>
+  <outline>
+    <contour>
+      <point x="789" y="619" type="line"/>
+      <point x="764" y="476" type="line"/>
+      <point x="122" y="-13" type="line" name="ab01"/>
+      <point x="70" y="224" type="line"/>
+      <point x="455" y="517" type="line"/>
+      <point x="535" y="550" type="line" name="iv01"/>
+      <point x="466" y="582" type="line"/>
+      <point x="187" y="880" type="line"/>
+      <point x="316" y="1106" type="line" name="at01"/>
+    </contour>
+    <contour>
+      <point x="1289" y="619" type="line"/>
+      <point x="1264" y="476" type="line"/>
+      <point x="622" y="-13" type="line" name="ab02"/>
+      <point x="570" y="224" type="line"/>
+      <point x="955" y="517" type="line"/>
+      <point x="1035" y="550" type="line" name="iv02"/>
+      <point x="966" y="582" type="line"/>
+      <point x="687" y="880" type="line"/>
+      <point x="816" y="1106" type="line" name="at02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: x"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="interpolatev" point="iv01" point1="at01" point2="ab01"/>
+          <ttc code="alignt" point="at02" zone="t: x"/>
+          <ttc code="alignb" point="ab02" zone="b: 0"/>
+          <ttc code="interpolatev" point="iv02" point1="at02" point2="ab02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

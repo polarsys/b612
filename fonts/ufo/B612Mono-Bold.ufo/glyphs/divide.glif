@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divide" format="1">
+  <advance width="1300"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <contour>
+      <point x="509" y="287" type="qcurve" name="ah03"/>
+      <point x="509" y="316"/>
+      <point x="531" y="367"/>
+      <point x="570" y="406"/>
+      <point x="620" y="428"/>
+      <point x="649" y="428" type="qcurve" name="mh01"/>
+      <point x="678" y="428"/>
+      <point x="728" y="406"/>
+      <point x="767" y="367"/>
+      <point x="789" y="316"/>
+      <point x="789" y="287" type="qcurve" name="ah04"/>
+      <point x="789" y="259"/>
+      <point x="767" y="207"/>
+      <point x="730" y="168"/>
+      <point x="679" y="144"/>
+      <point x="650" y="144" type="qcurve" name="av04"/>
+      <point x="622" y="144"/>
+      <point x="570" y="168"/>
+      <point x="531" y="207"/>
+      <point x="509" y="259"/>
+    </contour>
+    <contour>
+      <point x="509" y="940" type="qcurve" name="ah01"/>
+      <point x="509" y="969"/>
+      <point x="531" y="1020"/>
+      <point x="570" y="1059"/>
+      <point x="620" y="1081"/>
+      <point x="649" y="1081" type="qcurve" name="av03"/>
+      <point x="678" y="1081"/>
+      <point x="728" y="1059"/>
+      <point x="767" y="1020"/>
+      <point x="789" y="969"/>
+      <point x="789" y="940" type="qcurve" name="ah02"/>
+      <point x="789" y="912"/>
+      <point x="767" y="860"/>
+      <point x="730" y="821"/>
+      <point x="679" y="797"/>
+      <point x="650" y="797" type="qcurve" name="av02"/>
+      <point x="622" y="797"/>
+      <point x="570" y="821"/>
+      <point x="531" y="860"/>
+      <point x="509" y="912"/>
+    </contour>
+    <contour>
+      <point x="200" y="724" type="line" name="av01"/>
+      <point x="1100" y="724" type="line" name="sv01"/>
+      <point x="1100" y="500" type="line"/>
+      <point x="200" y="500" type="line" name="sv02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="ah03">
+            <hstem pos="144" width="284"/>
+            <hstem pos="500" width="224"/>
+            <hstem pos="797" width="284"/>
+            <vstem pos="509" width="280"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc align="round" code="alignh" point="ah02"/>
+          <ttc align="round" code="alignh" point="ah03"/>
+          <ttc align="round" code="alignh" point="ah04"/>
+          <ttc code="mdeltah" delta="4" point="mh01" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltah" delta="1" point="mh01" ppm1="14" ppm2="14"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc align="round" code="alignv" point="av03"/>
+          <ttc align="round" code="alignv" point="mh01"/>
+          <ttc align="round" code="alignv" point="av04"/>
+          <ttc code="mdeltav" delta="-4" point="mh01" ppm1="20" ppm2="21"/>
+          <ttc code="mdeltav" delta="-3" point="mh01" ppm1="14" ppm2="14"/>
+          <ttc code="mdeltav" delta="-2" point="mh01" ppm1="22" ppm2="22"/>
+          <ttc code="mdeltav" delta="-3" point="mh01" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="-4" point="mh01" ppm1="15" ppm2="15"/>
+          <ttc code="mdeltav" delta="-5" point="mh01" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="-6" point="mh01" ppm1="17" ppm2="17"/>
+          <ttc code="mdeltav" delta="5" point="av02" ppm1="16" ppm2="16"/>
+          <ttc code="mdeltav" delta="5" point="av02" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="4" point="av02" ppm1="21" ppm2="21"/>
+          <ttc code="mdeltav" delta="3" point="av02" ppm1="18" ppm2="18"/>
+          <ttc code="singlev" point1="av01" point2="sv01"/>
+          <ttc code="singlev" point1="av01" point2="sv02" stem="eq Y: 171"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

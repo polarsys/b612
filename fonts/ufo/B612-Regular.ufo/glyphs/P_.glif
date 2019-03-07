@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="P" format="1">
+  <advance width="1200"/>
+  <unicode hex="0050"/>
+  <outline>
+    <contour>
+      <point x="400" y="0" type="line" name="sh02"/>
+      <point x="190" y="0" type="line" name="sh01"/>
+      <point x="190" y="1290" type="line"/>
+      <point x="155" y="1490" type="line"/>
+      <point x="185" y="1495"/>
+      <point x="272" y="1503"/>
+      <point x="370" y="1509"/>
+      <point x="468" y="1512"/>
+      <point x="507" y="1512" type="qcurve" name="at01"/>
+      <point x="622" y="1512"/>
+      <point x="833" y="1471"/>
+      <point x="995" y="1375"/>
+      <point x="1091" y="1219"/>
+      <point x="1091" y="1104" type="qcurve" name="sh03"/>
+      <point x="1091" y="964"/>
+      <point x="991" y="779"/>
+      <point x="809" y="669"/>
+      <point x="554" y="624"/>
+      <point x="400" y="624" type="qcurve" name="dv01"/>
+    </contour>
+    <contour>
+      <point x="400" y="1147" type="line" name="sh04"/>
+      <point x="400" y="765" type="line" name="dv02"/>
+      <point x="520" y="765"/>
+      <point x="706" y="793"/>
+      <point x="834" y="866"/>
+      <point x="900" y="994"/>
+      <point x="900" y="1095" type="qcurve" name="ah01"/>
+      <point x="900" y="1170"/>
+      <point x="837" y="1276"/>
+      <point x="737" y="1344"/>
+      <point x="613" y="1375"/>
+      <point x="552" y="1375" type="qcurve" name="sv01"/>
+      <point x="535" y="1375"/>
+      <point x="488" y="1372"/>
+      <point x="440" y="1368"/>
+      <point x="395" y="1362"/>
+      <point x="380" y="1359" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="sh02">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="624" width="141"/>
+            <hstem pos="1375" width="137"/>
+            <vstem pos="190" width="210"/>
+            <vstem pos="900" width="191"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="lsb"/>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc align="round" code="singleh" point1="lsb" point2="sh01"/>
+          <ttc code="singleh" point1="sh01" point2="sh02" stem="X: 208"/>
+          <ttc code="singleh" point1="ah01" point2="sh03" stem="X: 190"/>
+          <ttc code="singleh" point1="sh02" point2="sh04"/>
+          <ttc code="singleh" point1="sh03" point2="rsb" round="true"/>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignb" point="sh02" zone="b: 0"/>
+          <ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 144"/>
+          <ttc code="singlev" point1="at01" point2="sv01" stem="Y: 135"/>
+        </ttProgram>
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>810</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

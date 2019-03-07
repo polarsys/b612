@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="approxequal" format="1">
+  <advance width="1300"/>
+  <unicode hex="2248"/>
+  <outline>
+    <contour>
+      <point x="1100" y="645" type="line"/>
+      <point x="1047" y="585"/>
+      <point x="932" y="525"/>
+      <point x="860" y="525" type="qcurve"/>
+      <point x="813" y="525"/>
+      <point x="724" y="572"/>
+      <point x="640" y="629"/>
+      <point x="559" y="676"/>
+      <point x="520" y="676" type="qcurve"/>
+      <point x="490" y="676"/>
+      <point x="431" y="658"/>
+      <point x="374" y="629"/>
+      <point x="322" y="591"/>
+      <point x="300" y="571" type="qcurve"/>
+      <point x="300" y="747" type="line"/>
+      <point x="326" y="776"/>
+      <point x="381" y="827"/>
+      <point x="440" y="864"/>
+      <point x="504" y="886"/>
+      <point x="540" y="886" type="qcurve"/>
+      <point x="571" y="886"/>
+      <point x="629" y="863"/>
+      <point x="683" y="830"/>
+      <point x="737" y="790"/>
+      <point x="791" y="757"/>
+      <point x="848" y="734"/>
+      <point x="880" y="734" type="qcurve"/>
+      <point x="940" y="734"/>
+      <point x="1055" y="778"/>
+      <point x="1100" y="817" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="1100" y="257" type="line"/>
+      <point x="1047" y="197"/>
+      <point x="932" y="137"/>
+      <point x="860" y="137" type="qcurve"/>
+      <point x="813" y="137"/>
+      <point x="724" y="184"/>
+      <point x="640" y="241"/>
+      <point x="559" y="288"/>
+      <point x="520" y="288" type="qcurve"/>
+      <point x="490" y="288"/>
+      <point x="431" y="270"/>
+      <point x="374" y="241"/>
+      <point x="322" y="203"/>
+      <point x="300" y="183" type="qcurve"/>
+      <point x="300" y="359" type="line"/>
+      <point x="326" y="388"/>
+      <point x="381" y="439"/>
+      <point x="440" y="476"/>
+      <point x="504" y="498"/>
+      <point x="540" y="498" type="qcurve"/>
+      <point x="571" y="498"/>
+      <point x="629" y="475"/>
+      <point x="683" y="442"/>
+      <point x="737" y="402"/>
+      <point x="791" y="369"/>
+      <point x="848" y="346"/>
+      <point x="880" y="346" type="qcurve"/>
+      <point x="940" y="346"/>
+      <point x="1055" y="390"/>
+      <point x="1100" y="429" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList/>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="estimate" format="1">
+  <advance width="1000"/>
+  <unicode hex="2259"/>
+  <outline>
+    <contour>
+      <point x="100" y="600" type="line"/>
+      <point x="900" y="600" type="line"/>
+      <point x="900" y="460" type="line"/>
+      <point x="100" y="460" type="line"/>
+    </contour>
+    <contour>
+      <point x="100" y="300" type="line"/>
+      <point x="900" y="300" type="line"/>
+      <point x="900" y="160" type="line"/>
+      <point x="100" y="160" type="line"/>
+    </contour>
+    <component base="asciicircum" xScale="0.6" yScale="0.6" xOffset="50" yOffset="207"/>
+  </outline>
+</glyph>

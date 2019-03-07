@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="degree" format="1">
+  <advance width="1300"/>
+  <unicode hex="00B0"/>
+  <outline>
+    <contour>
+      <point x="547" y="1517" type="qcurve" name="at01"/>
+      <point x="608" y="1517"/>
+      <point x="709" y="1475"/>
+      <point x="776" y="1401"/>
+      <point x="806" y="1303"/>
+      <point x="796" y="1247" type="qcurve"/>
+      <point x="786" y="1191"/>
+      <point x="722" y="1093"/>
+      <point x="629" y="1020"/>
+      <point x="513" y="977"/>
+      <point x="452" y="977" type="qcurve" name="av01"/>
+      <point x="390" y="977"/>
+      <point x="290" y="1020"/>
+      <point x="223" y="1093"/>
+      <point x="194" y="1191"/>
+      <point x="204" y="1247" type="qcurve"/>
+      <point x="214" y="1303"/>
+      <point x="277" y="1401"/>
+      <point x="370" y="1475"/>
+      <point x="485" y="1517"/>
+    </contour>
+    <contour>
+      <point x="482" y="1145" type="qcurve" name="av02"/>
+      <point x="505" y="1145"/>
+      <point x="549" y="1161"/>
+      <point x="584" y="1189"/>
+      <point x="608" y="1226"/>
+      <point x="612" y="1247" type="qcurve"/>
+      <point x="615" y="1268"/>
+      <point x="604" y="1305"/>
+      <point x="578" y="1333"/>
+      <point x="540" y="1349"/>
+      <point x="517" y="1349" type="qcurve" name="av03"/>
+      <point x="494" y="1349"/>
+      <point x="450" y="1333"/>
+      <point x="415" y="1305"/>
+      <point x="391" y="1268"/>
+      <point x="388" y="1247" type="qcurve"/>
+      <point x="384" y="1226"/>
+      <point x="395" y="1189"/>
+      <point x="421" y="1161"/>
+      <point x="459" y="1145"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc align="round" code="alignv" point="av03"/>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

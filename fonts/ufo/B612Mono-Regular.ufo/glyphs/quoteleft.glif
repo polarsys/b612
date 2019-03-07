@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quoteleft" format="1">
+  <advance width="1300"/>
+  <unicode hex="2018"/>
+  <outline>
+    <contour>
+      <point x="424" y="1095" type="qcurve" name="ah02"/>
+      <point x="424" y="1070"/>
+      <point x="404" y="1026"/>
+      <point x="370" y="993"/>
+      <point x="325" y="974"/>
+      <point x="300" y="974" type="qcurve" name="av01"/>
+      <point x="275" y="974"/>
+      <point x="230" y="991"/>
+      <point x="196" y="1025"/>
+      <point x="175" y="1076"/>
+      <point x="175" y="1109" type="qcurve" name="ah01"/>
+      <point x="175" y="1153"/>
+      <point x="186" y="1237"/>
+      <point x="220" y="1323"/>
+      <point x="284" y="1412"/>
+      <point x="336" y="1460" type="qcurve" name="mh01"/>
+      <point x="380" y="1440" type="line" name="mh02"/>
+      <point x="361" y="1403"/>
+      <point x="346" y="1364" type="qcurve"/>
+      <point x="333" y="1331"/>
+      <point x="312" y="1253"/>
+      <point x="312" y="1216" type="qcurve" name="mh03"/>
+      <point x="333" y="1215"/>
+      <point x="373" y="1198"/>
+      <point x="405" y="1168"/>
+      <point x="424" y="1124"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignh" point="ah01"/>
+          <ttc align="round" code="alignh" point="ah02"/>
+          <ttc code="mdeltah" delta="4" point="mh01" ppm1="17" ppm2="17"/>
+          <ttc code="mdeltah" delta="6" point="mh01" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltah" delta="6" point="mh01" ppm1="16" ppm2="16"/>
+          <ttc code="mdeltah" delta="4" point="mh01" ppm1="19" ppm2="19"/>
+          <ttc code="mdeltah" delta="2" point="mh01" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltah" delta="-1" point="mh02" ppm1="14" ppm2="14"/>
+          <ttc code="mdeltah" delta="1" point="mh02" ppm1="16" ppm2="16"/>
+          <ttc code="mdeltah" delta="1" point="mh02" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltah" delta="-2" point="mh02" ppm1="17" ppm2="18"/>
+          <ttc code="mdeltah" delta="-3" point="mh02" ppm1="15" ppm2="15"/>
+          <ttc code="mdeltah" delta="-1" point="mh03" ppm1="12" ppm2="12"/>
+          <ttc align="round" code="alignv" point="mh03"/>
+          <ttc align="round" code="alignv" point="mh01"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="mdeltav" delta="-2" point="mh01" ppm1="17" ppm2="17"/>
+          <ttc code="mdeltav" delta="-2" point="mh01" ppm1="12" ppm2="12"/>
+          <ttc code="mdeltav" delta="-4" point="mh01" ppm1="13" ppm2="13"/>
+          <ttc code="mdeltav" delta="-7" point="mh01" ppm1="14" ppm2="14"/>
+          <ttc code="mdeltav" delta="-3" point="mh02" ppm1="17" ppm2="17"/>
+          <ttc code="mdeltav" delta="-1" point="mh02" ppm1="12" ppm2="13"/>
+          <ttc code="mdeltav" delta="-4" point="mh02" ppm1="16" ppm2="16"/>
+          <ttc code="mdeltav" delta="-5" point="mh02" ppm1="14" ppm2="14"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="w" format="1">
+  <advance width="1300"/>
+  <unicode hex="0077"/>
+  <outline>
+    <contour>
+      <point x="737" y="400" type="line"/>
+      <point x="754" y="150" type="line"/>
+      <point x="823" y="480" type="line"/>
+      <point x="1063" y="1100" type="line" name="sv01"/>
+      <point x="1229" y="1121" type="line" name="av02"/>
+      <point x="813" y="0" type="line" name="sv02"/>
+      <point x="666" y="0" type="line"/>
+      <point x="595" y="348" type="line"/>
+      <point x="610" y="750" type="line"/>
+      <point x="485" y="350" type="line"/>
+      <point x="293" y="0" type="line"/>
+      <point x="146" y="0" type="line" name="ab01"/>
+      <point x="146" y="1100" type="line" name="av03"/>
+      <point x="299" y="1121" type="line" name="av01"/>
+      <point x="300" y="480" type="line"/>
+      <point x="263" y="150" type="line"/>
+      <point x="558" y="885" type="line" name="av04"/>
+      <point x="711" y="885" type="line" name="sv03"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc align="round" code="alignv" point="av03"/>
+          <ttc align="round" code="alignv" point="av04"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="singlev" point1="av03" point2="sv01"/>
+          <ttc code="singlev" point1="ab01" point2="sv02"/>
+          <ttc code="singlev" point1="av04" point2="sv03"/>
+        </ttProgram>
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>500</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>600</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>466</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>1039</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>742</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

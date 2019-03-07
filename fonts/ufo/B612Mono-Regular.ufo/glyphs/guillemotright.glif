@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotright" format="1">
+  <advance width="1300"/>
+  <unicode hex="00BB"/>
+  <outline>
+    <contour>
+      <point x="700" y="617" type="line" name="dv01"/>
+      <point x="700" y="478" type="line" name="dv02"/>
+      <point x="232" y="66" type="line" name="av02"/>
+      <point x="178" y="201" type="line" name="sv01"/>
+      <point x="506" y="490" type="line"/>
+      <point x="643" y="550" type="line" name="iv01"/>
+      <point x="505" y="610" type="line"/>
+      <point x="180" y="901" type="line" name="sv02"/>
+      <point x="230" y="1026" type="line" name="av01"/>
+    </contour>
+    <contour>
+      <point x="1200" y="617" type="line" name="dv03"/>
+      <point x="1200" y="478" type="line" name="dv04"/>
+      <point x="732" y="66" type="line" name="av04"/>
+      <point x="678" y="201" type="line" name="sv03"/>
+      <point x="1006" y="490" type="line"/>
+      <point x="1143" y="550" type="line" name="iv02"/>
+      <point x="1005" y="610" type="line"/>
+      <point x="680" y="901" type="line" name="sv04"/>
+      <point x="730" y="1026" type="line" name="av03"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+          <ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 135"/>
+          <ttc code="singlev" point1="av02" point2="sv01" stem="Y: 135"/>
+          <ttc code="interpolatev" point="iv01" point1="av01" point2="av02"/>
+          <ttc code="singlev" point1="av01" point2="sv02" stem="Y: 135"/>
+          <ttc align="round" code="alignv" point="av03"/>
+          <ttc align="round" code="alignv" point="av04"/>
+          <ttc code="doublev" point1="dv03" point2="dv04" stem="Y: 135"/>
+          <ttc code="singlev" point1="av04" point2="sv03" stem="Y: 135"/>
+          <ttc code="interpolatev" point="iv02" point1="av03" point2="av04"/>
+          <ttc code="singlev" point1="av03" point2="sv04" stem="Y: 135"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

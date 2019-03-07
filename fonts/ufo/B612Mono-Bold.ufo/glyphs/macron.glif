@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron" format="1">
+  <advance width="1300"/>
+  <unicode hex="00AF"/>
+  <outline>
+    <contour>
+      <point x="300" y="1500" type="line" name="at01"/>
+      <point x="1000" y="1500" type="line"/>
+      <point x="1000" y="1282" type="line" name="sv02"/>
+      <point x="300" y="1282" type="line" name="sv01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="at01">
+            <hstem pos="1282" width="218"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="singlev" point1="at01" point2="sv01" stem="eq Y: 153"/>
+          <ttc code="singlev" point1="sv01" point2="sv02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fractionnumeratorone" format="1">
+  <advance width="1500"/>
+  <unicode hex="215F"/>
+  <outline>
+    <contour>
+      <point x="474" y="0" type="line"/>
+      <point x="289" y="0" type="line"/>
+      <point x="1064" y="1500" type="line"/>
+      <point x="1240" y="1500" type="line"/>
+    </contour>
+    <contour>
+      <point x="367" y="1162" type="line"/>
+      <point x="436" y="1343" type="line"/>
+      <point x="298" y="1208" type="line"/>
+      <point x="250" y="1171" type="line"/>
+      <point x="188" y="1263" type="line"/>
+      <point x="467" y="1484" type="line"/>
+      <point x="579" y="1468" type="line"/>
+      <point x="465" y="822" type="line"/>
+      <point x="586" y="822" type="line"/>
+      <point x="569" y="722" type="line"/>
+      <point x="168" y="722" type="line"/>
+      <point x="185" y="822" type="line"/>
+      <point x="307" y="822" type="line"/>
+    </contour>
+  </outline>
+</glyph>

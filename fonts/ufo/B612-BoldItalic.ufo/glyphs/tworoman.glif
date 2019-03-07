@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tworoman" format="1">
+  <advance width="1100"/>
+  <unicode hex="2171"/>
+  <outline>
+    <contour>
+      <point x="400" y="0" type="line"/>
+      <point x="100" y="0" type="line"/>
+      <point x="296" y="1114" type="line"/>
+      <point x="602" y="1147" type="line"/>
+    </contour>
+    <contour>
+      <point x="900" y="0" type="line"/>
+      <point x="600" y="0" type="line"/>
+      <point x="796" y="1114" type="line"/>
+      <point x="1102" y="1147" type="line"/>
+    </contour>
+  </outline>
+</glyph>

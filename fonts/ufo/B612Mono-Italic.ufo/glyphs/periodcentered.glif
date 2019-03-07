@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="periodcentered" format="1">
+  <advance width="1300"/>
+  <unicode hex="00B7"/>
+  <outline>
+    <contour>
+      <point x="307" y="650" type="qcurve"/>
+      <point x="313" y="684"/>
+      <point x="349" y="744"/>
+      <point x="402" y="789"/>
+      <point x="466" y="815"/>
+      <point x="500" y="815" type="qcurve" name="av01"/>
+      <point x="534" y="815"/>
+      <point x="589" y="789"/>
+      <point x="626" y="744"/>
+      <point x="642" y="684"/>
+      <point x="636" y="650" type="qcurve"/>
+      <point x="630" y="616"/>
+      <point x="593" y="555"/>
+      <point x="541" y="510"/>
+      <point x="477" y="483"/>
+      <point x="443" y="483" type="qcurve" name="av02"/>
+      <point x="409" y="483"/>
+      <point x="353" y="510"/>
+      <point x="316" y="555"/>
+      <point x="301" y="616"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc align="round" code="alignv" point="av02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f" format="1">
+  <advance width="1300"/>
+  <unicode hex="0066"/>
+  <outline>
+    <contour>
+      <point x="100" y="1100" type="line" name="dv01"/>
+      <point x="320" y="1100" type="line" name="dh03"/>
+      <point x="320" y="1207" type="line" name="sh01"/>
+      <point x="320" y="1295"/>
+      <point x="395" y="1439"/>
+      <point x="524" y="1543"/>
+      <point x="696" y="1600"/>
+      <point x="794" y="1600" type="qcurve" name="av01"/>
+      <point x="858" y="1600"/>
+      <point x="969" y="1579"/>
+      <point x="1063" y="1546"/>
+      <point x="1140" y="1506"/>
+      <point x="1170" y="1486" type="qcurve"/>
+      <point x="1037" y="1300" type="line"/>
+      <point x="1022" y="1310"/>
+      <point x="977" y="1336"/>
+      <point x="921" y="1360"/>
+      <point x="858" y="1376"/>
+      <point x="824" y="1376" type="qcurve" name="sv01"/>
+      <point x="795" y="1376"/>
+      <point x="731" y="1353"/>
+      <point x="677" y="1308"/>
+      <point x="642" y="1241"/>
+      <point x="642" y="1198" type="qcurve" name="sh02"/>
+      <point x="642" y="1100" type="line" name="dh04"/>
+      <point x="1063" y="1100" type="line" name="dv03"/>
+      <point x="1036" y="876" type="line" name="dv04"/>
+      <point x="647" y="876" type="line" name="dh02"/>
+      <point x="647" y="0" type="line" name="ab01"/>
+      <point x="320" y="0" type="line"/>
+      <point x="320" y="876" type="line" name="dh01"/>
+      <point x="100" y="876" type="line" name="dv02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="dv01">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="876" width="224"/>
+            <hstem pos="1376" width="224"/>
+            <vstem pos="320" width="327"/>
+          </hintset>
+        </hintSetList>
+      </data>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="doubleh" point1="dh01" point2="dh02" stem="eq X: 190"/>
+          <ttc code="doubleh" point1="dh03" point2="dh04" stem="eq X: 190"/>
+          <ttc code="singleh" point1="dh01" point2="sh01"/>
+          <ttc code="singleh" point1="dh02" point2="sh02"/>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignb" point="ab01" zone="b: 0"/>
+          <ttc code="doublev" point1="dv01" point2="dv02" stem="eq Y: 162"/>
+          <ttc code="doublev" point1="dv03" point2="dv04" stem="eq Y: 162"/>
+          <ttc code="singlev" point1="av01" point2="sv01" stem="eq Y: 162"/>
+        </ttProgram>
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>3298</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

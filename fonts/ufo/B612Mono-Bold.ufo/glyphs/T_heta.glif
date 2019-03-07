@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Theta" format="1">
+  <advance width="1200"/>
+  <unicode hex="0398"/>
+  <outline>
+    <contour>
+      <point x="460" y="900" type="line"/>
+      <point x="800" y="900" type="line"/>
+      <point x="780" y="662" type="line"/>
+      <point x="440" y="662" type="line"/>
+    </contour>
+    <contour>
+      <point x="623" y="-17" type="qcurve" name="hr01"/>
+      <point x="525" y="-17"/>
+      <point x="360" y="38"/>
+      <point x="227" y="139"/>
+      <point x="126" y="279"/>
+      <point x="58" y="450"/>
+      <point x="24" y="645"/>
+      <point x="24" y="750" type="qcurve"/>
+      <point x="24" y="907"/>
+      <point x="98" y="1187"/>
+      <point x="247" y="1395"/>
+      <point x="472" y="1517"/>
+      <point x="623" y="1517" type="qcurve"/>
+      <point x="770" y="1517"/>
+      <point x="993" y="1395"/>
+      <point x="1144" y="1187"/>
+      <point x="1221" y="907"/>
+      <point x="1221" y="750" type="qcurve"/>
+      <point x="1221" y="645"/>
+      <point x="1188" y="450"/>
+      <point x="1122" y="279"/>
+      <point x="1023" y="139"/>
+      <point x="890" y="38"/>
+      <point x="723" y="-17"/>
+    </contour>
+    <contour>
+      <point x="871" y="721" type="qcurve"/>
+      <point x="871" y="783"/>
+      <point x="864" y="913"/>
+      <point x="845" y="1036"/>
+      <point x="810" y="1145"/>
+      <point x="753" y="1227"/>
+      <point x="672" y="1274"/>
+      <point x="617" y="1274" type="qcurve"/>
+      <point x="565" y="1274"/>
+      <point x="489" y="1231"/>
+      <point x="435" y="1158"/>
+      <point x="400" y="1061"/>
+      <point x="381" y="952"/>
+      <point x="374" y="837"/>
+      <point x="374" y="783" type="qcurve"/>
+      <point x="374" y="720"/>
+      <point x="381" y="589"/>
+      <point x="401" y="465"/>
+      <point x="436" y="356"/>
+      <point x="492" y="274"/>
+      <point x="573" y="226"/>
+      <point x="628" y="226" type="qcurve"/>
+      <point x="680" y="226"/>
+      <point x="756" y="269"/>
+      <point x="810" y="344"/>
+      <point x="844" y="442"/>
+      <point x="864" y="552"/>
+      <point x="871" y="667"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="-17" width="243"/>
+            <hstem pos="1274" width="243"/>
+            <vstem pos="24" width="350"/>
+            <vstem pos="871" width="350"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="therefore" format="1">
+  <advance width="1200"/>
+  <unicode hex="2234"/>
+  <outline>
+    <component base="period"/>
+    <component base="period" xOffset="800"/>
+    <component base="period" xOffset="400" yOffset="890"/>
+  </outline>
+</glyph>

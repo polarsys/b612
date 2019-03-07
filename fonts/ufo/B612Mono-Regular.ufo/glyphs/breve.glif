@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breve" format="1">
+  <advance width="1300"/>
+  <unicode hex="02D8"/>
+  <outline>
+    <contour>
+      <point x="426" y="1520" type="line" name="dh01"/>
+      <point x="430" y="1482"/>
+      <point x="449" y="1452" type="qcurve"/>
+      <point x="466" y="1426"/>
+      <point x="534" y="1384"/>
+      <point x="597" y="1384" type="qcurve"/>
+      <point x="661" y="1384"/>
+      <point x="733" y="1426"/>
+      <point x="750" y="1452" type="qcurve"/>
+      <point x="770" y="1482"/>
+      <point x="774" y="1520" type="qcurve" name="dh02"/>
+      <point x="880" y="1520" type="line"/>
+      <point x="880" y="1507" type="line"/>
+      <point x="880" y="1493"/>
+      <point x="875" y="1446"/>
+      <point x="856" y="1389"/>
+      <point x="820" y="1331"/>
+      <point x="757" y="1284"/>
+      <point x="663" y="1254"/>
+      <point x="597" y="1254" type="qcurve"/>
+      <point x="531" y="1254"/>
+      <point x="439" y="1284"/>
+      <point x="377" y="1331"/>
+      <point x="342" y="1388"/>
+      <point x="324" y="1444"/>
+      <point x="319" y="1492"/>
+      <point x="319" y="1506" type="qcurve"/>
+      <point x="319" y="1520" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 208"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

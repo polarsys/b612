@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowdown" format="1">
+  <advance width="1000"/>
+  <unicode hex="2193"/>
+  <outline>
+    <contour>
+      <point x="400" y="1500" type="line"/>
+      <point x="600" y="1500" type="line"/>
+      <point x="600" y="447" type="line"/>
+      <point x="590" y="343" type="line"/>
+      <point x="665" y="400" type="line"/>
+      <point x="900" y="400" type="line"/>
+      <point x="600" y="100" type="line"/>
+      <point x="500" y="-20" type="line"/>
+      <point x="400" y="99" type="line"/>
+      <point x="100" y="400" type="line"/>
+      <point x="337" y="400" type="line"/>
+      <point x="412" y="343" type="line"/>
+      <point x="400" y="447" type="line"/>
+    </contour>
+  </outline>
+</glyph>

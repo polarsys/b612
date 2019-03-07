@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dagger" format="1">
+  <advance width="1300"/>
+  <unicode hex="2020"/>
+  <outline>
+    <contour>
+      <point x="255" y="1049" type="line" name="at02"/>
+      <point x="555" y="1049" type="line"/>
+      <point x="635" y="1500" type="line"/>
+      <point x="839" y="1520" type="line" name="at01"/>
+      <point x="755" y="1049" type="line"/>
+      <point x="1075" y="1049" type="line" name="sv01"/>
+      <point x="1029" y="900" type="line"/>
+      <point x="729" y="900" type="line"/>
+      <point x="500" y="-400" type="line" name="sv02"/>
+      <point x="300" y="-400" type="line" name="av01"/>
+      <point x="529" y="900" type="line"/>
+      <point x="229" y="900" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="alignt" point="at01" zone="t: 1"/>
+          <ttc code="alignt" point="at02" zone="t: x"/>
+          <ttc code="singlev" point1="at02" point2="sv01"/>
+          <ttc code="singlev" point1="av01" point2="sv02"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

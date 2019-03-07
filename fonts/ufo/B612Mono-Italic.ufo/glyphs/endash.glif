@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="endash" format="1">
+  <advance width="1300"/>
+  <unicode hex="2013"/>
+  <outline>
+    <contour>
+      <point x="105" y="600" type="line" name="av01"/>
+      <point x="1105" y="600" type="line" name="sv01"/>
+      <point x="1078" y="446" type="line"/>
+      <point x="78" y="446" type="line" name="sv02"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="round" code="alignv" point="av01"/>
+          <ttc code="singlev" point1="av01" point2="sv01"/>
+          <ttc code="singlev" point1="av01" point2="sv02" stem="Y: 162"/>
+        </ttProgram>
+      </data>
+    </dict>
+  </lib>
+</glyph>

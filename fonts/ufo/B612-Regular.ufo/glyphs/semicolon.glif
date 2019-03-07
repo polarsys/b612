@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="semicolon" format="1">
+  <advance width="500"/>
+  <unicode hex="003B"/>
+  <outline>
+    <component base="period" xScale="0.9" yScale="0.9" xOffset="25" yOffset="512"/>
+    <component base="comma"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="lsb">
+            <hstem pos="277" width="-288"/>
+            <hstem pos="497" width="298"/>
+            <vstem pos="102" width="296"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

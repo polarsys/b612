@@ -15,6 +15,24 @@ readonly MONO_ITALIC='../fonts/ttf/B612Mono-Italic.ttf'
 readonly MONO_BOLD='../fonts/ttf/B612Mono-Bold.ttf'
 readonly MONO_BOLDITALIC='../fonts/ttf/B612Mono-BoldItalic.ttf'
 
+readonly REGULAR_SOURCE='../sources/B612-Regular.vfb'
+readonly ITALIC_SOURCE='../sources/B612-Italic.vfb'
+readonly BOLD_SOURCE='../sources/B612-Bold.vfb'
+readonly BOLDITALIC_SOURCE='../sources/B612-BoldItalic.vfb'
+readonly MONO_REGULAR_SOURCE='../sources/B612Mono-Regular.vfb'
+readonly MONO_ITALIC_SOURCE='../sources/B612Mono-Italic.vfb'
+readonly MONO_BOLD_SOURCE='../sources/B612Mono-Bold.vfb'
+readonly MONO_BOLDITALIC_SOURCE='../sources/B612Mono-BoldItalic.vfb'
+
+readonly REGULAR_UFO='../fonts/ufo/B612-Regular.ufo'
+readonly ITALIC_UFO='../fonts/ufo/B612-Italic.ufo'
+readonly BOLD_UFO='../fonts/ufo/B612-Bold.ufo'
+readonly BOLDITALIC_UFO='../fonts/ufo/B612-BoldItalic.ufo'
+readonly MONO_REGULAR_UFO='../fonts/ufo/B612Mono-Regular.ufo'
+readonly MONO_ITALIC_UFO='../fonts/ufo/B612Mono-Italic.ufo'
+readonly MONO_BOLD_UFO='../fonts/ufo/B612Mono-Bold.ufo'
+readonly MONO_BOLDITALIC_UFO='../fonts/ufo/B612Mono-BoldItalic.ufo'
+
 # -----------------------------------------------------------------------------
 # ---- UTILS ------------------------------------------------------------------
 # -----------------------------------------------------------------------------
@@ -57,12 +75,25 @@ fixNonHinting() {
   gftools fix-nonhinting $MONO_BOLDITALIC $MONO_BOLDITALIC
 }
 
+ufoExport() {
+  info "Export vfb as UFO"
+  vfb2ufo $REGULAR_SOURCE $REGULAR_UFO
+  vfb2ufo $ITALIC_SOURCE $ITALIC_UFO
+  vfb2ufo $BOLD_SOURCE $BOLD_UFO
+  vfb2ufo $BOLDITALIC_SOURCE $BOLDITALIC_UFO
+  vfb2ufo $MONO_REGULAR_SOURCE $MONO_REGULAR_UFO
+  vfb2ufo $MONO_ITALIC_SOURCE $MONO_ITALIC_UFO
+  vfb2ufo $MONO_BOLD_SOURCE $MONO_BOLD_UFO
+  vfb2ufo $MONO_BOLDITALIC_SOURCE $MONO_BOLDITALIC_UFO
+}
+
 # -----------------------------------------------------------------------------
 # ---- MAIN -------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 main() {
   fixDSIG
-  fixNonHinting
+  # fixNonHinting
+  ufoExport
  
   info "FONT build"
   exit 0;

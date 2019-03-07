@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="copy" format="1">
+  <advance width="1300"/>
+  <unicode hex="E0AA"/>
+  <outline>
+    <contour>
+      <point x="1100" y="100" type="line"/>
+      <point x="1300" y="100" type="line"/>
+      <point x="1300" y="1100" type="line"/>
+      <point x="1000" y="1400" type="line"/>
+      <point x="300" y="1400" type="line"/>
+      <point x="300" y="1200" type="line"/>
+      <point x="100" y="1200" type="line"/>
+      <point x="100" y="-100" type="line"/>
+      <point x="1100" y="-100" type="line"/>
+    </contour>
+    <contour>
+      <point x="1000" y="0" type="line"/>
+      <point x="200" y="0" type="line"/>
+      <point x="200" y="1100" type="line"/>
+      <point x="700" y="1100" type="line"/>
+      <point x="700" y="800" type="line"/>
+      <point x="1000" y="800" type="line"/>
+    </contour>
+    <contour>
+      <point x="840" y="1200" type="line"/>
+      <point x="400" y="1200" type="line"/>
+      <point x="400" y="1300" type="line"/>
+      <point x="940" y="1300" type="line"/>
+      <point x="1200" y="1040" type="line"/>
+      <point x="1200" y="200" type="line"/>
+      <point x="1100" y="200" type="line"/>
+      <point x="1100" y="940" type="line"/>
+    </contour>
+    <contour>
+      <point x="1000" y="900" type="line"/>
+      <point x="800" y="900" type="line"/>
+      <point x="800" y="1100" type="line"/>
+    </contour>
+  </outline>
+</glyph>

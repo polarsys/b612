@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="superscriptplussign" format="1">
+  <advance width="1300"/>
+  <unicode hex="207A"/>
+  <outline>
+    <contour>
+      <point x="202" y="1070" type="line" name="hr00"/>
+      <point x="382" y="1070" type="line"/>
+      <point x="419" y="1278" type="line"/>
+      <point x="529" y="1278" type="line"/>
+      <point x="492" y="1070" type="line"/>
+      <point x="672" y="1070" type="line"/>
+      <point x="654" y="970" type="line"/>
+      <point x="474" y="970" type="line"/>
+      <point x="439" y="770" type="line"/>
+      <point x="329" y="770" type="line"/>
+      <point x="364" y="970" type="line"/>
+      <point x="184" y="970" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="992" width="78"/>
+            <vstem pos="336" width="78"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>
