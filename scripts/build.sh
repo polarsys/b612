@@ -76,24 +76,37 @@ fixNonHinting() {
 }
 
 ufoExport() {
-  info "Export vfb as/vfb UFO"
+  info "Export vfb as UFO"
   vfb2ufo $REGULAR_SOURCE $REGULAR_UFO
-  vfb2ufo/vfb $ITALIC_SOURCE $ITALIC_UFO
-  vfb2ufo/vfb $BOLD_SOURCE $BOLD_UFO
-  vfb2ufo/vfb $BOLDITALIC_SOURCE $BOLDITALIC_UFO
-  vfb2ufo/vfb $MONO_REGULAR_SOURCE $MONO_REGULAR_UFO
-  vfb2ufo/vfb $MONO_ITALIC_SOURCE $MONO_ITALIC_UFO
-  vfb2ufo/vfb $MONO_BOLD_SOURCE $MONO_BOLD_UFO
-  vfb2ufo/vfb $MONO_BOLDITALIC_SOURCE $MONO_BOLDITALIC_UFO
-}/vfb
+  vfb2ufo $ITALIC_SOURCE $ITALIC_UFO
+  vfb2ufo $BOLD_SOURCE $BOLD_UFO
+  vfb2ufo $BOLDITALIC_SOURCE $BOLDITALIC_UFO
+  vfb2ufo $MONO_REGULAR_SOURCE $MONO_REGULAR_UFO
+  vfb2ufo $MONO_ITALIC_SOURCE $MONO_ITALIC_UFO
+  vfb2ufo $MONO_BOLD_SOURCE $MONO_BOLD_UFO
+  vfb2ufo $MONO_BOLDITALIC_SOURCE $MONO_BOLDITALIC_UFO
+}
+
+ufoNormalize() {
+  info "Normalize UFO"
+  psfnormalize $REGULAR_UFO
+  psfnormalize $ITALIC_UFO
+  psfnormalize $BOLD_UFO
+  psfnormalize $BOLDITALIC_UFO
+  psfnormalize $MONO_REGULAR_UFO
+  psfnormalize $MONO_ITALIC_UFO
+  psfnormalize $MONO_BOLD_UFO
+  psfnormalize $MONO_BOLDITALIC_UFO
+}
 
 # -----------------------------------------------------------------------------
 # ---- MAIN -------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 main() {
   fixDSIG
-  # fixNonHinting
+  fixNonHinting
   ufoExport
+  ufoNormalize
  
   info "FONT build"
   exit 0;
