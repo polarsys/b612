@@ -19,7 +19,7 @@
   <key>macintoshFONDName</key>
   <string>B612 Bold</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/03/11 13:05:44</string>
+  <string>2019/03/12 15:14:41</string>
   <key>openTypeHeadFlags</key>
   <array>
     <integer>0</integer>
@@ -50,9 +50,9 @@
   <key>openTypeNameSampleText</key>
   <string/>
   <key>openTypeNameUniqueID</key>
-  <string>Airbus: B612 Bold: Version1.007</string>
+  <string>Airbus: B612 Bold: Version1.008</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.007</string>
+  <string>Version 1.008</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -144,7 +144,7 @@
   <key>openTypeOS2WinAscent</key>
   <integer>1934</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>710</integer>
+  <integer>712</integer>
   <key>postscriptBlueFuzz</key>
   <integer>1</integer>
   <key>postscriptBlueScale</key>
@@ -211,7 +211,7 @@
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>7</integer>
+  <integer>8</integer>
   <key>xHeight</key>
   <integer>1100</integer>
   <key>year</key>
