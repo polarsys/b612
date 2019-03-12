@@ -11,20 +11,21 @@
   <key>descender</key>
   <integer>-500</integer>
   <key>familyName</key>
-  <string>B612 Mono</string>
+  <string>B612</string>
   <key>italicAngle</key>
-  <integer>0</integer>
+  <integer>-10</integer>
   <key>macintoshFONDFamilyID</key>
   <integer>128</integer>
   <key>macintoshFONDName</key>
   <string>B612</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/03/07 11:24:52</string>
+  <string>2019/03/11 13:05:41</string>
   <key>openTypeHeadFlags</key>
   <array>
     <integer>0</integer>
     <integer>1</integer>
     <integer>3</integer>
+    <integer>4</integer>
   </array>
   <key>openTypeHheaAscender</key>
   <integer>1930</integer>
@@ -46,16 +47,12 @@
   <string>AIRBUS</string>
   <key>openTypeNameManufacturerURL</key>
   <string/>
-  <key>openTypeNamePreferredFamilyName</key>
-  <string>B612 Mono</string>
-  <key>openTypeNamePreferredSubfamilyName</key>
-  <string>Bold</string>
   <key>openTypeNameSampleText</key>
   <string/>
   <key>openTypeNameUniqueID</key>
-  <string>Airbus: B612 Mono Bold: Version1.006</string>
+  <string>Airbus: B612 Italic: Version1.007</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.006</string>
+  <string>Version 1.007</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -78,7 +75,7 @@
     <integer>2</integer>
     <integer>11</integer>
     <integer>6</integer>
-    <integer>9</integer>
+    <integer>6</integer>
     <integer>5</integer>
     <integer>0</integer>
     <integer>0</integer>
@@ -141,13 +138,13 @@
   <key>openTypeOS2VendorID</key>
   <string/>
   <key>openTypeOS2WeightClass</key>
-  <integer>700</integer>
+  <integer>400</integer>
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>1966</integer>
+  <integer>1934</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>64824</integer>
+  <integer>710</integer>
   <key>postscriptBlueFuzz</key>
   <integer>1</integer>
   <key>postscriptBlueScale</key>
@@ -156,40 +153,42 @@
   <integer>7</integer>
   <key>postscriptBlueValues</key>
   <array>
-    <integer>-17</integer>
+    <integer>-27</integer>
     <integer>0</integer>
-    <integer>1100</integer>
-    <integer>1120</integer>
-    <integer>1500</integer>
+    <integer>1121</integer>
+    <integer>1124</integer>
     <integer>1520</integer>
+    <integer>1525</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>B612Mono-Bold</string>
+  <string>B612-Italic</string>
   <key>postscriptForceBold</key>
   <false/>
   <key>postscriptFullName</key>
-  <string>B612 Mono Bold</string>
+  <string>B612 Italic</string>
   <key>postscriptIsFixedPitch</key>
-  <true/>
+  <false/>
   <key>postscriptOtherBlues</key>
   <array>
-    <integer>-517</integer>
+    <integer>-527</integer>
     <integer>-500</integer>
   </array>
   <key>postscriptStemSnapH</key>
   <array>
-    <integer>200</integer>
     <integer>100</integer>
-    <integer>133</integer>
-    <integer>224</integer>
+    <integer>80</integer>
+    <integer>140</integer>
+    <integer>150</integer>
+    <integer>160</integer>
+    <integer>200</integer>
   </array>
   <key>postscriptStemSnapV</key>
   <array>
     <integer>100</integer>
-    <integer>133</integer>
+    <integer>119</integer>
+    <integer>150</integer>
+    <integer>161</integer>
     <integer>200</integer>
-    <integer>300</integer>
-    <integer>326</integer>
   </array>
   <key>postscriptUnderlinePosition</key>
   <integer>-250</integer>
@@ -198,13 +197,13 @@
   <key>postscriptUniqueID</key>
   <integer>-1</integer>
   <key>postscriptWeightName</key>
-  <string>Bold</string>
+  <string>Normal</string>
   <key>styleMapFamilyName</key>
   <string>B612</string>
   <key>styleMapStyleName</key>
-  <string>regular</string>
+  <string>italic</string>
   <key>styleName</key>
-  <string>Bold</string>
+  <string>Italic</string>
   <key>trademark</key>
   <string>PolarSys, PolarSys B612 and B612 are trademarks of The Eclipse Foundation</string>
   <key>unitsPerEm</key>
@@ -212,7 +211,7 @@
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>6</integer>
+  <integer>7</integer>
   <key>xHeight</key>
   <integer>1100</integer>
   <key>year</key>

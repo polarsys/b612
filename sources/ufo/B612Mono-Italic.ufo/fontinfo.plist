@@ -11,15 +11,15 @@
   <key>descender</key>
   <integer>-500</integer>
   <key>familyName</key>
-  <string>B612</string>
+  <string>B612 Mono</string>
   <key>italicAngle</key>
-  <integer>0</integer>
+  <integer>-10</integer>
   <key>macintoshFONDFamilyID</key>
   <integer>128</integer>
   <key>macintoshFONDName</key>
   <string>B612</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/03/07 11:22:42</string>
+  <string>2019/03/11 13:05:43</string>
   <key>openTypeHeadFlags</key>
   <array>
     <integer>0</integer>
@@ -46,12 +46,16 @@
   <string>AIRBUS</string>
   <key>openTypeNameManufacturerURL</key>
   <string/>
+  <key>openTypeNamePreferredFamilyName</key>
+  <string>B612 Mono</string>
+  <key>openTypeNamePreferredSubfamilyName</key>
+  <string>Italic</string>
   <key>openTypeNameSampleText</key>
   <string/>
   <key>openTypeNameUniqueID</key>
-  <string>Airbus: B612 Regular: Version1.006</string>
+  <string>Airbus: B612 Mono Italic: Version1.007</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.006</string>
+  <string>Version 1.007</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -74,7 +78,7 @@
     <integer>2</integer>
     <integer>11</integer>
     <integer>6</integer>
-    <integer>6</integer>
+    <integer>9</integer>
     <integer>5</integer>
     <integer>0</integer>
     <integer>0</integer>
@@ -141,9 +145,9 @@
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>1934</integer>
+  <integer>1966</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>64824</integer>
+  <integer>710</integer>
   <key>postscriptBlueFuzz</key>
   <integer>1</integer>
   <key>postscriptBlueScale</key>
@@ -152,21 +156,21 @@
   <integer>7</integer>
   <key>postscriptBlueValues</key>
   <array>
-    <integer>-20</integer>
+    <integer>-17</integer>
     <integer>0</integer>
-    <integer>1121</integer>
-    <integer>1121</integer>
+    <integer>1117</integer>
+    <integer>1120</integer>
     <integer>1520</integer>
     <integer>1520</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>B612-Regular</string>
+  <string>B612Mono-Italic</string>
   <key>postscriptForceBold</key>
   <false/>
   <key>postscriptFullName</key>
-  <string>B612 Regular</string>
+  <string>B612 Mono Italic</string>
   <key>postscriptIsFixedPitch</key>
-  <false/>
+  <true/>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-517</integer>
@@ -194,7 +198,7 @@
   <key>styleMapStyleName</key>
   <string>regular</string>
   <key>styleName</key>
-  <string>Regular</string>
+  <string>Italic</string>
   <key>trademark</key>
   <string>PolarSys, PolarSys B612 and B612 are trademarks of The Eclipse Foundation</string>
   <key>unitsPerEm</key>
@@ -202,7 +206,7 @@
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>6</integer>
+  <integer>7</integer>
   <key>xHeight</key>
   <integer>1100</integer>
   <key>year</key>

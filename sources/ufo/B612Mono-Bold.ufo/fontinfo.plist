@@ -13,13 +13,13 @@
   <key>familyName</key>
   <string>B612 Mono</string>
   <key>italicAngle</key>
-  <integer>-10</integer>
+  <integer>0</integer>
   <key>macintoshFONDFamilyID</key>
   <integer>128</integer>
   <key>macintoshFONDName</key>
   <string>B612</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/03/07 11:24:56</string>
+  <string>2019/03/11 13:05:45</string>
   <key>openTypeHeadFlags</key>
   <array>
     <integer>0</integer>
@@ -49,13 +49,13 @@
   <key>openTypeNamePreferredFamilyName</key>
   <string>B612 Mono</string>
   <key>openTypeNamePreferredSubfamilyName</key>
-  <string>Bold Italic</string>
+  <string>Bold</string>
   <key>openTypeNameSampleText</key>
   <string/>
   <key>openTypeNameUniqueID</key>
-  <string>Airbus: B612 Mono Bold Italic: Version1.006</string>
+  <string>Airbus: B612 Mono Bold: Version1.007</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.006</string>
+  <string>Version 1.007</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -147,7 +147,7 @@
   <key>openTypeOS2WinAscent</key>
   <integer>1966</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>64824</integer>
+  <integer>710</integer>
   <key>postscriptBlueFuzz</key>
   <integer>1</integer>
   <key>postscriptBlueScale</key>
@@ -160,15 +160,15 @@
     <integer>0</integer>
     <integer>1100</integer>
     <integer>1120</integer>
-    <integer>1520</integer>
+    <integer>1500</integer>
     <integer>1520</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>B612Mono-BoldItalic</string>
+  <string>B612Mono-Bold</string>
   <key>postscriptForceBold</key>
   <false/>
   <key>postscriptFullName</key>
-  <string>B612 Mono Bold Italic</string>
+  <string>B612 Mono Bold</string>
   <key>postscriptIsFixedPitch</key>
   <true/>
   <key>postscriptOtherBlues</key>
@@ -178,12 +178,18 @@
   </array>
   <key>postscriptStemSnapH</key>
   <array>
-    <integer>160</integer>
+    <integer>200</integer>
+    <integer>100</integer>
+    <integer>133</integer>
+    <integer>224</integer>
   </array>
   <key>postscriptStemSnapV</key>
   <array>
-    <integer>190</integer>
-    <integer>210</integer>
+    <integer>100</integer>
+    <integer>133</integer>
+    <integer>200</integer>
+    <integer>300</integer>
+    <integer>326</integer>
   </array>
   <key>postscriptUnderlinePosition</key>
   <integer>-250</integer>
@@ -198,7 +204,7 @@
   <key>styleMapStyleName</key>
   <string>regular</string>
   <key>styleName</key>
-  <string>Bold Italic</string>
+  <string>Bold</string>
   <key>trademark</key>
   <string>PolarSys, PolarSys B612 and B612 are trademarks of The Eclipse Foundation</string>
   <key>unitsPerEm</key>
@@ -206,7 +212,7 @@
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>6</integer>
+  <integer>7</integer>
   <key>xHeight</key>
   <integer>1100</integer>
   <key>year</key>
